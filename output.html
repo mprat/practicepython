@@ -1,0 +1,33 @@
+<p>Calibrating the exercises to the audience is going to be a challenging task, so I ask you to bear with me if the exercises are too easy or too hard. Every week there will be a poll you can click on to vote whether the exercise is too easy or too hard, and hopefully after a few weeks I will get the level right. I will start with the exercise and include a discussion after, in case you want the extra challenge. The exercise will also be followed by a few &quot;bonus&quot; tasks if you want to fill up your half an hour of coding time, or if you want to take some extra time to code this week.</p>
+<h2 id="exercise">Exercise</h2>
+<p>Take a list, say for example this one:</p>
+<pre><code>a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]</code></pre>
+<p>and write a program that prints out all the elements of the list that are less than 5.</p>
+<p>For an added bonus, try these tasks (they will come up on their own in later exercises, so don't worry if you don't get to them): 1. Instead of printing the elements one by one, make a new list that has all the elements less than 5 from this list in it and print out this new list. 2. Write this in one line of Python. 3. Ask the user for a number and return a list that contains only elements from the original list <code>a</code> that are smaller than that number given by the user.</p>
+<h2 id="discussion">Discussion</h2>
+<p>This week's topics: 1. Lists 2. Conditionals (if statements)</p>
+<h3 id="lists">Lists</h3>
+<p>This week's exercise hits on a topic critical for all types and styles of programming: <strong>lists</strong>. Lists are basically an ordered way of grouping things (called <strong>elements</strong>) - the cool thing about lists in Python is that you can have a list that contains objects of multiple types. Your list can mix between strings, integers, objects, other lists, what have you.</p>
+<p>The way to construct an empty list is just to do</p>
+<pre><code>x = []</code></pre>
+<p>And your variable <code>x</code> now holds an empty list. To add things to this list, just &quot;append&quot; them to the list. Like so:</p>
+<pre><code>x = []
+x.append(3)</code></pre>
+<p>Your list <code>x</code> now looks like <code>[3]</code>.</p>
+<p>In Python, lists are also <strong>iterables</strong>, which means you can loop through them with a <strong>for loop</strong> in a convenient way. (If you come from other languages like C++ or Java you are most likely used to using a counter to loop through indices of a list - in Python you can actually loop through the elements.) I will let the code speak for itself:</p>
+<pre><code>my_list = [1, 3, &quot;Michele&quot;, [5, 6, 7]]
+for element in my_list:
+    print element</code></pre>
+<p>Will yield the result: <code>1  3 &quot;Michele&quot; [5, 6, 7]</code></p>
+<p>There are many other properties of lists, but for the basic exercise all you should need is this for loop property.</p>
+<p>For more information about lists in Python, check out these resources: * <a href="http://docs.python.org/3.3/tutorial/datastructures.html">The official Python documentation on lists</a> * <a href="http://www.tutorialspoint.com/python/python_lists.htm">Tutorialspoint on Python lists</a> * <a href="http://effbot.org/zone/python-list.htm">Someone else's blog post about lists</a></p>
+<h3 id="conditionals">Conditionals</h3>
+<p>When a computer (or a program) needs to decide something, it checks whether some condition is satisfied, which is where the term <strong>conditional</strong> comes from. Conditionals are a fancy way of saying &quot;if statements&quot;. If Michele was born in New York, she has an American passport. That statement is a conditional (if statement) that in this case is true. In Python this works the same way:</p>
+<pre><code>if age &gt; 17: 
+    print &quot;can see a rated R movie&quot;
+elif age &lt; 17 and age &gt; 12:
+    print &quot;can see a rated PG-13 movie&quot;
+else: 
+    print &quot;can only see rated PG movies&quot;</code></pre>
+<p>When the program gets to the if statement, it will check the value of the variable called <code>age</code> against all of the conditions, in order, and will print something to the screen accordingly. Note that <code>elif</code> is a portmanteau of &quot;else&quot; and &quot;if&quot;.</p>
+<p>Links about conditionals: * <a href="http://docs.python.org/3.3/tutorial/controlflow.html">The official Python documentation</a> * <a href="http://www.pythonforbeginners.com/basics/python-if-elif-else-statement/">Python for beginners explains conditionals</a></p>
