@@ -68,3 +68,6 @@ What you get from the `input()` function is a string. What can you do with it?
 	```
 
 	The same works for multiplication, but division and subtraction do not work like this. 
+
+
+Forgot how to [submit exercises]()? 
