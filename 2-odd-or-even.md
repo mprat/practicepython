@@ -2,11 +2,10 @@ Again, the exercise comes first (with a few extras if you want the extra challen
 
 ## Exercise
 
-Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. 
-
-_Hint: how does an even / odd number react differently when divided by 2?_
+Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. _Hint: how does an even / odd number react differently when divided by 2?_
 
 Extras: 
+
 1. If the number is a multiple of 4, print out a different message. 
 2. Ask the user for two numbers: one number to check (call it `num`) and one number to divide by (`check`). If `check` divides evenly into `num`, tell that to the user. If not, print a different appropriate message.
 
@@ -53,6 +52,7 @@ When the program gets to the `if` statement, it will check the value of the vari
 Note how the statement `elif age < 17 and age > 12` has the statement `and` - you can use `or` and `not` in the same way. Understanding a bit about logic and how it works, or being able to rationally think about logic will help you get the conditions right - oh, and a lot of practice.
 
 Links about conditionals: 
+
 * [The official Python documentation](http://docs.python.org/3.3/tutorial/controlflow.html)
 * [Python for beginners explains conditionals](http://www.pythonforbeginners.com/basics/python-if-elif-else-statement/)
 
@@ -79,4 +79,5 @@ else:
 The same equality / inequality comparisons work for strings.
 
 Links about equality and comparators: 
+
 * [The official Python documentation](http://docs.python.org/3.3/library/stdtypes.html?highlight=comparison#comparisons)

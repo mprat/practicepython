@@ -10,7 +10,8 @@ a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 and write a program that prints out all the elements of the list that are less than 5.
 
-For an added bonus, try these tasks (they will come up on their own in later exercises, so don't worry if you don't get to them): 
+Extras: 
+
 1. Instead of printing the elements one by one, make a new list that has all the elements less than 5 from this list in it and print out this new list.
 2. Write this in one line of Python.
 3. Ask the user for a number and return a list that contains only elements from the original list `a` that are smaller than that number given by the user. 
@@ -19,7 +20,7 @@ For an added bonus, try these tasks (they will come up on their own in later exe
 
 This week's topics:
 1. Lists
-2. Conditionals (if statements)
+2. More conditionals (if statements)
 
 ### Lists
 
@@ -59,26 +60,12 @@ Will yield the result:
 There are many other properties of lists, but for the basic exercise all you should need is this for loop property. 
 
 For more information about lists in Python, check out these resources: 
+
 * [The official Python documentation on lists](http://docs.python.org/3.3/tutorial/datastructures.html)
 * [Tutorialspoint on Python lists](http://www.tutorialspoint.com/python/python_lists.htm)
 * [Someone else's blog post about lists](http://effbot.org/zone/python-list.htm)
 
 
-### Conditionals
+### More Conditionals
 
-When a computer (or a program) needs to decide something, it checks whether some condition is satisfied, which is where the term **conditional** comes from. Conditionals are a fancy way of saying "if statements". If Michele was born in New York, she has an American passport. That statement is a conditional (if statement) that in this case is true. In Python this works the same way: 
-
-```
-if age > 17: 
-	print "can see a rated R movie"
-elif age < 17 and age > 12:
-	print "can see a rated PG-13 movie"
-else: 
-	print "can only see rated PG movies"
-```
-
-When the program gets to the if statement, it will check the value of the variable called `age` against all of the conditions, in order, and will print something to the screen accordingly. Note that `elif` is a portmanteau of "else" and "if". 
-
-Links about conditionals: 
-* [The official Python documentation](http://docs.python.org/3.3/tutorial/controlflow.html)
-* [Python for beginners explains conditionals](http://www.pythonforbeginners.com/basics/python-if-elif-else-statement/)
+The nice thing about conditionals is that they follow logical operations. 
