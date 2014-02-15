@@ -1,3 +1,8 @@
+---
+layout: post
+title: SOLUTION Ex 1
+---
+
 Because I cannot include every single submission I get, I will choose one or two that are example answers and include those within each post. 
 
 ## [Exercise](http://practicepython.blogspot.com/2014/01/exercise-1-input-and-strings.html)

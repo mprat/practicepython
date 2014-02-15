@@ -1,3 +1,8 @@
+---
+layout: post
+title: Ex 3
+---
+
 Followers and friends, I apologize for not posting this week. Sometimes life throws you lemons (or appendicitis) and you need to make lemonade (or spend a few nights in the hospital and have emergency surgery). I am now recovering, and this post will be up for a week and a half. Happy hacking! 
 
 ## Exercise
