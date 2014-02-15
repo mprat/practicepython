@@ -1,4 +1,4 @@
-Calibrating the exercises to the audience is going to be a challenging task, so I ask you to bear with me if the exercises are too easy or too hard. Every week there will be a poll you can click on to vote whether the exercise is too easy or too hard, and hopefully after a few weeks I will get the level right. I will start with the exercise and include a discussion after, in case you want the extra challenge. The exercise will also be followed by a few "bonus" tasks if you want to fill up your half an hour of coding time, or if you want to take some extra time to code this week.
+Followers and friends, I apologize for not posting this week. Sometimes life throws you lemons (or appendicitis) and you need to make lemonade (or spend a few nights in the hospital and have emergency surgery). I am now recovering, and this post will be up for a week and a half. Happy hacking! 
 
 ## Exercise
 
@@ -19,6 +19,7 @@ Extras:
 ## Discussion 
 
 This week's topics:
+
 1. Lists
 2. More conditionals (if statements)
 
@@ -50,6 +51,7 @@ for element in my_list:
 ```
 
 Will yield the result: 
+
 ```
 1 
 3
@@ -57,7 +59,7 @@ Will yield the result:
 [5, 6, 7]
 ```
 
-There are many other properties of lists, but for the basic exercise all you should need is this for loop property. 
+There are many other properties of lists, but for the basic exercise all you should need is this for loop property. Future weeks will address other properties of lists.
 
 For more information about lists in Python, check out these resources: 
 
@@ -68,4 +70,25 @@ For more information about lists in Python, check out these resources:
 
 ### More Conditionals
 
-The nice thing about conditionals is that they follow logical operations. 
+The nice thing about conditionals is that they follow logical operations. They can also be used to test equality. Let's do a small example. Let's say I want to make a piece of code that converts from a numerical grade (1-100) to a letter grade (A, B, C, D, F). The code would look like this: 
+
+```
+grade = input("Enter your grade: ")
+if grade >= 90:
+	print("A")
+elif grade >= 80:
+	print("B")
+elif grade >= 70:
+	print("C")
+elif grade >= 65:
+	print("D")
+else:
+	print("F")
+```
+
+What happens if `grade` is 50? All the conditions are false, so `"F"` gets printed on the screen. But what if `grade` is 95? Then all the conditions are true and everything gets printed, right? Nope! What happens is the program goes line by line. The first condition (grade >= 90) is satisfied, so the program enters into the code inside the `if` statement, executing `print("A")`. Once code inside a conditional has been executed, the rest of the conditions are skipped and none of the other conditionals are checked. 
+
+
+Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
+
+<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
