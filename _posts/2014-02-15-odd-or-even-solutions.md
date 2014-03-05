@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SOLUTION Ex 2
+tags: [solution]
 ---
 
 ## [Exercise](http://practicepython.blogspot.com/2014/01/exercise-2-odd-or-even.html)

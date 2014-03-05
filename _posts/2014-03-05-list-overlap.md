@@ -1,3 +1,9 @@
+---
+layout: post
+title: Ex 5
+tags: [exercise]
+---
+
 ## Exercise
 
 Take two lists, say for example these two: 

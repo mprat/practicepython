@@ -3,16 +3,26 @@ layout: post
 title: TEST
 ---
 
-<!DOCTYPE HTML>
-<html>
-<head></head>
-<body>
+<div class="center boxframe">
+
+<h2> Latest exercise</h2>
+
+{{ site.tags.exercise | first }}
+
+<h2> Exercises </h2>
 <ul>
-  {% for post in site.posts %}
+	{% for post in site.tags.exercise %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
-</body>
-</html>
+<h2> Solutions </h2>
+<ul>
+  {% for post in site.tags.solution %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>

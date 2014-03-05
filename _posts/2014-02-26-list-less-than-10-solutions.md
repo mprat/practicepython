@@ -1,3 +1,9 @@
+---
+layout: post
+title: SOLUTION Ex 3
+tags: [solution]
+---
+
 ## [Exercise](http://practicepython.blogspot.com/2014/01/exercise-3-lists.html)
 
 Take a list, say for example this one: 

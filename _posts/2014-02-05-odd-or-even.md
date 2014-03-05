@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ex 2
+tags: [exercise]
 ---
 
 Again, the exercise comes first (with a few extras if you want the extra challenge or want to spend more time), followed by a discussion. Enjoy!

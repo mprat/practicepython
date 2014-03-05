@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SOLUTION Ex 1
+tags: [solution]
 ---
 
 Because I cannot include every single submission I get, I will choose one or two that are example answers and include those within each post. 
