@@ -1,0 +1,78 @@
+---
+layout: post
+title: Exercise 8
+tags: [exercise]
+---
+
+## Exercise
+
+Make a two-player Rock-Paper-Scissors game. (_Hint: Ask for player plays (using `input`), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game_)
+
+Remember the rules: 
+
+* Rock beats scissors
+* Scissors beats paper
+* Paper beats rock
+
+## Discussion
+
+Concepts for this week:
+
+* While loops
+* Break statements
+
+### While loops
+
+We have already discussed `for` loops, or loops that look sequentially (one by one) at elements in a list. There is a second type of loop that works in a slightly different way called a `while` loop. 
+
+The idea is simple: while a certain condition is `True`, keep doing something. For example: 
+
+```
+a = 5
+while (a > 0):
+	print(a)
+	a -= 1
+```
+
+The output of this code segment is: 
+
+```
+5
+4
+3
+2
+1
+```
+
+A particularly useful way to use `while` loops is checking user input for correctness. For example: 
+
+```
+quit = input('Type "enter" to quit:' )
+while quit != "enter":
+	quit = input('Type "enter" to quit:' )
+```
+
+The uses for this are infinite, and can (and should!) be combined with conditionals to yield the most efficient results. 
+
+### Break statements
+
+A `break` statement stops the execution of a loop before the original condition is met. While the use of a `break` statement will often start an argument about good coding practices, sometimes it is useful. 
+
+For example: 
+
+```
+while True: 
+	usr_command = input("Enter your command: ")
+	if usr_command == "quit":
+		break
+	else: 
+		print("You typed " + usr_command)
+```
+
+In this case, the `break` statement is used to break off the "infinite while loop" that we have constructed with the `while True` statement.
+
+
+## Happy Coding!
+Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
+
+<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
