@@ -19,6 +19,7 @@ Remember the rules:
 Concepts for this week:
 
 * While loops
+* Infinite loops
 * Break statements
 
 ### While loops
@@ -53,6 +54,29 @@ while quit != "enter":
 ```
 
 The uses for this are infinite, and can (and should!) be combined with conditionals to yield the most efficient results. 
+
+### Infinite loops
+
+An infinite loop is a loop that never stops. This means that the condition in the beginning of the while loop will always be true. 
+
+For example: 
+
+``` 
+i = 5
+while i > 0:
+	print("Inside the loop")
+```
+
+What will happen is the loop will print out the phrase "Inside the loop" forever and ever. If you are running your computer, you will have to "kill the program" to stop it. Each operating system has a different way of "killing a program" to get out of an infinite loop. 
+
+On Linux: in the terminal, type "CTRL-D" to kill the program that is currently running in the terminal. 
+
+On Windows: type "CTRL-ALT-DEL" and open the task manager to kill the program. 
+
+On Mac: right-click on the task, and kill the program that is running forever.
+
+If you find yourself in an infinite loop, your program will never end.
+
 
 ### Break statements
 
