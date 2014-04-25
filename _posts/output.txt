@@ -1,0 +1,12 @@
+<h2 id="exercise">Exercise</h2>
+<p>Write a program that takes a list of numbers (for example, <code>a = [5, 10, 15, 20, 25]</code>) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.</p>
+<h2 id="concepts-to-practice">Concepts to practice</h2>
+<ul>
+<li>Lists and properties of lists</li>
+<li>List comprehensions (maybe)</li>
+<li>Functions</li>
+</ul>
+<h2 id="happy-coding">Happy coding!</h2>
+<p>Forgot how to <a href="http://practicepython.blogspot.com/2014/01/how-it-works.html">submit exercises</a>?</p>
+<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">
+<p>Loading...</iframe></p>
