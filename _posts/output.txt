@@ -1,12 +1,13 @@
 <h2 id="exercise">Exercise</h2>
-<p>Write a program that takes a list of numbers (for example, <code>a = [5, 10, 15, 20, 25]</code>) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.</p>
-<h2 id="concepts-to-practice">Concepts to practice</h2>
+<p>Write a password generator in Python. Be creative with how you generate passwords - strong passwords have a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating a new password every time the user asks for a new password. Include your run-time code in a main method.</p>
+<p>Extra:</p>
 <ul>
-<li>Lists and properties of lists</li>
-<li>List comprehensions (maybe)</li>
-<li>Functions</li>
+<li>Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.</li>
 </ul>
+<h2 id="discussion">Discussion</h2>
+<p>There are no new topics this week, but you will need to use <a href="https://docs.python.org/3.3/library/random.html">Python's random module</a>, described in <a href="http://practicepython.blogspot.co.il/2014/04/exercise-9-randomness-guessing-game.html">this post</a>.</p>
 <h2 id="happy-coding">Happy coding!</h2>
+<p>Explore away!</p>
 <p>Forgot how to <a href="http://practicepython.blogspot.com/2014/01/how-it-works.html">submit exercises</a>?</p>
 <iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">
 <p>Loading...</iframe></p>
