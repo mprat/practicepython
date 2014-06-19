@@ -1,28 +1,30 @@
 ---
-layout: post
-title: TEST
+layout: default
+title: Practice Python
 ---
 
-<div class="center boxframe">
-
-<h2> Latest exercise</h2>
-
-{{ site.tags.exercise | first }}
-
+<div class="left">
 <h2> Exercises </h2>
 <ul>
 	{% for post in site.tags.exercise %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-<h2> Solutions </h2>
-<ul>
-  {% for post in site.tags.solution %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.number }}: {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 </div>
+
+<div class="right">
+<h2> Solutions </h2>
+<ul>
+  {% for post in site.tags.solution %}
+    <li>
+      <a href="{{ post.url }}">{{ post.number }}: {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+
+<h2> Latest exercise</h2>
+
+{{ site.tags.exercise | first }}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ex 3
+number: 3
 tags: [exercise]
 ---
 

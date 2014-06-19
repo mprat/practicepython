@@ -44,3 +44,13 @@ body{
 .boxframe ol, .boxframe ul {
 	margin-left: 1.35em;
 }
+
+.left {
+	width: 48%;
+	float: left;
+}
+
+.right{
+	width: 48%;
+	float: right;
+}

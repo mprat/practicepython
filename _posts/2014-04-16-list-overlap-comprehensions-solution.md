@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SOLUTION Ex 10
+number: 10
 tags: [solution]
 ---
 
