@@ -267,6 +267,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/output.html",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-05-28-password-generator.md",
+			"settings":
+			{
+				"buffer_size": 1115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-06-06-decode-a-web-page.md",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-05-21-reversewordorder.md",
+			"settings":
+			{
+				"buffer_size": 2118,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -307,8 +339,13 @@
 	},
 	"file_history":
 	[
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-reversewords.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-reversewords-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-password-generator-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-reversewordorder.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/.gitignore",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-list-remove-duplicates-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-reversewords.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-list-remove-duplicates.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-lst-ends-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-12-string-lists.md",
@@ -323,7 +360,6 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-guessing-game-1.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-rock-paper-scissors-solutions.md",
 		"/home/mprat/Documents/Michele/MEET/y1groupprojs/feedback.txt",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
 		"/home/mprat/Dropbox/advisors.txt",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-rock-paper-scissors.md",
@@ -430,11 +466,7 @@
 		"/home/mprat/Documents/Michele/Repos/personal-website/Gemfile",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-03-15-designathon-icampus-terminus.md",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/words-i-need-to-learn.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-09-12-terminus-competition.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-03-15-icampus-phase-terminus.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/yak-shaving/index.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/projects/index.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2011-04-28-playing-zork-on-linux.md"
+		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-09-12-terminus-competition.md"
 	],
 	"find":
 	{
@@ -598,8 +630,121 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/output.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1354,
+								1354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2014-05-28-password-generator.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1115,
+								1115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2014-06-06-decode-a-web-page.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								668,
+								668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2014-05-21-reversewordorder.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -679,7 +824,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 317.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
