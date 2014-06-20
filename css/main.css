@@ -37,6 +37,7 @@ code, pre {
 .footer {
 	border-style: solid;
 	border-top-width: 1px;
+	padding-top: 3px;
 }
 
 .header h1 { 
