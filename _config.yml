@@ -2,4 +2,4 @@ pygments: true
 safe: true
 markdown: kramdown
 highlighter: pygments
-baseurl: practicepython
+baseurl: /practicepython
