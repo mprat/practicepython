@@ -14,20 +14,58 @@ body{
 	line-height: 100%
 }
 
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+code, pre {
+	font-family: monospace;
+}
 /* styling */
+
+.boxframe p, .boxframe ul, .boxframe ol, .header li{
+	font-family: "Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	line-height: 1.5em;
+}
+
+.header {
+	border-style: solid;
+	border-bottom-width: 5px;
+}
 
 .header h1 { 
 	font-size: 2em;
 	line-height: 2em;
+	font-family: Tahoma, sans-serif;
+	text-transform: uppercase;
 }
 
-.header h2 {
+.header li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.header li:hover, .header li:focus {
+	background: #aaaaaa;
+}
+
+.header h2, .boxframe h2 {
 	font-size: 1.5em;
 	line-height: 1.5em;
 }
 
+.boxframe h3 {
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
 .center {
-	width: 75%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -36,21 +74,30 @@ body{
 	margin-top: 20px;
 }
 
-.boxframe h2 { 
-	font-size: 1.5em;
-	line-height: 1.5em;
+.boxframe h2, .boxframe h3 { 
+	margin-top: 0.75em;
+	margin-bottom: 0.5em;
+	font-family: Tahoma, sans-serif;
 }
 
 .boxframe ol, .boxframe ul {
 	margin-left: 1.35em;
 }
 
-.left {
+.boxframe ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.left, .right {
+	margin-bottom: 1.5em;
 	width: 48%;
+}
+
+.left {
 	float: left;
 }
 
 .right{
-	width: 48%;
 	float: right;
 }

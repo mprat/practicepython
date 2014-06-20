@@ -4,7 +4,7 @@ title: Practice Python
 ---
 
 <div class="left">
-<h2> Exercises </h2>
+<h2> All Exercises: </h2>
 <ul>
 	{% for post in site.tags.exercise %}
     <li>
@@ -15,7 +15,7 @@ title: Practice Python
 </div>
 
 <div class="right">
-<h2> Solutions </h2>
+<h2> All Solutions: </h2>
 <ul>
   {% assign count = site.tags.exercise.size %}
   {% assign solist = (site.tags.solution | sort: 'title') %}
@@ -33,6 +33,6 @@ title: Practice Python
 </ul>
 </div>
 
-<h2> Latest exercise</h2>
+<h2>Latest exercise</h2>
 
 {{ site.tags.exercise | first }}
