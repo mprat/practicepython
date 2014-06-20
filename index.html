@@ -8,7 +8,7 @@ title: Practice Python
 <ul>
 	{% for post in site.tags.exercise %}
     <li>
-      <a href="{{ post.url }}">{{ post.number }}: {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -17,10 +17,18 @@ title: Practice Python
 <div class="right">
 <h2> Solutions </h2>
 <ul>
-  {% for post in site.tags.solution %}
-    <li>
-      <a href="{{ post.url }}">{{ post.number }}: {{ post.title }}</a>
-    </li>
+  {% assign count = site.tags.exercise.size %}
+  {% assign solist = (site.tags.solution | sort: 'title') %}
+  {% for post in solist reversed %}
+    {% if post.number != count %}
+        {% assign diff = count | minus: post.number %}
+        {% for num in (1..diff) %}
+          <li>Coming soon!</li>
+          {% capture count %}{{ count | minus: 1}}{% endcapture %}
+        {% endfor %}
+    {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% capture count %}{{ count | minus: 1}}{% endcapture %}
   {% endfor %}
 </ul>
 </div>
