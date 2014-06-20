@@ -11,7 +11,7 @@ Write a program (function!) that takes a list and returns a new list that contai
 Extras: 
 
 * Write two different functions to do this - one using a loop and constructing a list, and another using sets.
-* Go back and do [Exercise 5](http://practicepython.blogspot.com/2014/03/exercise-5-list-overlap.html) using sets, and write the solution for that in a different function.
+* Go back and do [Exercise 5]({% post_url 2014-03-05-list-overlap %}) using sets, and write the solution for that in a different function.
 
 ## Discussion
 
@@ -33,41 +33,37 @@ In mathematics, a **set** is a collection of elements where no element is repeat
 
 In Python, you make and use a set with the `set()` keyword. For example: 
 
-```
-names = set()
-names.add("Michele")
-names.add("Robin")
-names.add("Michele")
-print(names)
-```
+{% highlight python %}
+  names = set()
+  names.add("Michele")
+  names.add("Robin")
+  names.add("Michele")
+  print(names)
+{% endhighlight %}
 
 And the output will be; 
 
-```
-set(['Michele', 'Robin'])
-```
+{% highlight python %}
+  set(['Michele', 'Robin'])
+{% endhighlight %}
 
 You can do to a set almost anything you can do to a list (except ask for things like "the third element"). See the [Python documentation about sets](https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set) to get a full list of things you can do to sets. 
 
 You can convert from a list to a set and a set to a list pretty easily: 
 
-```
-names = ["Michele", "Robin", "Sara", "Michele"]
-names = set(names)
-names = list(names)
-print(names)
-```
+{% highlight python %}
+  names = ["Michele", "Robin", "Sara", "Michele"]
+  names = set(names)
+  names = list(names)
+  print(names)
+{% endhighlight %}
 
 And the result of this will be: 
 
-```
-['Michele', 'Robin', 'Sara']
-```
+{% highlight pycon %}
+  ['Michele', 'Robin', 'Sara']
+{% endhighlight %}
 
 Explore away!
- 
-## Happy coding! 
 
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

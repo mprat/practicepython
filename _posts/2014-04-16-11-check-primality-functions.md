@@ -6,7 +6,7 @@ tags: [exercise]
 
 ## Exercise
 
-Ask the user for a number and determine whether the number is prime or not. (For those who have forgotten, a prime number is a number that has no divisors.). You can (and should!) use your answer to [Exercise 4](http://practicepython.blogspot.com/2014/02/divisors.html) to help you. Take this opportunity to practice using functions, described below.
+Ask the user for a number and determine whether the number is prime or not. (For those who have forgotten, a prime number is a number that has no divisors.). You can (and should!) use your answer to [Exercise 4]({% post_url 2014-02-26-04-divisors %} to help you. Take this opportunity to practice using functions, described below.
 
 ## Discussion
 
@@ -24,23 +24,23 @@ Most programming languages have this idea of a function, subroutine, or subprogr
 
 Let's look at a simple example: 
 
-```
-def get_integer():
-	return int(input("Give me a number: "))
-```
+{% highlight python %}
+  def get_integer():
+    return int(input("Give me a number: "))
+{% endhighlight %}
 
 In this small example, we used the same code that asks a user for input as a tabbed line underneath this `def` statement. The `def` means that everything tabbed underneath is a function. The name `get_integer()` is just a name that I (the programmer) made up. If I just include this code inside a Python file and run it, nothing will happen - all I have done so far is wrapped my code inside of a function; I never told my program to actually RUN my function.
 
-```
-def get_integer():
-	return int(input("Give me a number: "))
+{% highlight python %}
+  def get_integer():
+    return int(input("Give me a number: "))
 
-age = get_integer()
-school_year = get_integer()
-if age > 15:
-	print("You are over the age of 15")
-print("You are in grade " + str(school_year))
-```
+  age = get_integer()
+  school_year = get_integer()
+  if age > 15:
+    print("You are over the age of 15")
+  print("You are in grade " + str(school_year))
+{% endhighlight %}
 
 What I have done here is *called* the function (told it to run) by writing `age = get_integer()`. When this line of code runs, what happens is the program will *execute* (run) the function by asking me for a number, then *returning* it (giving it back to me) by saving it inside the variable `age`. Now when I want to ask the user for another number (this time representing the school year), I do the same thing with the variable `school_year`. 
 
@@ -50,23 +50,23 @@ This is all well and good, but I can make my function do much more for me. Right
 
 I can do this by *passing* (giving) my function a variable. Like this: 
 
-```
-def get_integer(help_text):
-	return int(input(help_text))
-```
+{% highlight python %}
+  def get_integer(help_text):
+    return int(input(help_text))
+{% endhighlight %}
 
 Now what I can do when I call the function is something like this: 
 
-```
-def get_integer(help_text):
-	return int(input(help_text))
+{% highlight python %}
+  def get_integer(help_text):
+    return int(input(help_text))
 
-age = get_integer("Tell me your age: ")
-school_year = get_integer("What grade are you in? ")
-if age > 15:
-	print("You are over the age of 15")
-print("You are in grade " + str(school_year))
-```
+  age = get_integer("Tell me your age: ")
+  school_year = get_integer("What grade are you in? ")
+  if age > 15:
+    print("You are over the age of 15")
+  print("You are in grade " + str(school_year))
+{% endhighlight %}
 
 Now it is easier for a user to use the program, because the help text is different. 
 
@@ -78,23 +78,23 @@ In the example above, once I have added an *argument* to my function, I always h
 
 In the example above, if I don't give a custom string (which may be 95% of the time I use this function), I just want the `input()` line to say `"Give me a number: "` and I want to save myself the trouble of writing this every single time I call the function. So what I can do is give my function *default arguments*. Like so: 
 
-```
-def get_integer(help_text="Give me a number: "):
-	return int(input(help_text))
-```
+{% highlight python %}
+  def get_integer(help_text="Give me a number: "):
+    return int(input(help_text))
+{% endhighlight %}
 
 What happens now is I can use the function in two ways: by giving it an argument and by NOT giving it an argument. 
 
-```
-def get_integer(help_text):
-	return int(input(help_text))
+{% highlight python %}
+  def get_integer(help_text):
+    return int(input(help_text))
 
-age = get_integer("Tell me your age: ")
-school_year = get_integer()
-if age > 15:
-	print("You are over the age of 15")
-print("You are in grade " + str(school_year))
-```
+  age = get_integer("Tell me your age: ")
+  school_year = get_integer()
+  if age > 15:
+    print("You are over the age of 15")
+  print("You are in grade " + str(school_year))
+{% endhighlight %}
 
 The first time I call the function, it will print `"Tell me your age: "`, but the second time, it will print `"Give me a number: "`, because I did not give it a string and it will execute the default behavior.
 
@@ -104,8 +104,4 @@ What a function does is wrap a piece of code that we want to reuse, labels it, a
 
 Functions are a bit strange to deal with at first, but once you master them, they will be your savior in programming. Besides, the whole point of learning programming is abstraction, problem solving, breaking down problems, and that's exactly what functions are all about.
 
-## Happy coding! 
-
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

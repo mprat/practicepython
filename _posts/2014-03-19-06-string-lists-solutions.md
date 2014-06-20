@@ -4,7 +4,7 @@ number: 6
 tags: [solution]
 ---
 
-## [Exercise](http://practicepython.blogspot.com/2014/03/exercise-6-strings-as-lists.html)
+## [Exercise]({% post_url 2014-03-12-06-string-lists %})
 
 Ask the user for a string and print out whether this string is a palindrome or not. (A **palindrome** is a string that reads the same forwards and backwards.)
 

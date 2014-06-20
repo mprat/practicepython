@@ -18,21 +18,21 @@ Concepts for this week:
 
 The idea of a *list comprehension* is to make code more compact to accomplish tasks involving lists. Take for example this code: 
 
-```
-years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
-ages = []
-for year in years_of_birth: 
-	ages.append(2014 - year)
-```
+{% highlight python %}
+  years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
+  ages = []
+  for year in years_of_birth: 
+    ages.append(2014 - year)
+{% endhighlight %}
 
 And at the end, the variable `ages` has the list `[24, 23, 24, 24, 22, 23]`. What this code did was translate the years of birth into ages, and it took us a for loop and an append statement to a new list to do that. 
 
 Compare to this piece of code: 
 
-```
-years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
-ages = [2014 - year for year in years_of_birth]
-```
+{% highlight python %}
+  years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
+  ages = [2014 - year for year in years_of_birth]
+{% endhighlight %}
 
 The second line here - the line with `ages` is a *list comprehension.*
 
@@ -40,8 +40,4 @@ It accomplishes the same thing as the first code sample - at the end, the `ages`
 
 The idea of the list comprehension is to condense the for loop and the list appending into one simple line. Notice that the for loop just shifted to the end of the list comprehension, and the part before the `for` keyword is the thing to append to the end of the new list. 
 
-Try it yourself!
-
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

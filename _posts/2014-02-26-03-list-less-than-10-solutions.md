@@ -4,13 +4,13 @@ number: 3
 tags: [solution]
 ---
 
-## [Exercise](http://practicepython.blogspot.com/2014/01/exercise-3-lists.html)
+## [Exercise]({% post_url 2014-02-15-03-list-less-than-10 %})
 
 Take a list, say for example this one: 
 
-```
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-```
+{% highlight python %}
+	a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+{% endhighlight %}
 
 and write a program that prints out all the elements of the list that are less than 5.
 

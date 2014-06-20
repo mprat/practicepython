@@ -7,7 +7,7 @@ category: exercise
 
 Calibrating the exercises to the audience is going to be a challenging task, so I ask you to bear with me if the exercises are too easy or too hard. Every week there will be a poll you can click on to discuss whether the exercise is too easy or too hard and hopefully in a few weeks, I'll get the level right. Let's get to it! I will start with the exercise and include a discussion later, in case you want the extra challenge.
 
-## Exercise(s)
+## Exercise
 
 Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old. 
 
@@ -29,17 +29,17 @@ To get user input in Python (3), the command you use is [`input()`](http://docs.
 
 For example, 
 
-```
+{% highlight python %}
 name = input("Give me your name: ")
 print "Your name is " + name
-```
+{% endhighlight %}
 
 What this will print in the terminal (or the shell, whatever you are running Python in) will be: 
 
-```
+{% highlight python %}
 >>> Give me your name: Michele
 Your name is Michele
-```
+{% endhighlight %}
 
 What happens at the end of `input()` is that it waits for the user to type something and press ENTER. Only after the user presses ENTER does the program continue.
  
@@ -47,34 +47,35 @@ What happens at the end of `input()` is that it waits for the user to type somet
 
 What you get from the `input()` function is a string. What can you do with it? 
 
-1. Make the string into a number. Let's say you are 100% positive that the user entered a number. You can turn the string into an integer with the function [`int()`](http://docs.python.org/3.3/library/functions.html#int). (In a later exercise or two or three there will be questions about what to do when the user does NOT enter a number and you try to do this; for now don't worry about that problem). Here is what this looks like: 
+First: Make the string into a number. Let's say you are 100% positive that the user entered a number. You can turn the string into an integer with the function [`int()`](http://docs.python.org/3.3/library/functions.html#int). (In a later exercise or two or three there will be questions about what to do when the user does NOT enter a number and you try to do this; for now don't worry about that problem). Here is what this looks like: 
 
-	```
-	age = input("Enter your age: ")
-	age = int(age)
-	```	
+{% highlight python %}
+age = input("Enter your age: ")
+age = int(age)
+{% endhighlight %}
 
-	(or, if you want to be more compact with your code)
+(or, if you want to be more compact with your code)
 
-	```
-	age = int(input("Enter your age: "))
-	```	
+{% highlight python %}
+age = int(input("Enter your age: "))
+	
+{% endhighlight %}
+		
+In both cases, `age` will hold a variable that is an integer, and now you can do math with it. 
 
-	In both cases, `age` will hold a variable that is an integer, and now you can do math with it. 
+(Note, you can also turn integers into strings exactly in the opposite way,
+using the [`str()`](http://docs.python.org/3.3/library/functions.html#str) function) 
 
-	(Note, you can also turn integers into strings exactly in the opposite way,
-	using the [`str()`](http://docs.python.org/3.3/library/functions.html#str) function) 
+Second: Do math with strings. What do I mean by that? I mean, if I want to combine (**concatenate** is the computer science word for this) strings, all I need to do is add them: 
 
-2.  Doing math with strings. What do I mean by that? I mean, if I want to combine (**concatenate** is the computer science word for this) strings, all I need to do is add them: 
+{% highlight python %}
+	
+print("Were" + "wolf")
+print("Door" + "man")
+print("4" + "chan")
+print(str(4) + "chan")
+{% endhighlight %}
 
-	```
-	print "Were" + "wolf"
-	print "Door" + "man"
-	print "4" + "chan"
-	print str(4) + "chan"
-	```
+The same works for multiplication, but division and subtraction do not work like this. 
 
-	The same works for multiplication, but division and subtraction do not work like this. 
-
-
-Forgot how to [submit exercises]()? 
+{% include submit.md %}

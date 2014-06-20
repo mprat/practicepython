@@ -4,9 +4,9 @@ number: 9
 tags: [solution]
 ---
 
-## [Exercise](http://practicepython.blogspot.com/2014/04/guessing-game-1.html)
+## [Exercise]({% post_url 2014-04-10-09-guessing-game-1 %})
 
-Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (_Hint: remember to use the user input lessons from the very [first exercise](http://practicepython.blogspot.com/2014/01/exercise-1-input-and-strings.html!_)
+Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (_Hint: remember to use the user input lessons from the very [first exercise]({% post_url 2014-01-29-01-character-input %}_)
 
 Extras: 
 

@@ -8,10 +8,10 @@ tags: [exercise]
 
 Take two lists, say for example these two: 
 
-```
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-```
+{% highlight python %}
+  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+  b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+{% endhighlight %}
 
 and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes.
 
@@ -26,26 +26,22 @@ In other words, "things you can do with lists."
 
 One of the interesting things you can do with lists in Python is figure out whether something is inside the list or not. For example: 
 
-```
->>> a = [5, 10, 15, 20]
->>> 10 in a
-True
->>> 3 in a
-False
-```
+{% highlight pycon %}
+  >>> a = [5, 10, 15, 20]
+  >>> 10 in a
+  True
+  >>> 3 in a
+  False
+{% endhighlight %}
 
 You can of course use this in loops, conditionals, and any other programming constructs. 
 
-```
-list_of_students = ["Michele", "Sara", "Cassie"]
+{% highlight python %}
+  list_of_students = ["Michele", "Sara", "Cassie"]
 
-name = input("Type name to check: ")
-if name in list_of_students:
-	print("This student is enrolled.")
-```
+  name = input("Type name to check: ")
+  if name in list_of_students:
+    print("This student is enrolled.")
+{% endhighlight %}
 
-Happy coding! 
-
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

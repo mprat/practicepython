@@ -28,30 +28,30 @@ We have already discussed `for` loops, or loops that look sequentially (one by o
 
 The idea is simple: while a certain condition is `True`, keep doing something. For example: 
 
-```
-a = 5
-while (a > 0):
-	print(a)
-	a -= 1
-```
+{% highlight python %}
+  a = 5
+  while (a > 0):
+    print(a)
+    a -= 1
+{% endhighlight %}
 
 The output of this code segment is: 
 
-```
-5
-4
-3
-2
-1
-```
+{% highlight python %}
+  5
+  4
+  3
+  2
+  1
+{% endhighlight %}
 
 A particularly useful way to use `while` loops is checking user input for correctness. For example: 
 
-```
-quit = input('Type "enter" to quit:' )
-while quit != "enter":
-	quit = input('Type "enter" to quit:' )
-```
+{% highlight python %}
+  quit = input('Type "enter" to quit:' )
+  while quit != "enter":
+    quit = input('Type "enter" to quit:' )
+{% endhighlight %}
 
 The uses for this are infinite, and can (and should!) be combined with conditionals to yield the most efficient results. 
 
@@ -61,11 +61,11 @@ An infinite loop is a loop that never stops. This means that the condition in th
 
 For example: 
 
-``` 
-i = 5
-while i > 0:
-	print("Inside the loop")
-```
+{% highlight python %}
+  i = 5
+  while i > 0:
+    print("Inside the loop")
+{% endhighlight %} 
 
 What will happen is the loop will print out the phrase "Inside the loop" forever and ever. If you are running your computer, you will have to "kill the program" to stop it. Each operating system has a different way of "killing a program" to get out of an infinite loop. 
 
@@ -77,26 +77,21 @@ On Mac: right-click on the task, and kill the program that is running forever.
 
 If you find yourself in an infinite loop, your program will never end.
 
-
 ### Break statements
 
 A `break` statement stops the execution of a loop before the original condition is met. While the use of a `break` statement will often start an argument about good coding practices, sometimes it is useful. 
 
 For example: 
 
-```
-while True: 
-	usr_command = input("Enter your command: ")
-	if usr_command == "quit":
-		break
-	else: 
-		print("You typed " + usr_command)
-```
+{% highlight python %}
+  while True: 
+    usr_command = input("Enter your command: ")
+    if usr_command == "quit":
+      break
+    else: 
+      print("You typed " + usr_command)
+{% endhighlight %}
 
 In this case, the `break` statement is used to break off the "infinite while loop" that we have constructed with the `while True` statement.
 
-
-## Happy Coding!
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}
