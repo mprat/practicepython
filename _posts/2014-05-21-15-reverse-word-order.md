@@ -8,15 +8,15 @@ tags: [exercise]
 
 Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string: 
 
-```
-My name is Michele
-```
+{% highlight python %}
+  My name is Michele
+{% endhighlight %}
 
 Then I would see the string: 
 
-```
-Michele is name My
-```
+{% highlight python %}
+  Michele is name My
+{% endhighlight %}
 
 shown back to me.
 
@@ -30,57 +30,51 @@ Concepts for this week:
 
 Python has a lot of interesting things you can do with strings. I will show a few here, but you can see many more methods that may or may not be useful at the [official Python documentation about the string format](https://docs.python.org/3.3/library/stdtypes.html?highlight=strings#string-methods).
 
-Remember that [strings are lists](http://practicepython.blogspot.com/2014/03/exercise-6-strings-as-lists.html).
+Remember that [strings are lists]({% post_url 2014-03-12-06-string-lists %}).
 
 ### Splitting strings
 
 You can "split" or tear apart strings based on a given set of characters. For example: 
 
-```
-teststring = "this is a test"
-result = teststring.split("t")
-```
+{% highlight python %}
+  teststring = "this is a test"
+  result = teststring.split("t")
+{% endhighlight %}
 
 And at the end, `result` will contain the list:
 
-```
-['', 'his is a ', 'es', '']
-```
+{% highlight python %}
+  ['', 'his is a ', 'es', '']
+{% endhighlight %}
 
 Instead of `"t"`, you can write any character you want. If you do not include any character, it means "split on all whitespace": 
 
-```
-teststring = "  this      has a lot    of   spaces and    tabs"
-result = testring.split()
-```
+{% highlight python %}
+  teststring = "  this      has a lot    of   spaces and    tabs"
+  result = testring.split()
+{% endhighlight %}
 
 Then `result` contains: 
 
-```
-['this', 'has', 'a', 'lot', 'of', 'spaces', 'and', 'tabs']
-```
+{% highlight python %}
+  ['this', 'has', 'a', 'lot', 'of', 'spaces', 'and', 'tabs']
+{% endhighlight %}
 
 ### Joining strings
 
 You can also relatively easily "join" or "smush" strings together: 
 
-```
-listofstrings = "['a', 'b', 'c']"
-result = "**".join(listofstrings)
-```
+{% highlight python %}
+  listofstrings = "['a', 'b', 'c']"
+  result = "**".join(listofstrings)
+{% endhighlight %}
 
 Then `result` will contain the string: 
 
-```
-a**b**c
-```
+{% highlight pycon %}
+  a**b**c
+{% endhighlight %}
 
 Take a look at the official Python documentation for more information.
  
-## Happy coding! 
-
-Explore away!
-
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

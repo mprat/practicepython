@@ -4,20 +4,19 @@ number: 15
 tags: [solution]
 ---
 
-
-## [Exercise](http://practicepython.blogspot.co.il/2014/05/exercise-14-reverse-word-order.html)
+## [Exercise]({% post_url 2014-05-21-15-reverse-word-order %})
 
 Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string: 
 
-```
-My name is Michele
-```
+{% highlight python %}
+  My name is Michele
+{% endhighlight %}
 
 Then I would see the string: 
 
-```
-Michele is name My
-```
+{% highlight python %}
+  Michele is name My
+{% endhighlight %}
 
 shown back to me.
 

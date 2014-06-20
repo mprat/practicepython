@@ -20,7 +20,7 @@ Concepts for this week:
 
 ### Libraries
 
-Many people have written libraries in Python that do not come with the standard distribution of Python (like the `random` library mentioned [in a previous post](http://practicepython.blogspot.com/2014/04/exercise-9-randomness-guessing-game.html)). These libraries can do anything from machine learning to date and time formatting to meme generation. If you have a task you need done, most likely someone has written a library for it. 
+Many people have written libraries in Python that do not come with the standard distribution of Python (like the `random` library mentioned [in a previous post]({% post_url 2014-04-02-09-guessing-game-1 %})). These libraries can do anything from machine learning to date and time formatting to meme generation. If you have a task you need done, most likely someone has written a library for it. 
 
 There are three main things to keep in mind when using a library:
 
@@ -40,12 +40,12 @@ The 'requests' library does half of that job: it asks (requests, if you will) a 
 
 Look at the [documentation](http://docs.python-requests.org/en/latest/) for all the details you need. In this particular latest version, all you need to do to ask a website for it's HTML is: 
 
-```
-import requests
-url = 'http://github.com'
-r = requests.get(url)
-r_html = r.text
-```
+{% highlight python %}
+  import requests
+  url = 'http://github.com'
+  r = requests.get(url)
+  r_html = r.text
+{% endhighlight %}
 
 Now inside the variable `r_html`, you have the HTML of the page as a string. Reading (otherwise called **parsing**) happens with a different Python package. 
 
@@ -59,21 +59,15 @@ Because `BeautifulSoup` takes care of interpreting our HTML for us, we can ask i
 
 Your code would look something like this: 
 
-```
-from bs4 import BeautifulSoup
+{% highlight python %}
+  from bs4 import BeautifulSoup
 
-# some requests code here for getting r_html 
+  # some requests code here for getting r_html 
 
-soup = BeautifulSoup(r_html)
-title = soup.find('span', 'articletitle').string
-```
+  soup = BeautifulSoup(r_html)
+  title = soup.find('span', 'articletitle').string
+{% endhighlight %}
 
 And you can do many more things in `BeautifulSoup`, but I will leave you to explore those by yourself or through other later exercises.
  
-## Happy coding! 
-
-Explore away!
-
-Forgot how to [submit exercises](http://practicepython.blogspot.com/2014/01/how-it-works.html)?
-
-<iframe src="https://docs.google.com/forms/d/1WukNfdIjINTKLJRIcKJ6pmMbfd9A3PXqhOVpWRhlRF4/viewform?embedded=true" width="300" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{% include submit.md %}

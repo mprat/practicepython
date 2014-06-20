@@ -5,14 +5,14 @@ tags: [solution]
 ---
 
 
-## [Exercise](http://practicepython.blogspot.com/2014/05/list-remove-duplicates.html)
+## [Exercise]({% post_url 2014-05-15-14-list-remove-duplicates %})
 
 Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates. 
 
 Extras: 
 
 * Write two different functions to do this - one using a loop and constructing a list, and another using sets.
-* Go back and do [Exercise 5](http://practicepython.blogspot.com/2014/03/exercise-5-list-overlap.html) using sets, and write the solution for that in a different function.
+* Go back and do [Exercise 5]({% post_url 2014-03-05-05-list-overlap %}) using sets, and write the solution for that in a different function.
 
 ## Sample solution
 

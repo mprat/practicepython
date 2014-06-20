@@ -23,7 +23,7 @@ title: Practice Python
     {% if post.number != count %}
         {% assign diff = count | minus: post.number %}
         {% for num in (1..diff) %}
-          <li>Coming soon!</li>
+          <li>{{ count }}: Coming soon!</li>
           {% capture count %}{{ count | minus: 1}}{% endcapture %}
         {% endfor %}
     {% endif %}
@@ -33,6 +33,6 @@ title: Practice Python
 </ul>
 </div>
 
-<h2>Latest exercise</h2>
+<h2 class="midheader">Latest exercise</h2>
 
 {{ site.tags.exercise | first }}

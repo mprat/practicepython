@@ -11,7 +11,7 @@ Write a program (function!) that takes a list and returns a new list that contai
 Extras: 
 
 * Write two different functions to do this - one using a loop and constructing a list, and another using sets.
-* Go back and do [Exercise 5]({% post_url 2014-03-05-list-overlap %}) using sets, and write the solution for that in a different function.
+* Go back and do [Exercise 5]({% post_url 2014-03-05-05-list-overlap %}) using sets, and write the solution for that in a different function.
 
 ## Discussion
 
