@@ -1,1 +1,0 @@
-Continuously ask the user to enter a character and only stop when the user presses "x"
