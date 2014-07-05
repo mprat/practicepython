@@ -47,7 +47,7 @@ Reading further through the documentation, we discover that `r`, contains all th
 
 After this, BeautifulSoup is the tool we use to recode the HTML. In [the same documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#making-the-soup) that describes how to import BeautifulSoup, it describes how to import the HTML to analyze it in Python using the line of code in line 6.
 
-Next we need to figure out what exactly we need to look for in the HTML decoding of the New York Times webpage. 
+Next we need to figure out what exactly we need to look for in the HTML decoding of the New York Times webpage. The way to start is to look at the HTML of the webpage to find the pattern we are looking for. The way to do that is to go to the actual website and look at the HTML. 
 
 
 
