@@ -24,7 +24,7 @@ code, pre {
 }
 /* styling */
 
-.boxframe p, .boxframe ul, .boxframe ol, .header li{
+.boxframe p, .boxframe ul, .boxframe ol, .header li, .boxframe figcaption{
 	font-family: "Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	line-height: 1.5em;
 }
