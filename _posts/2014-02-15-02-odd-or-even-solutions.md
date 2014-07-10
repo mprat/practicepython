@@ -4,7 +4,7 @@ number: 2
 tags: [solution]
 ---
 
-## [Exercise]({% post_url 2014-02-05-02-odd-or-even %})
+## [Exercise]({{ site.baseurl }}{% post_url 2014-02-05-02-odd-or-even %})
 
 Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. 
 

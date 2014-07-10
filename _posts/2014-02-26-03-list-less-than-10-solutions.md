@@ -4,7 +4,7 @@ number: 3
 tags: [solution]
 ---
 
-## [Exercise]({% post_url 2014-02-15-03-list-less-than-10 %})
+## [Exercise]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-10 %})
 
 Take a list, say for example this one: 
 

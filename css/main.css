@@ -85,10 +85,14 @@ code, pre {
 	margin-top: 20px;
 }
 
-.boxframe h2, .boxframe h3 { 
+.boxframe h2, .boxframe h3, .boxframe h4 { 
 	margin-top: 0.75em;
 	margin-bottom: 0.5em;
 	font-family: Tahoma, sans-serif;
+}
+
+.boxframe h4 { 
+	text-transform: uppercase;
 }
 
 .boxframe ol, .boxframe ul {

@@ -136,7 +136,7 @@ And then remove the text from the link and the title from the list of contents:
   ...
 {% endhighlight %}
 
-We are almost there! The only thing missing is the formatting - if you scroll through the list of outputs, the formatting of some titles farther down the list. There are an excess of spaces, so stripping the strings and replating all instances of new lines nad tabs with regular spaces should do the trick. Take a look at the [Python string methods documentation](https://docs.python.org/3.3/library/stdtypes.html). 
+We are almost there! The only thing missing is the formatting - if you scroll through the list of outputs, the formatting of some titles farther down the list. There are an excess of spaces, so stripping the strings and replating all instances of new lines and tabs with regular spaces should do the trick. Take a look at the [Python string methods documentation](https://docs.python.org/3.3/library/stdtypes.html). 
 
 And this is how we get lines 8 through 12:
 

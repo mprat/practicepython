@@ -3,8 +3,13 @@ layout: default
 title: Practice Python
 ---
 
-<h2 class="midheader">Latest exercise</h2>
 
-{{ site.tags.exercise | first }}
+<!-- {{ site.tags.exercise | first }} -->
+
+{% for post in site.tags.exercise limit:1 %}
+	<h2><a href="{{ site.baseurl }}{{ post.url }}">Latest exercise</a></h2>
+
+	<!-- {{ post.excerpt }} -->
+{% endfor %}
 
 {% include exercises.md %}

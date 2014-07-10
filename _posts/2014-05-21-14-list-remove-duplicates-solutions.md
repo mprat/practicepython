@@ -4,8 +4,7 @@ number: 14
 tags: [solution]
 ---
 
-
-## [Exercise]({% post_url 2014-05-15-14-list-remove-duplicates %})
+## [Exercise]({{ site.baseurl }}{% post_url 2014-05-15-14-list-remove-duplicates %})
 
 Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates. 
 
