@@ -315,10 +315,14 @@
 	},
 	"file_history":
 	[
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
-		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-14-list-remove-duplicates-solutions.md",
@@ -336,10 +340,8 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-03-list-less-than-10.md",
@@ -440,9 +442,7 @@
 		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-05-05-icampus-results-what-next.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/things-i-am-learning-by-working-at-MEET.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/things-i-am-learning-by-working-at-MEET.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-09-22-meet-fellowship.html"
+		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/things-i-am-learning-by-working-at-MEET.md"
 	],
 	"find":
 	{
@@ -461,6 +461,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"base_url",
 			"border-",
 			"People",
 			"GearMessages",
@@ -587,8 +588,7 @@
 			"project-de",
 			"terminus",
 			"margin-left",
-			"footer",
-			"home-container"
+			"footer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -596,6 +596,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"baseurl"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -687,7 +688,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
