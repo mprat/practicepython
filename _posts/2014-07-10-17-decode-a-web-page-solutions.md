@@ -92,7 +92,7 @@ This returns a list of all tags with `story-heading` as a class. What we need to
 
 {% highlight python %}
   for story_heading in soup.find_all(class_="story-heading"):
-    print story_heading
+    print(story_heading)
 {% endhighlight %}
 
 {% highlight pycon %}
@@ -109,9 +109,9 @@ When we loop through the lines with `story-heading`, we need to take this differ
 {% highlight python %}
    for story_heading in soup.find_all(class_="story-heading"): 
     if story_heading.a: 
-        print story_heading.a
+        print(story_heading.a)
     else: 
-        print story_heading
+        print(story_heading)
 {% endhighlight %}
 
 To see this output: 
@@ -125,9 +125,9 @@ And then remove the text from the link and the title from the list of contents:
 {% highlight python %}
    for story_heading in soup.find_all(class_="story-heading"): 
     if story_heading.a: 
-        print story_heading.a.text
+        print(story_heading.a.text)
     else: 
-        print story_heading.contents[0]
+        print(story_heading.contents[0])
 {% endhighlight %}
 
 {% highlight pycon %}
@@ -143,9 +143,9 @@ And this is how we get lines 8 through 12:
 {% highlight python %}
   for story_heading in soup.find_all(class_="story-heading"): 
     if story_heading.a: 
-        print story_heading.a.text.replace("\n", " ").strip()
+        print(story_heading.a.text.replace("\n", " ").strip())
     else: 
-        print story_heading.contents[0].strip()
+        print(story_heading.contents[0].strip())
 {% endhighlight %}
 
 And we have our list of titles!

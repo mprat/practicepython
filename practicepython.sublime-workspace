@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"up",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
 				"margin-",
 				"margin-left"
 			],
@@ -30,10 +38,6 @@
 			[
 				"app",
 				"apple_sq"
-			],
-			[
-				"text",
-				"textlabel"
 			],
 			[
 				"csadv",
@@ -267,45 +271,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_posts/output.html",
-			"settings":
-			{
-				"buffer_size": 1354,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2014-05-28-password-generator.md",
-			"settings":
-			{
-				"buffer_size": 1115,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2014-06-06-decode-a-web-page.md",
-			"settings":
-			{
-				"buffer_size": 1354,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2014-05-21-reversewordorder.md",
-			"settings":
-			{
-				"buffer_size": 2118,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 201.0,
+		"height": 159.0,
 		"selected_items":
 		[
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				":w",
 				":w - Save"
@@ -319,7 +295,7 @@
 				":$ - EOF"
 			]
 		],
-		"width": 467.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -339,11 +315,59 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
+		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-14-list-remove-duplicates-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-12-list-ends-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions-solution.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-10-list-overlap-comprehensions-solution.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-09-guessing-game-1-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-08-rock-paper-scissors-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-07-list-comprehensions-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-06-string-lists-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-05-list-overlap-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-04-divisors-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-03-list-less-than-10-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-02-odd-or-even-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-03-list-less-than-10.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-04-divisors.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-05-list-overlap.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-12-06-string-lists.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-07-list-comprehensions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-08-rock-paper-scissors.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-09-guessing-game-1.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-10-list-overlap-comprehensions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-25-12-list-ends.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-13-fibonacci.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-14-list-remove-duplicates.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-15-reverse-word-order.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-16-password-generator.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-17-decode-a-web-page.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/comments.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-17-decode-a-web-page-detailed-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/analytics.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-password-generator.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-decode-a-web-page.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-reversewords-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-password-generator-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-reversewordorder.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/.gitignore",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/output.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-list-remove-duplicates-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-reversewords.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-list-remove-duplicates.md",
@@ -369,8 +393,6 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-string-lists-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-list-overlap-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-divisors-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
-		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/string-lists.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/random-number-guess.md",
 		"/home/mprat/Dropbox/Resumes, etc./resume_complete.tex",
@@ -381,10 +403,6 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-list-less-than-10.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-odd-or-even.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-2-5-character-input-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2014-02-13-a-fictional-middle-east.md",
 		"/home/mprat/Documents/Michele/Repos/personal-website/index.css",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-07-25-meet-summer-2013.md",
@@ -424,53 +442,11 @@
 		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-05-05-icampus-results-what-next.md",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/things-i-am-learning-by-working-at-MEET.md",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/things-i-am-learning-by-working-at-MEET.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-09-22-meet-fellowship.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/my-job-at-meet.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-07-22-meet-summer-2013-projects.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2011-04-15-a-linux-learning-game.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-07-10-meet-mission-program.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/index.js",
-		"/home/mprat/Documents/Michele/Repos/personal-website/atom.xml",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/meet-curriculum.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/how-to-talk-internationally.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/meet-assessment.md",
-		"/home/mprat/Documents/Michele/contract/Crestron/Hembar velocity control by Michele Pratusevich.tex",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-05-05-icampus-prize-results.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/2013-05-05-icampus-prize-results.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/404.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/.gitignore",
-		"/home/mprat/Documents/Michele/Repos/personal-website/CNAME",
-		"/home/mprat/Documents/Michele/Repos/personal-website/data/title.yml",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_includes/all_posts.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_includes/post_box.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/project_detail.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/projects/terminus/index.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-07-25-meet-summer-2013.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/projects/meet/index.html",
-		"/home/mprat/Documents/Michele/MEET/cs_topic_map.gv",
-		"/home/mprat/Documents/Michele/Repos/YL1-lab2-solutions/database.py",
-		"/home/mprat/Documents/Michele/Repos/YL1-lab2-solutions/randomness.py",
-		"/home/mprat/Documents/Michele/Repos/YL1-lab2-solutions/palindrome.py",
-		"/home/mprat/Documents/Michele/Repos/YL1-lab2-solutions/divisors.py",
-		"/home/mprat/Documents/Michele/Repos/sample-YL1-individual-project/csv_package_demo.py",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/latex-usefulness.md",
-		"/home/mprat/Documents/Michele/contract/Crestron/shade_sync_as_a_system.tex",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/temp.md",
-		"/home/mprat/Documents/Michele/Repos/config-fatlab-ubuntu-precise/etc/MEET/pip.yaml",
-		"/home/mprat/Documents/Michele/Repos/config-fatlab-ubuntu-precise/etc/MEET/packages.yaml",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-03-15-designathon-icampus-terminus.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2011-05-10-first-java-version.md",
-		"/home/mprat/Documents/Michele/Repos/Terminus/docs/level_map.gv",
-		"/home/mprat/Documents/Michele/Repos/personal-website/source/images/graphviz/g-1689d56d0e5e256b15863238c627e134.svg",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_plugins/graphviz_block.rb",
-		"/home/mprat/Documents/Michele/Repos/personal-website/Gemfile",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-03-15-designathon-icampus-terminus.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/words-i-need-to-learn.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-09-12-terminus-competition.md"
+		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-09-22-meet-fellowship.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -485,6 +461,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"border-",
 			"People",
 			"GearMessages",
 			"GearTypes",
@@ -611,8 +588,7 @@
 			"terminus",
 			"margin-left",
 			"footer",
-			"home-container",
-			"project"
+			"home-container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -630,121 +606,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_posts/output.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1354,
-								1354
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2014-05-28-password-generator.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1115,
-								1115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2014-06-06-decode-a-web-page.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								668,
-								668
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_posts/2014-05-21-reversewordorder.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

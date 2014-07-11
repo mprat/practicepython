@@ -3,3 +3,7 @@ safe: true
 markdown: kramdown
 highlighter: pygments
 baseurl: /practicepython
+itle: Practice Python
+author: 
+  name: Michele Pratusevich
+  email: michele.pratusevich@gmail.com
