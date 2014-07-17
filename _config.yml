@@ -2,7 +2,7 @@ pygments: true
 safe: true
 markdown: kramdown
 highlighter: pygments
-baseurl: /practicepython
+baseurl: /
 itle: Practice Python
 author: 
   name: Michele Pratusevich
