@@ -7,7 +7,13 @@ title: Practice Python
 <!-- {{ site.tags.exercise | first }} -->
 
 {% for post in site.tags.exercise limit:1 %}
-	<h2><a href="{{ site.baseurl }}{{ post.url }}">Latest exercise</a></h2>
+	<p><a href="{{ site.baseurl }}{{ post.url }}">Latest exercise</a>: Exercise {{ post.number }} on {{ post.date | date_to_long_string }}</p>
+
+	<!-- {{ post.excerpt }} -->
+{% endfor %}
+
+{% for post in site.tags.solution limit:1 %}
+	<p><a href="{{ site.baseurl }}{{ post.url }}">Latest solution</a>: Solution {{ post.number }} on {{ post.date | date_to_long_string }}</p>
 
 	<!-- {{ post.excerpt }} -->
 {% endfor %}
