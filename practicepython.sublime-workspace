@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pra",
+				"practicepython"
+			],
+			[
 				"up",
 				"uppercase"
 			],
@@ -271,6 +275,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "atom.xml",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -315,9 +335,9 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
@@ -607,8 +627,65 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "atom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
