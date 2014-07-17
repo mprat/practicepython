@@ -276,18 +276,10 @@
 	"buffers":
 	[
 		{
-			"file": "atom.xml",
+			"file": "_posts/2014-07-14-19-decode-a-web-page-2.md",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1510,
 				"line_ending": "Unix"
 			}
 		}
@@ -335,13 +327,15 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-18-18-cows-and-bulls-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
@@ -360,7 +354,6 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
@@ -461,8 +454,7 @@
 		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/Game.js",
 		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
 		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-05-05-icampus-results-what-next.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/things-i-am-learning-by-working-at-MEET.md"
+		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-05-05-icampus-results-what-next.md"
 	],
 	"find":
 	{
@@ -481,6 +473,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"baseurl",
 			"base_url",
 			"border-",
 			"People",
@@ -607,8 +600,7 @@
 			"position: a",
 			"project-de",
 			"terminus",
-			"margin-left",
-			"footer"
+			"margin-left"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -632,58 +624,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "atom.xml",
+					"file": "_posts/2014-07-14-19-decode-a-web-page-2.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1510,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								44,
+								44
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

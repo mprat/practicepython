@@ -2,7 +2,6 @@
 layout: post
 number: 19
 tags: [exercise]
-published: false
 ---
 
 ## Exercise
