@@ -3,7 +3,7 @@
 <ul>
   {% for post in site.categories.exercise %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {{ post.number }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | replace: '1', '' | replace: '2', '' | replace: '3', '' | replace: '4', '' | replace: '5', ''  | replace: '6', '' | replace: '7', '' | replace: '8', ''  | replace: '9', ''  | replace: '0', '' }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -22,7 +22,7 @@
           {% capture count %}{{ count | minus: 1}}{% endcapture %}
         {% endfor %}
     {% endif %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>{{ post.number }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | replace: '1', '' | replace: '2', '' | replace: '3', '' | replace: '4', '' | replace: '5', ''  | replace: '6', '' | replace: '7', '' | replace: '8', ''  | replace: '9', ''  | replace: '0', '' }}</a></li>
     {% capture count %}{{ count | minus: 1}}{% endcapture %}
   {% endfor %}
 </ul>

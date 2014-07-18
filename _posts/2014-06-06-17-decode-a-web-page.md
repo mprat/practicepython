@@ -6,7 +6,7 @@ categories: [exercise]
 
 My sincerest apologies for being late in posting these exercises. My boyfriend came to visit me in Jerusalem for the last two weeks, so I haven't had any spare cycles to tackle the Python problems. I should learn to write a few in advance in case I am ever put in this kind of situation again. In any case, this exercise should make up for the lack of exercises the last few weeks - it's a fun one. This is a slightly longer and more involved exercise than many previous ones, so I will not post the solution for two weeks, but I will post a new exercise next week. Enjoy! 
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %}))
 
 Use the `BeautifulSoup` and `requests` Python packages to print out a list of all the article titles on the [New York Times homepage](http://www.nytimes.com).
 
@@ -20,7 +20,7 @@ Concepts for this week:
 
 ### Libraries
 
-Many people have written libraries in Python that do not come with the standard distribution of Python (like the `random` library mentioned [in a previous post]({% post_url 2014-04-02-09-guessing-game-1 %})). These libraries can do anything from machine learning to date and time formatting to meme generation. If you have a task you need done, most likely someone has written a library for it. 
+Many people have written libraries in Python that do not come with the standard distribution of Python (like the `random` library mentioned [in a previous post]({% post_url 2014-04-02-09-guessing-game-one %})). These libraries can do anything from machine learning to date and time formatting to meme generation. If you have a task you need done, most likely someone has written a library for it. 
 
 There are three main things to keep in mind when using a library:
 

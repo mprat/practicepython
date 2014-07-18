@@ -47,6 +47,11 @@ code, pre {
 	text-transform: uppercase;
 }
 
+.boxframe h1 {
+	font-size: 1.75em;
+	line-height: 1.75em;
+}
+
 .header li{
 	list-style: none;
 	display: inline-block;
@@ -79,7 +84,7 @@ code, pre {
 	margin-top: 20px;
 }
 
-.boxframe h2, .boxframe h3, .boxframe h4 { 
+.boxframe h1, .boxframe h2, .boxframe h3, .boxframe h4 { 
 	margin-top: 0.75em;
 	margin-bottom: 0.5em;
 	font-family: Tahoma, sans-serif;
@@ -116,6 +121,10 @@ code, pre {
 
 .alwaysright {
 	float: right;
+}
+
+.textright{
+	text-align: right;
 }
 
 @media all and (min-width: 800px){

@@ -4,7 +4,7 @@ number: 18
 categories: [exercise]
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-07-18-18-cows-and-bulls-solutions %}))
 
 Create a program that will play the "cows and bulls" game with the user. The game works like this:
 
@@ -26,7 +26,7 @@ Until the user guesses the number.
 
 ## Concepts for this week: 
 
-1. Randomness (we've covered this a few times before. Mainly in [a previous exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-1 %}).)
+1. Randomness (we've covered this a few times before. Mainly in [a previous exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-one %}).)
 2. Functions (covered in a [previous exercise]({{ site.baseurl }}{% post_url 2014-04-16-11-check-primality-functions %}) also)
 3. Main method
 

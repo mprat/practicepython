@@ -4,7 +4,7 @@ number: 8
 categories: [exercise]
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-04-02-08-rock-paper-scissors-solutions %}))
 
 Make a two-player Rock-Paper-Scissors game. (_Hint: Ask for player plays (using `input`), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game_)
 
