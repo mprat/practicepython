@@ -8,3 +8,5 @@ author:
   name: Michele Pratusevich
   email: michele.pratusevich@gmail.com
 production_url: http://practicepython.org
+gems:
+ - jemoji
