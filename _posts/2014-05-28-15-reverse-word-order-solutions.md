@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 15
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-05-21-15-reverse-word-order %})

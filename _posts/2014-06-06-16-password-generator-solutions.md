@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 16
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-05-28-16-password-generator %})

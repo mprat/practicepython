@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 7
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-03-19-07-list-comprehensions %})

@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 2
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-02-05-02-odd-or-even %})

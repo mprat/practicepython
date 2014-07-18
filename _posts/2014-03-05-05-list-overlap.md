@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 5
-tags: [exercise]
+categories: [exercise]
 ---
 
 ## Exercise

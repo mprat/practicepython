@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 12
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-04-25-12-list-ends %})

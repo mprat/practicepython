@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 11
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-04-16-11-check-primality-functions %})

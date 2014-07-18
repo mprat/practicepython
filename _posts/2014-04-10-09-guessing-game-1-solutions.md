@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 9
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-1 %})

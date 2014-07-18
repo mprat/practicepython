@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 5
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-03-05-05-list-overlap %})

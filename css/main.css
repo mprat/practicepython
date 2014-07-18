@@ -75,12 +75,6 @@ code, pre {
 	line-height: 1.25em;
 }
 
-.center {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .boxframe {
 	margin-top: 20px;
 }
@@ -104,20 +98,42 @@ code, pre {
 	margin-bottom: 1em;
 }
 
-.left, .right {
+.left, .right, .center {
+	/*clear: both;*/
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left, .right: {
 	margin-bottom: 1.5em;
-	width: 48%;
-}
-
-.left {
-	float: left;
-}
-
-.right{
-	float: right;
 }
 
 .logo-small{
 	width: 25px;
 	height: 25px;
+}
+
+.alwaysright {
+	float: right;
+}
+
+@media all and (min-width: 800px){
+	.left {
+		float: left;
+	}
+
+	.right{
+		float: right;
+	}
+
+	.left, .right {
+		width: 48%;
+	}
+
+	.center {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }

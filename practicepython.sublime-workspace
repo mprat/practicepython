@@ -275,14 +275,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "atom.xml",
-			"settings":
-			{
-				"buffer_size": 987,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -327,51 +319,52 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-18-18-cows-and-bulls-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-17-decode-a-web-page.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-16-password-generator.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-15-reverse-word-order.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-14-list-remove-duplicates-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-14-list-remove-duplicates.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-12-list-ends-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-13-fibonacci.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-25-12-list-ends.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions-solution.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-10-list-overlap-comprehensions-solution.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-10-list-overlap-comprehensions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-09-guessing-game-1.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-09-guessing-game-1-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-08-rock-paper-scissors-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-08-rock-paper-scissors.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-07-list-comprehensions-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-07-list-comprehensions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-06-string-lists-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-05-list-overlap-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-12-06-string-lists.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-05-list-overlap.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-04-divisors-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-04-divisors.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-03-list-less-than-10-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-03-list-less-than-10.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-02-odd-or-even-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/exercises.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-18-18-cows-and-bulls-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-14-list-remove-duplicates-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-12-list-ends-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions-solution.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-10-list-overlap-comprehensions-solution.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-09-guessing-game-1-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-08-rock-paper-scissors-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-07-list-comprehensions-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-06-string-lists-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-05-list-overlap-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-04-divisors-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-03-list-less-than-10-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-02-odd-or-even-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-03-list-less-than-10.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-04-divisors.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-05-list-overlap.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-12-06-string-lists.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-07-list-comprehensions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-08-rock-paper-scissors.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-09-guessing-game-1.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-10-10-list-overlap-comprehensions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-11-check-primality-functions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-25-12-list-ends.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-30-13-fibonacci.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-15-14-list-remove-duplicates.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-15-reverse-word-order.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-16-password-generator.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-17-decode-a-web-page.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/comments.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-17-decode-a-web-page-detailed-solutions.md",
@@ -453,8 +446,7 @@
 		"/home/mprat/Documents/Michele/Repos/Terminus/main2.html",
 		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/Game.js",
 		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_drafts/2013-05-05-icampus-results-what-next.md"
+		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html"
 	],
 	"find":
 	{
@@ -619,37 +611,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "atom.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 987,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								387,
-								387
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

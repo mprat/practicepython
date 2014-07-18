@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 4
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-02-26-04-divisors %})

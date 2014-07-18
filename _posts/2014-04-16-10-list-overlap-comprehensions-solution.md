@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 10
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-04-10-10-list-overlap-comprehensions %})

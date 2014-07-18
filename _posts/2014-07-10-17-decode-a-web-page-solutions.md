@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 17
-tags: [solution]
+categories: [solution]
 ---
 
 The [How To Decode A Website]({{ site.baseurl }}{% post_url 2014-06-06-17-decode-a-web-page %}) exercise was a challenging one, involving many complex pieces of code and two new Python modules. When appropaching problems like this one, it helps to develop a plan for the program before executing it. 

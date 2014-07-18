@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 3
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-10 %})

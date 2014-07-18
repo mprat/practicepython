@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 8
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-03-26-08-rock-paper-scissors %})

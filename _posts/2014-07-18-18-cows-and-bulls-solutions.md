@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 18
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-07-05-18-cows-and-bulls %})

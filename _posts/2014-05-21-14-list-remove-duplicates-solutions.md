@@ -1,7 +1,7 @@
 ---
 layout: post
 number: 14
-tags: [solution]
+categories: [solution]
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-05-15-14-list-remove-duplicates %})

@@ -1,7 +1,7 @@
 <div class="left">
 <h2 class="midheader"> All Exercises</h2>
 <ul>
-  {% for post in site.tags.exercise %}
+  {% for post in site.categories.exercise %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
@@ -12,8 +12,8 @@
 <div class="right">
 <h2 class="midheader"> All Solutions: </h2>
 <ul>
-  {% assign count = site.tags.exercise.size %}
-  {% assign solist = (site.tags.solution | sort: 'title') %}
+  {% assign count = site.categories.exercise.size %}
+  {% assign solist = (site.categories.solution | sort: 'title') %}
   {% for post in solist reversed %}
     {% if post.number != count %}
         {% assign diff = count | minus: post.number %}
