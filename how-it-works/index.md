@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How it Works and How to Submit Solutions
+date: 2013-12-30 12:00:00
 ---
 
 ## Problems

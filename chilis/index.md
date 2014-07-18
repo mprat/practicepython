@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chilis, Spice, and Exercises
+date: 2014-07-18 12:00:00
 ---
 
 The "easy", "medium", and "hard" scale of exercise difficulty is not conducive to trial, error, exploration, and challenge. There are a number of problems:

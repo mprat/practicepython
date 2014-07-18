@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why Programming? Why Python? Why Now?
+date: 2013-12-30 12:00:00
 ---
 
 ## Programming is the Missing Link in Education
