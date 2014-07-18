@@ -6,8 +6,8 @@ title : Atom Feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Practice Python</title>
- <link href="{{ site.production_url }}/atom.xml" rel="self"/>
  <link href="{{ site.production_url }}"/>
+ <link type="application/atom+xml" href="{{ site.production_url }}/atom.xml" rel="self"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.production_url }}</id>
  <author>
@@ -17,10 +17,15 @@ title : Atom Feed
 
  {% for post in site.posts %}
  <entry>
-   <title>{{ post.title }}</title>
+ 	<id>{{ site.production_url }}{{ post.id }}</id>
    <link href="{{ site.production_url }}{{ post.url }}"/>
+   <title>{{ post.title }}</title>
+   <published>{{ post.date | date_to_xmlschema }}</published>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
+   <author>
+	   <name>{{ site.author.name }}</name>
+	   <uri>{{ site.production_url }}</uri>
+	 </author>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

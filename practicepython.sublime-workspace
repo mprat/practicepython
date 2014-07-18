@@ -276,10 +276,10 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2014-07-14-19-decode-a-web-page-2.md",
+			"file": "atom.xml",
 			"settings":
 			{
-				"buffer_size": 1510,
+				"buffer_size": 987,
 				"line_ending": "Unix"
 			}
 		}
@@ -327,16 +327,17 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
+		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
+		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-18-18-cows-and-bulls-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/atom.xml",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_config.yml",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/default.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/css/main.css",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/header.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/index.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-06-06-16-password-generator-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-28-15-reverse-word-order-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-05-21-14-list-remove-duplicates-solutions.md",
@@ -354,7 +355,6 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-01-character-input-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-01-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_layouts/post.html",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/footer.html",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_includes/post_date.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-02-odd-or-even.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-03-list-less-than-10.md",
@@ -624,24 +624,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2014-07-14-19-decode-a-web-page-2.md",
+					"file": "atom.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1510,
+						"buffer_size": 987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								387,
+								387
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/XML/XML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
