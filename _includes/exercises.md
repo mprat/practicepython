@@ -4,6 +4,9 @@
   {% for post in site.categories.exercise %}
     <li>
       {{ post.number }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | replace: '1', '' | replace: '2', '' | replace: '3', '' | replace: '4', '' | replace: '5', ''  | replace: '6', '' | replace: '7', '' | replace: '8', ''  | replace: '9', ''  | replace: '0', '' }}</a>
+      {% if post.chili %}
+        {% include chili.md chilis=post.chili %}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

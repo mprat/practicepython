@@ -1,6 +1,7 @@
 ---
 layout: post
 number: 7
+chili: 2
 categories: [exercise]
 ---
 

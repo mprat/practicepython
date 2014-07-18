@@ -127,6 +127,12 @@ code, pre {
 	text-align: right;
 }
 
+.chili {
+	/*margin-top: -5px;*/
+	/*margin-bottom: -5px;*/
+	width: 16px;
+}
+
 @media all and (min-width: 800px){
 	.left {
 		float: left;

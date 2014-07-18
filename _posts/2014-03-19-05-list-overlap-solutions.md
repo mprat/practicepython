@@ -1,6 +1,7 @@
 ---
 layout: post
 number: 5
+chili: 2
 categories: [solution]
 ---
 
