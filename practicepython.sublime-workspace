@@ -317,8 +317,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/mprat/Documents/repos/practicepython",
+		"/Users/mprat/Documents/repos/practicepython/_posts",
+		"/Users/mprat/Documents/repos/practicepython/css",
+		"/Users/mprat/Documents/repos/practicepython/exercises"
+	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-two.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-10-01-19-decode-a-web-page-two-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/css/main.css",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_layouts/default.html",
+		"/Users/mprat/Documents/repos/practicepython/index.html",
+		"/Users/mprat/Documents/repos/practicepython/exercises/index.md",
+		"/Users/mprat/Documents/repos/practicepython/_includes/exercises.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-18-18-cows-and-bulls-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-2.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-07-05-18-cows-and-bulls.md",
@@ -438,15 +453,7 @@
 		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/main.py",
 		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/deck.py",
 		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/game.py",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/jquery.terminal-0.7.11.js",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/jquery.terminal-0.7.11.min.js",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/jquery.termninal-0.7.11.js",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/css/terminus.css",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/css/jquery.terminal.css",
-		"/home/mprat/Documents/Michele/Repos/Terminus/main2.html",
-		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/Game.js",
-		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html"
+		"/home/mprat/Documents/Michele/Repos/Terminus/Web/static/javascript/jquery.terminal-0.7.11.js"
 	],
 	"find":
 	{
@@ -465,6 +472,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"two-",
+			"img",
+			".boxframe",
+			".center",
 			"baseurl",
 			"base_url",
 			"border-",
@@ -588,11 +599,7 @@
 			"project-",
 			"home-con",
 			"project-detail",
-			"width: 80",
-			"position: a",
-			"project-de",
-			"terminus",
-			"margin-left"
+			"width: 80"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -685,6 +692,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
