@@ -40,7 +40,7 @@ To use it (and generate a random integer), now type:
 	a = random.randint(2, 6)
 {% endhighlight %}
 
-Once you run this program, the variable `a` will have a random integer that the computer made for you, between 2 and 6 (including 2, not including 6). 
+Once you run this program, the variable `a` will have a random integer that the computer made for you, between 2 and 6 (including 2 and 6). The specific documentation for this method is [here](https://docs.python.org/3.3/library/random.html#random.randint).
 
 There are many ways you can generate random numbers - integers, decimals, and much more. The [Python documentation](https://docs.python.org/3.3/library/random.html) has much more detailed information about what is possible from the `random` module.
 
