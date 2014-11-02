@@ -1,3 +1,4 @@
 _site/
 output.html
 output.txt
+*.sublime-workspace

@@ -16,7 +16,7 @@ If you want to be reminded every week that a new exercise has been posted, enter
 
 At the bottom of every post, there will be an embedded Google Form where you will submit your solutions. The way to submit solutions will be through an anonymous Gist. This is like [pastebin](http://pastebin.com/), except I can automate some scripts to make processing solutions easier for me. 
 
-All you need to do is go to [http://gist.github.com,](http://gist/github/com) paste your code into the text box (not the comment box), and Create a Public Gist. You can even do this without a Github account! The link that is created with your code is the submission link that you will put into the form at the bottom of every exercise post. That's it! (Note: if you want to make a Github account and keep copies of your code for yourself as gists, feel free to do that as well). 
+All you need to do is go to [http://gist.github.com,](http://gist.github.com) paste your code into the text box (not the comment box), and Create a Public Gist. You can even do this without a Github account! The link that is created with your code is the submission link that you will put into the form at the bottom of every exercise post. That's it! (Note: if you want to make a Github account and keep copies of your code for yourself as gists, feel free to do that as well). 
 
 ### My Solution
 
