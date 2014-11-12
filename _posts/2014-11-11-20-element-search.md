@@ -3,7 +3,7 @@ layout: post
 number: 20
 chili: 1
 categories: [exercise]
-published: False
+published: True
 ---
 
 ## Exercise
@@ -19,7 +19,8 @@ Extras:
 Topics: 
 
 1. Booleans - True and False
-2. Binary search
+2. Equality testing
+3. Binary search
 
 ### Booleans
 
@@ -54,6 +55,46 @@ Here is another example:
 What the `while True` statement does at the beginning of the code segment is continue asking for an age and printing a response - it never stops. (To stop it, press CTRL-C in a terminal or in the Python shell). 
 
 These types - `True` and `False` are called **boolean** types or **boolean** variables. They can only take on two values, either `True` or `False`. 
+
+For more extensive reading on Python booleans, take a look at [these](http://www.pythonforbeginners.com/basics/boolean) [resources](http://learnpythonthehardway.org/book/ex28.html). 
+
+### Equality testing on strings
+
+Scenarios come up where you need to test if things are equal to each other - numbers or strings or something else. We covered this idea in [a previous post]({{ site.baseurl }}{% post_url 2014-02-05-02-odd-or-even %}), but it is worth returning to again, this time for strings. 
+
+Good thing it's easy! 
+
+Remember, comparing numbers for equality is done with an `==` sign, like so: 
+
+{% highlight python %}
+  age = 21
+  if age == 21:
+    print("You are 21!")
+  elif age > 21:
+    print("You're old.")
+  else:
+    print("Young one!")
+{% endhighlight %}
+
+Turns out, comparing strings is equally (hehe..) simple, using a `==` to check for equality and `!=` to check for inequality. 
+
+{% highlight python %}
+  password = "unsafepassword"
+  if password == "unsafepassword":
+    print("You may enter.")
+  else:
+    print("Try again!")
+{% endhighlight %}
+
+Or, a more practical password-checking piece of code: 
+
+{% highlight python %}
+  real_password = "unsafepassword"
+  user_password = input("Enter the password: ")
+  while user_password != real_password:
+    user_password = input("Enter the password: ")
+  print("You may enter!")
+{% endhighlight %}
 
 ### Binary search
 
