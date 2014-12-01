@@ -275,14 +275,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_posts/2014-11-18-21-write-to-a-file.md",
-			"settings":
-			{
-				"buffer_size": 4968,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -336,6 +328,31 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-04-10-10-list-overlap-comprehensions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-21-write-to-a-file.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-03-19-05-list-overlap-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-01-10-list-overlap-comprehensions-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-03-26-07-list-comprehensions-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-04-25-12-list-ends.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-03-19-07-list-comprehensions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-03-05-05-list-overlap.md",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/03/19/06-string-lists-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/03/12/06-string-lists.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/02/26/03-list-less-than-ten-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/05/21/14-list-remove-duplicates-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/04/16/10-list-overlap-comprehensions-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/02/15/03-list-less-than-ten.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/05/15/12-list-ends-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/03/26/07-list-comprehensions-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/solution/2014/03/19/05-list-overlap-solutions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/05/15/14-list-remove-duplicates.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/04/10/10-list-overlap-comprehensions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/04/25/12-list-ends.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/03/19/07-list-comprehensions.html",
+		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/03/05/05-list-overlap.html",
+		"/Users/mprat/Documents/repos/practicepython/LICENSE",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-20-element-search-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-18-20-element-search-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search-solutions.md",
@@ -343,7 +360,6 @@
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-two.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-10-01-19-decode-a-web-page-two-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/css/main.css",
-		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_layouts/default.html",
 		"/Users/mprat/Documents/repos/practicepython/index.html",
 		"/Users/mprat/Documents/repos/practicepython/exercises/index.md",
@@ -439,31 +455,7 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-list-less-than-10-solutions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-list-less-than-10.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-odd-or-even.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-2-5-character-input-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2014-02-13-a-fictional-middle-east.md",
-		"/home/mprat/Documents/Michele/Repos/personal-website/index.css",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_posts/2013-07-25-meet-summer-2013.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/4-divisors.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/3-list-less-than-10-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/3-list-less-than-10.md",
-		"/home/mprat/Documents/Michele/MEET/pygame_play/fruit.py",
-		"/home/mprat/Documents/Michele/MEET/pygame_play/test.py",
-		"/home/mprat/Documents/Michele/MEET/pygame_play/banana.py",
-		"/home/mprat/Documents/Michele/Repos/personal-website/_config.yml",
-		"/home/mprat/Documents/Michele/Repos/practicepython/1-character-input-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/2-odd-or-even-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/2-odd-or-even.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/1-character-input.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/README.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/output.html",
-		"/home/mprat/Documents/Michele/Repos/nytimes-play/api-key.txt",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/random-number-guess.md",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/string-lists.md",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/cows-and-bulls.md",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/binary-guesses.md",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/odd-or-even.md",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/Rough plan",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/character-input.html"
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-2-5-character-input-solutions.md"
 	],
 	"find":
 	{
@@ -482,6 +474,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ",
 			"two-",
 			"img",
 			".boxframe",
@@ -608,8 +601,7 @@
 			"header",
 			"project-",
 			"home-con",
-			"project-detail",
-			"width: 80"
+			"project-detail"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -628,42 +620,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_posts/2014-11-18-21-write-to-a-file.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4968,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -721,6 +679,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"list",
+				"_posts/2014-03-19-05-list-overlap-solutions.md"
+			]
 		],
 		"width": 0.0
 	},
