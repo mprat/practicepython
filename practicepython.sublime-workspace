@@ -276,10 +276,10 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/default.html",
+			"file": "_posts/2014-11-18-21-write-to-a-file.md",
 			"settings":
 			{
-				"buffer_size": 684,
+				"buffer_size": 4968,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,6 +336,9 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-18-20-element-search-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-04-02-09-guessing-game-one.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-two.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-10-01-19-decode-a-web-page-two-solutions.md",
@@ -460,10 +463,7 @@
 		"/home/mprat/Documents/Michele/Repos/beginnerpython/binary-guesses.md",
 		"/home/mprat/Documents/Michele/Repos/beginnerpython/odd-or-even.md",
 		"/home/mprat/Documents/Michele/Repos/beginnerpython/Rough plan",
-		"/home/mprat/Documents/Michele/Repos/beginnerpython/character-input.html",
-		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/main.py",
-		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/deck.py",
-		"/home/mprat/Documents/Michele/Repos/blackjack-trainer/python/game.py"
+		"/home/mprat/Documents/Michele/Repos/beginnerpython/character-input.html"
 	],
 	"find":
 	{
@@ -633,25 +633,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/default.html",
-					"semi_transient": true,
+					"file": "_posts/2014-11-18-21-write-to-a-file.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 684,
+						"buffer_size": 4968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								76,
+								76
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -699,6 +703,10 @@
 		"height": 112.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
 	{
 		"height": 0.0
 	},
