@@ -6,6 +6,14 @@ layout: default
 	<h1>{{ page.title | replace: '1', '' | replace: '2', '' | replace: '3', '' | replace: '4', '' | replace: '5', ''  | replace: '6', '' | replace: '7', '' | replace: '8', ''  | replace: '9', ''  | replace: '0', '' }} {% include chili.md chilis=page.chili %} </h1>
 {% endif %}
 
+{% if page.tags %}
+	<i>
+	{% for tag in page.tags %}
+		{{ tag }}
+	{% endfor %}
+	</i>
+{% endif %}
+
 {{ content }}
 
 {% include comments.html %}

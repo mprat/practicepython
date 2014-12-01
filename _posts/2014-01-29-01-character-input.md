@@ -3,6 +3,7 @@ layout: post
 number: 1
 chili: 1
 categories: [exercise]
+tags: [input, strings, types, int]
 ---
 
 Calibrating the exercises to the audience is going to be a challenging task, so I ask you to bear with me if the exercises are too easy or too hard. Every week there will be a poll you can click on to discuss whether the exercise is too easy or too hard and hopefully in a few weeks, I'll get the level right. Let's get to it! I will start with the exercise and include a discussion later, in case you want the extra challenge.
