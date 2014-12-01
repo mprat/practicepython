@@ -5,7 +5,7 @@ chili: 2
 categories: [exercise]
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-04-16-10-list-overlap-comprehensions-solutions %}))
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-12-01-10-list-overlap-comprehensions-solutions %}))
 
 This week's exercise is going to be revisiting an old exercise (see [Exercise 5]({% post_url 2014-03-05-05-list-overlap %})), except require the solution in a different way. 
 
@@ -16,7 +16,10 @@ Take two lists, say for example these two:
 	b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 {% endhighlight %}
 
-and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes. Write this in one line of Python. (_Hint: Remember [list comprehensions]({% post_url 2014-03-19-07-list-comprehensions %}) from Exercise 7_).
+and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes. Write this <s>in one line of Python</s> *using at least one list comprehension*. 
+(_Hint: Remember [list comprehensions]({% post_url 2014-03-19-07-list-comprehensions %}) from Exercise 7_).
+
+_The original formulation of this exercise said to write the solution using one line of Python, but a few readers pointed out that this was impossible to do without using `set`s that I had not yet discussed on the blog, so you can either choose to use the original directive and read about the [`set` command in Python 3.3](https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set), or try to implement this on your own and use at least one list comprehension in the solution._
 
 Extra: 
 
