@@ -276,18 +276,10 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2014-01-29-01-character-input.md",
+			"file": "_posts/2014-12-6-22-read-from-file.md",
 			"settings":
 			{
-				"buffer_size": 3574,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/post.html",
-			"settings":
-			{
-				"buffer_size": 459,
+				"buffer_size": 4411,
 				"line_ending": "Unix"
 			}
 		}
@@ -345,6 +337,12 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/practicepython/css/main.css",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-08-21-write-to-a-file-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-20-element-search-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-01-29-01-character-input.md",
+		"/Users/mprat/Documents/repos/practicepython/_layouts/post.html",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-6-22-read-from-file.md",
 		"/Users/mprat/Documents/repos/practicepython/assets/nameslist.txt",
 		"/Users/mprat/Documents/repos/practicepython/.gitignore",
@@ -371,15 +369,12 @@
 		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/03/19/07-list-comprehensions.html",
 		"/Users/mprat/Documents/repos/practicepython/_site/exercise/2014/03/05/05-list-overlap.html",
 		"/Users/mprat/Documents/repos/practicepython/LICENSE",
-		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-20-element-search-solutions.md",
-		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-18-20-element-search-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-11-20-element-search-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-04-02-09-guessing-game-one.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-14-19-decode-a-web-page-two.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-10-01-19-decode-a-web-page-two-solutions.md",
-		"/Users/mprat/Documents/repos/practicepython/css/main.css",
 		"/Users/mprat/Documents/repos/practicepython/_layouts/default.html",
 		"/Users/mprat/Documents/repos/practicepython/index.html",
 		"/Users/mprat/Documents/repos/practicepython/exercises/index.md",
@@ -469,10 +464,7 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/string-lists.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/random-number-guess.md",
 		"/home/mprat/Dropbox/Resumes, etc./resume_complete.tex",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-divisors.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-05-character-input-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-15-odd-or-even-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-list-less-than-10-solutions.md"
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-divisors.md"
 	],
 	"find":
 	{
@@ -491,6 +483,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"line-height",
+			"li",
 			" ",
 			"two-",
 			"img",
@@ -616,9 +610,7 @@
 			"80%",
 			"h2",
 			"header",
-			"project-",
-			"home-con",
-			"project-detail"
+			"project-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -637,24 +629,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2014-01-29-01-character-input.md",
+					"file": "_posts/2014-12-6-22-read-from-file.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3574,
+						"buffer_size": 4411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								93
+								75,
+								75
 							]
 						],
 						"settings":
@@ -664,40 +656,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_layouts/post.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "html",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -798,7 +759,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 330.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
