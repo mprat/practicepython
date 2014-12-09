@@ -2,7 +2,7 @@
 layout: post
 number: 20
 categories: [solution]
-published: True\
+published: True
 ---
 
 ## [Exercise]({{ site.baseurl }}{% post_url 2014-11-11-20-element-search %})

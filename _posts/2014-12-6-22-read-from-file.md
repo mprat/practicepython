@@ -3,7 +3,7 @@ layout: post
 number: 22
 chili: 1
 categories: [exercise]
-published: False
+published: True
 ---
 
 ## Exercise
