@@ -119,10 +119,10 @@ figure{
 	margin: auto;
 	text-align: center;
 }
-
+/*
 img{
 	width: 50%;
-}
+}*/
 
 .logo-small{
 	width: 25px;
@@ -141,6 +141,16 @@ img{
 	/*margin-top: -5px;*/
 	/*margin-bottom: -5px;*/
 	width: 16px;
+}
+
+#gratipay{
+	margin-left: 5px;
+	padding-top: 3px;
+}
+
+.pagetitle {
+	display: inline;
+	margin-right: 5px;
 }
 
 @media all and (min-width: 800px){
