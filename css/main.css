@@ -144,12 +144,19 @@ img{
 }
 
 #gratipay{
-	margin-left: 5px;
 	padding-top: 3px;
 }
 
 .pagetitle {
 	display: inline;
+	margin-right: 5px;
+}
+
+.leftmargin{
+	margin-left: 5px;
+}
+
+.rightmargin{
 	margin-right: 5px;
 }
 
