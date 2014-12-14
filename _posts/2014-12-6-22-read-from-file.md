@@ -23,7 +23,7 @@ Topics:
 
 ### Reading a File
 
-Reading a file is very analogous to writing a file, as [I discussed before]{{ site.baseurl }}{% post_url 2014-11-30-21-write-to-a-file %}). But, the best source is always the [official Python 3.3 documentation](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files). 
+Reading a file is very analogous to writing a file, as [I discussed before in Exercise 21]({{ site.baseurl }}{% post_url 2014-11-30-21-write-to-a-file %}). But, the best source is always the [official Python 3.3 documentation](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files). 
 
 Simply, reading to a file takes two steps: 
 
