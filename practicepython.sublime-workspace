@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"pra",
 				"practicepython"
 			],
@@ -14,10 +22,6 @@
 			[
 				"text",
 				"text-transform"
-			],
-			[
-				"margin-",
-				"margin-left"
 			],
 			[
 				"font-",
@@ -110,10 +114,6 @@
 			[
 				"list-",
 				"list-style-type"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"visible",
@@ -276,10 +276,18 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2014-12-6-22-read-from-file.md",
+			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 4411,
+				"buffer_size": 1197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "atom.xml",
+			"settings":
+			{
+				"buffer_size": 987,
 				"line_ending": "Unix"
 			}
 		}
@@ -337,14 +345,22 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-14-22-read-from-file-solutions.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-06-22-read-from-file.md",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-14-23-file-overlap.md",
+		"/Users/mprat/Documents/repos/practicepython/_config.yml",
+		"/Users/mprat/Documents/repos/practicepython/_layouts/post.html",
 		"/Users/mprat/Documents/repos/practicepython/css/main.css",
+		"/Users/mprat/Documents/repos/practicepython/CNAME",
+		"/Users/mprat/Documents/repos/practicepython/assets/happynumbers.txt",
+		"/Users/mprat/Documents/repos/practicepython/assets/primenumbers.txt",
+		"/Users/mprat/Documents/repos/practicepython/_posts/test.py",
+		"/Users/mprat/Documents/repos/practicepython/assets/nameslist.txt",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-08-21-write-to-a-file-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-07-10-17-decode-a-web-page-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-20-element-search-solutions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-01-29-01-character-input.md",
-		"/Users/mprat/Documents/repos/practicepython/_layouts/post.html",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-6-22-read-from-file.md",
-		"/Users/mprat/Documents/repos/practicepython/assets/nameslist.txt",
 		"/Users/mprat/Documents/repos/practicepython/.gitignore",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-04-10-10-list-overlap-comprehensions.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-11-30-21-write-to-a-file.md",
@@ -456,15 +472,7 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-01-29-character-input.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-rock-paper-scissors.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-26-list-comprehensions-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/all-exercises.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-list-comprehensions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-string-lists-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-19-list-overlap-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-03-05-divisors-solutions.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/string-lists.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/random-number-guess.md",
-		"/home/mprat/Dropbox/Resumes, etc./resume_complete.tex",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-02-26-divisors.md"
+		"/home/mprat/Documents/Michele/Repos/practicepython/_drafts/all-exercises.md"
 	],
 	"find":
 	{
@@ -483,6 +491,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    ",
+			"     ",
+			"      ",
+			", ",
+			"068d1e6d10e01baf44cd",
 			"line-height",
 			"li",
 			" ",
@@ -605,12 +618,7 @@
 			"ul.det",
 			"ul.deta	",
 			"about",
-			"footer",
-			"foooter",
-			"80%",
-			"h2",
-			"header",
-			"project-"
+			"footer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -634,37 +642,71 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2014-12-6-22-read-from-file.md",
+					"file": "_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4411,
+						"buffer_size": 1197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								755,
+								755
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": true,
-							"WordCountSyntax": "markdown",
+							"WordCountSyntax": "html",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "atom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "xml",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -724,6 +766,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"atom",
+				"atom.xml"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"main.",
+				"css/main.css"
+			],
 			[
 				"",
 				".gitignore"
