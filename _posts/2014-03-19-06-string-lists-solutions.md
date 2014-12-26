@@ -10,4 +10,10 @@ Ask the user for a string and print out whether this string is a palindrome or n
 
 ## Sample solution
 
+### A sample solution using string reversal
+
 <script src="https://gist.github.com/anonymous/9587781.js"></script>
+
+### A sample solution using for loops
+
+{% gist mprat/29985a545306f443a982 stringlists.py %}
