@@ -7,11 +7,13 @@ layout: default
 {% endif %}
 
 {% if page.tags %}
+	<div>
 	<i>
 	{% for tag in page.tags %}
 		{{ tag }}
 	{% endfor %}
 	</i>
+	</div>
 {% endif %}
 
 {{ content }}
