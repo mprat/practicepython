@@ -279,7 +279,23 @@
 			"file": "_posts/2014-12-27-24-draw-a-game-board.md",
 			"settings":
 			{
-				"buffer_size": 1670,
+				"buffer_size": 1663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/2014-12-27-24-list-of-lists.md",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-04-16-11-check-primality-functions-solutions.md",
+			"settings":
+			{
+				"buffer_size": 1731,
 				"line_ending": "Unix"
 			}
 		}
@@ -328,7 +344,7 @@
 	"expanded_folders":
 	[
 		"/Users/mprat/Documents/repos/practicepython",
-		"/Users/mprat/Documents/repos/practicepython/_layouts",
+		"/Users/mprat/Documents/repos/practicepython/_drafts",
 		"/Users/mprat/Documents/repos/practicepython/_posts",
 		"/Users/mprat/Documents/repos/practicepython/assets",
 		"/Users/mprat/Documents/repos/practicepython/css",
@@ -336,6 +352,8 @@
 	],
 	"file_history":
 	[
+		"/Users/mprat/Documents/repos/gear-db-django/geardb/gear/templates/gear/gear.html",
+		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-27-24-draw-a-game-board.md",
 		"/Users/mprat/Documents/repos/practicepython/_drafts/draw-a-game-board.md",
 		"/Users/mprat/Documents/repos/practicepython/_posts/2014-12-27-24-list-of-lists.md",
 		"/Users/mprat/Documents/repos/practicepython/atom.xml",
@@ -461,9 +479,7 @@
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-16-check-primality-functions.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-25-list-ends.md",
 		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-guessing-game-1.md",
-		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-rock-paper-scissors-solutions.md",
-		"/home/mprat/Documents/Michele/MEET/y1groupprojs/feedback.txt",
-		"/home/mprat/Dropbox/advisors.txt"
+		"/home/mprat/Documents/Michele/Repos/practicepython/_posts/2014-04-02-rock-paper-scissors-solutions.md"
 	],
 	"find":
 	{
@@ -628,7 +644,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -637,25 +653,89 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1670,
+						"buffer_size": 1663,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								328,
+								184
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
 							"WordCountSyntax": "markdown",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_drafts/2014-12-27-24-list-of-lists.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "markdown",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2014-04-16-11-check-primality-functions-solutions.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1650,
+								1650
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown (jekyll)",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
