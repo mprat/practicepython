@@ -70,7 +70,7 @@ For example:
 
 What will happen is the loop will print out the phrase "Inside the loop" forever and ever. If you are running your computer, you will have to "kill the program" to stop it. Each operating system has a different way of "killing a program" to get out of an infinite loop. 
 
-On Linux: in the terminal, type "CTRL-D" to kill the program that is currently running in the terminal. 
+On Linux: in the terminal, type "CTRL-C" to kill the program that is currently running in the terminal. If you are using the IDLE Python IDE, then you must press "CTRL-D" to exit your running program. When in doubt, do a Google search before you start programming!
 
 On Windows: type "CTRL-ALT-DEL" and open the task manager to kill the program. 
 
