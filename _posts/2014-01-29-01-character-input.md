@@ -77,6 +77,13 @@ print("4" + "chan")
 print(str(4) + "chan")
 {% endhighlight %}
 
-The same works for multiplication, but division and subtraction do not work like this. 
+The same works for multiplication:
+
+{% highlight python %}
+
+print(4 * "test")
+{% endhighlight %}
+
+ but division and subtraction do not work like this. In terms of multiplication, the idea of multiplyling two strings together is not well-defined. What does it mean to multiply two strings in the first place? However, it makes sense in a way to specify multiplying a string by a number - just repeat that string that number of times. Try this in your own program with all the arithmetic operations with numbers and strings - the best way to get a feel for what works and what doesn't is to try it!
 
 {% include submit.md %}
