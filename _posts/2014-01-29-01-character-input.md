@@ -32,7 +32,7 @@ For example,
 
 {% highlight python %}
 name = input("Give me your name: ")
-print "Your name is " + name
+print("Your name is " + name)
 {% endhighlight %}
 
 What this will print in the terminal (or the shell, whatever you are running Python in) will be: 
