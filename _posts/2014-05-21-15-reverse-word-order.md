@@ -66,7 +66,7 @@ Then `result` contains:
 You can also relatively easily "join" or "smush" strings together: 
 
 {% highlight python %}
-  listofstrings = "['a', 'b', 'c']"
+  listofstrings = ['a', 'b', 'c']
   result = "**".join(listofstrings)
 {% endhighlight %}
 
