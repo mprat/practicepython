@@ -44,7 +44,7 @@ Here is another example:
 {% highlight python %}
   while True:
     age = input("How old are you? ")
-    if age > 17: 
+    if age >= 17: 
       print("can see a rated R movie")
     elif age < 17 and age > 12:
       print("can see a rated PG-13 movie")
