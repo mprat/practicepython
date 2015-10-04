@@ -26,3 +26,8 @@ And here is a solution without using functions. It is also a correct solution th
 This solution doesn't use functions, but does use list comprehensions, which are always fun. Thanks to Carlos for this solution. The interesting thing here is the observation that when you want to check if a number is prime, all you need to do is check the numbers from 2 to the square root of the number. This is because the pair of numbers that are both the largest factors of the number are `square root of x` and `square root of x`. Otherwise, the number you are checking for can be found by finding the corresponding factor and checking it. 
 
 <script src="https://gist.github.com/cescapa/c655e8e0c1558660150f.js"></script>
+
+Another solution is a clean, short solution that uses list comprehensions. 
+
+<script src="https://gist.github.com/anonymous/34620e5c9feeec8824df.js"></script>
+
