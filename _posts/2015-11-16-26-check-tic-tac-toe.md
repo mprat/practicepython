@@ -50,7 +50,7 @@ also_no_winner = [[1, 2, 0],
 
 ## Topics
 
-This exercise is challenging, but doable with only lists! Lists are nearly the same as lists of lists, just a bit trickier. Remember that to get the first element in a list called `my_list = [5, 10, 15]`, you index it with a variable like so: 
+This exercise is challenging, but doable with only lists (of lists)! Lists of lists are nearly the same as lists, just a bit trickier. Remember that to get the first element in a list called `my_list = [5, 10, 15]`, you index it with a variable like so: 
 
 {% highlight python %}
 	>>> print(my_list[0])
