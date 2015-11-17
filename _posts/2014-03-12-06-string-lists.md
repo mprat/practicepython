@@ -50,7 +50,7 @@ You can also include a third number in the indexing, to count how often you shou
   >>> a = [5, 10, 15, 20, 25, 30, 35, 40]
   >>> a[1:5:2]
   [10, 20]
-  >>> a[0:3:-1]
+  >>> a[3:0:-1]
   [15, 10, 5]
 {% endhighlight %}
 
