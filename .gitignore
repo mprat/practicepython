@@ -2,3 +2,5 @@ _site/
 output.html
 output.txt
 *.sublime-workspace
+.DS_Store
+*.lock
