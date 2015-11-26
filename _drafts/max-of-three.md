@@ -1,0 +1,1 @@
+Find the max of 3 numbers in a function without using the max() function.

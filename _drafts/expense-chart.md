@@ -1,0 +1,1 @@
+Chart of expenses by category from a spreadsheet / csv file.

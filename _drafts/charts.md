@@ -1,0 +1,1 @@
+Given two lines of data in a CSV file, read them in and plot a few different plots in matplotlib.
