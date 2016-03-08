@@ -19,3 +19,7 @@ Extras:
 Great example of a solution including both extras!
 
 <script src="https://gist.github.com/JamieMacIver/10153508.js"></script>
+
+And another:
+
+<script src="https://gist.github.com/avillareal98/9a2b5e5b59880d8ea6f8.js"></script>
