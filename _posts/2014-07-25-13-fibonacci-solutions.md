@@ -14,6 +14,10 @@ There are so many ways that you can use functions to generate Fibonacci numbers.
 
 <script src="https://gist.github.com/anonymous/d470f920048b0d879cb5.js"></script>
 
+And another:
+
+<script src="https://gist.github.com/avillareal98/3b29bb72e35d01bd5bf4.js"></script>
+
 This solution is using what is called the "iterative" method of computing Fibonacci numbers. This means you use some kind of loop to keep adding numbers together to get the next number. 
 
 An alternative way of computing Fibonacci numbers is to use *recursion*, or calling the same function over and over in a special way, to compute the Fibonacci numbers. We will talk about this in a future exercise.
