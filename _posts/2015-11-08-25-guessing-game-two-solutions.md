@@ -18,6 +18,10 @@ As the writer of this program, you will have to choose how your program will str
 
 ## Sample solution
 
+One user implemented an interesting strategy. Based on whether the number was lower or higher than the guess, randomly pick a number in that direction. This code is easy to read, even if it does not achieve the most efficient solution (and depends a little bit on randomness).
+
+<script src="https://gist.github.com/anonymous/4da27a975ad14d590a84.js"></script>
+
 Here is one user solution, implementing binary search: 
 
 <script src="https://gist.github.com/anonymous/97e6b3f876d3b257f5cc.js"></script>

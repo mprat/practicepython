@@ -23,3 +23,7 @@ Great example of a solution including both extras!
 And another:
 
 <script src="https://gist.github.com/avillareal98/9a2b5e5b59880d8ea6f8.js"></script>
+
+And another, with lots of helpful text!
+
+<script src="https://gist.github.com/anonymous/0502baf8a01e3aa53550.js"></script>
