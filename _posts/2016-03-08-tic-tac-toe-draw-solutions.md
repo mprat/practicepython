@@ -3,7 +3,7 @@ layout: post
 number: 27
 chili: 2
 categories: [solution]
-published: True
+published: False
 ---
 
 ## Exercise

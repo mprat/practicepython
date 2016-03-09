@@ -19,3 +19,7 @@ There are so many possible solutions to this exercise, really depending on how f
 The sample solution here is one possible way to answer the question: it generates a string of random characters. It is clean, simple, and elegant. 
 
 <script src="https://gist.github.com/prgrm/a85d2da1a1be791bfdd6.js"></script>
+
+And here is another, using internal Python functions:
+
+<script src="https://gist.github.com/anonymous/4a752288b785312ca840.js"></script>
