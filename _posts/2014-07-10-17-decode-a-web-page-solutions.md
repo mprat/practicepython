@@ -158,3 +158,9 @@ And we have our list of titles!
 
 Take a look the full program with all it's comments here:
 {% gist mprat/df2969142a75b668456c decode-web-page-comments.py %}
+
+## User-submitted solutions
+
+Here are some user solutions!
+
+<script src="https://gist.github.com/anonymous/6470881a65877c2f3e83.js"></script>
