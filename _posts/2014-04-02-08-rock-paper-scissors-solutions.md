@@ -17,3 +17,7 @@ Remember the rules:
 ## Sample solution
 
 <script src="https://gist.github.com/redice99/21ceca1561519f5a12bc.js"></script>
+
+Another sample solution uses a clever way of checking the winner:
+
+<script src="https://gist.github.com/springtan/6f579c3160bdcac2a0df.js"></script>
