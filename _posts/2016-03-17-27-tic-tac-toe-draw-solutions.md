@@ -3,7 +3,6 @@ layout: post
 number: 27
 chili: 2
 categories: [solution]
-published: False
 ---
 
 ## Exercise
@@ -45,6 +44,17 @@ Bonus:
 
 ## Sample solutions
 
+Here is one solution that does not fully complete the exercise, but gives a bit of food for thought. The `drawboard` function is a general function that can be used to draw the game board with any given inputs.
+
+<script src="https://gist.github.com/Sreekaanth91/70c64445c214ca9df8ed.js"></script>
+
+Another solution uses lots of functions, and also checks whether the game has ended!
+
+<script src="https://gist.github.com/cazyw/c2f8d6b4934b2e414055.js"></script>
+
+This solution adds some bonus functions, like checking for a winner! 
+
+<script src="https://gist.github.com/maze88/effa1a7ce480c0e54ccf.js"></script>
 
 
 Happy hacking!
