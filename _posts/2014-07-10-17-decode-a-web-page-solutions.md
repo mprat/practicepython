@@ -57,14 +57,14 @@ After this, BeautifulSoup is the tool we use to recode the HTML. In [the same do
 
 Next we need to figure out what exactly we need to look for in the HTML decoding of the New York Times webpage. I will explain how to do this in the Chrome browser - it works in other browsers but the instructions may be slightly different. Right-click on the page, and click "Inspect Element." Like so: 
 
-<figure class="twocol-figure">
+<figure class="twocol-figure text-center">
   <img src="{{ site.baseurl }}/assets/img/inspect_element.png" width="100%">
   <figcaption>Figure 1: How to Inspect the HTML on a Page</figcaption>
 </figure>
 
 What pops up at the bottom of the page contains all the HTML that makes up the page. Let us now find the HTML that exactly describes the headlines of the main page. Pick a headline - let's take "Germans Order Expulsion of Top U.S. Spy in Espionage Case". Now click the magnifying glass at the bottom of the page: 
 
-<figure class="twocol-figure">
+<figure class="twocol-figure text-center">
   <img src="{{ site.baseurl }}/assets/img/magnifying_glass.png" width="100%">
   <figcaption>Figure 2: The Magnifying Glass</figcaption>
 </figure>
@@ -75,7 +75,7 @@ And move the mouse to click on the title we chose. You can see that at the botto
   <h2 class="story-heading"> .. </h2>
 {% endhighlight %}
 
-<figure class="twocol-figure">
+<figure class="twocol-figure text-center">
   <img src="{{ site.baseurl }}/assets/img/story-heading.png" width="100%">
   <figcaption>Figure 3: Find the CSS Class</figcaption>
 </figure>
