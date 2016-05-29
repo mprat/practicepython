@@ -38,11 +38,11 @@ When you start to learn programming, why start with Python in particular? A few 
 4. Python reads like English - if there is any language whose code you can look at and just read, it is Python. For example: 
 
 {% highlight python %}
-  for number in range(-4, 5):
-    if number > 0:
-      print("positive")
-    else:
-      print("negative")
+	for number in range(-4, 5):
+	if number > 0:
+	  print("positive")
+	else:
+	  print("negative")
 {% endhighlight %}
 
 What does this program do? It looks at each number in the range of numbers from -4 to 5 (non-inclusive), then checks whether the number is greater than zero or not, printing a message according to that property. Look, English!
