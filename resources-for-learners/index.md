@@ -1,6 +1,6 @@
 ---
 layout: post
-title: External Python Resources
+title: Resources for learning Python (and Programming)
 date: 2016-03-10 12:00:00
 ---
 
