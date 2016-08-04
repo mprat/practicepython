@@ -6,7 +6,9 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2016-03-17-27-tic-tac-toe-draw-solutions %}))
+
+_This exercise is Part 3 of 4 of the Tic Tac Toe exercise series. The other 3 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}), [Part 2]({{ site.baseurl }}{% post_url 2015-11-16-26-check-tic-tac-toe %}), and [Part 4]({{ site.baseurl }}{% post_url 2016-08-03-28-tic-tac-toe-game %})._
 
 In a [previous exercise]({{ site.baseurl }}{% post_url 2015-11-16-26-check-tic-tac-toe %}) we explored the idea of using a list of lists as a "data structure" to store information about a tic tac toe game. In a tic tac toe game, the "game server" needs to know where the `X`s and `O`s are in the board, to know whether player 1 or player 2 (or whoever is `X` and `O` won).
 

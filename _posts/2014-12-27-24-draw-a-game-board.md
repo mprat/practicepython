@@ -6,7 +6,9 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2015-11-01-24-draw-a-game-board-solutions %}))
+
+_This exercise is Part 1 of 4 of the Tic Tac Toe exercise series. The other 3 exercises are: [Part 2]({{ site.baseurl }}{% post_url 2015-11-16-26-check-tic-tac-toe %}), [Part 3]({{ site.baseurl }}{% post_url 2015-11-26-27-tic-tac-toe-draw %}), and [Part 4]({{ site.baseurl }}{% post_url 2016-08-03-28-tic-tac-toe-game %})._
 
 Time for some fake graphics! Let's say we want to draw game boards that look like this: 
 

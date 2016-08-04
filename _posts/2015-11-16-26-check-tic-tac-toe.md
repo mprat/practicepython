@@ -6,7 +6,9 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2015-11-23-26-check-tic-tac-toe-solutions %}))
+
+_This exercise is Part 2 of 4 of the Tic Tac Toe exercise series. The other 3 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}), [Part 3]({{ site.baseurl }}{% post_url 2015-11-26-27-tic-tac-toe-draw %}), and [Part 4]({{ site.baseurl }}{% post_url 2016-08-03-28-tic-tac-toe-game %})._
 
 In a [previous exercise]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}) we drew a Tic Tac Toe board. As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
 
