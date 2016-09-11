@@ -6,7 +6,7 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise
+## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2016-09-11-29-tic-tac-toe-game-solutions %}))
 
 _This exercise is Part 4 of 4 of the Tic Tac Toe exercise series._
 
@@ -23,7 +23,7 @@ Here are a few things to keep in mind:
 * You should keep track of who won - if there is a winner, show a congratulatory message on the screen.
 * If there are no more moves left, don't ask for the next player's move!
 
-As a bonus, you can ask the players if tehy want to play again and keep a running tally of who won more - Player 1 or Player 2.
+As a bonus, you can ask the players if they want to play again and keep a running tally of who won more - Player 1 or Player 2.
 
 # Tips
 
