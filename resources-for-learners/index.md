@@ -13,7 +13,7 @@ coursera
 # Online courses (for a fee)
 
 treehouse
-udacity
+udemy
 
 # General resources
 
