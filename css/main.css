@@ -40,7 +40,7 @@ code, pre {
 	padding-top: 3px;
 }
 
-.header h1 { 
+.header h1 {
 	font-size: 2em;
 	line-height: 2em;
 	font-family: Tahoma, sans-serif;
@@ -70,7 +70,7 @@ code, pre {
 	line-height: 1.5em;
 }
 
-.midheader { 
+.midheader {
 	border-style: solid;
 	border-bottom-width: 3px;
 }
@@ -84,13 +84,13 @@ code, pre {
 	margin-top: 20px;
 }
 
-.boxframe h1, .boxframe h2, .boxframe h3, .boxframe h4 { 
+.boxframe h1, .boxframe h2, .boxframe h3, .boxframe h4 {
 	margin-top: 0.75em;
 	margin-bottom: 0.5em;
 	font-family: Tahoma, sans-serif;
 }
 
-.boxframe h4 { 
+.boxframe h4 {
 	text-transform: uppercase;
 }
 
@@ -162,6 +162,10 @@ img{
 
 .rightmargin{
 	margin-right: 5px;
+}
+
+.aboutform{
+	
 }
 
 @media all and (min-width: 800px){
