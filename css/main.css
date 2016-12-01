@@ -52,6 +52,10 @@ code, pre {
 	line-height: 1.75em;
 }
 
+.boxframe > iframe {
+	width: 50%;
+}
+
 .header li{
 	list-style: none;
 	display: inline-block;
@@ -165,7 +169,7 @@ img{
 }
 
 .aboutform{
-	
+
 }
 
 @media all and (min-width: 800px){
