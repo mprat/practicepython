@@ -179,6 +179,12 @@ img{
 .header-text {
 }
 
+.twitter-icon {
+	display: inline;
+	float: right;
+	margin: 3px;
+}
+
 @media all and (max-width: 800px){
 	.logo {
 		margin-left: auto;
