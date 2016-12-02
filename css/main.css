@@ -172,6 +172,21 @@ img{
 
 }
 
+.logodiv{
+	display: inline;
+}
+
+.header-text {
+}
+
+@media all and (max-width: 800px){
+	.logo {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+}
+
 @media all and (min-width: 800px){
 	.left {
 		float: left;
@@ -189,5 +204,11 @@ img{
 		width: 75%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.header-text{
+		display: inline;
+		width: 90%;
+		float: right;
 	}
 }
