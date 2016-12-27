@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Why Programming? Why Python? Why Now?
-date: 2013-12-30 12:00:00
+date: 2013-12-30
+categories: [blog]
+permalink: why-practice-python
 ---
+
+Programming is the missing link in education. It lets you explore, play, work with others, and fail in a safe environment. Everyone should learn to program.
+
+<!-- more -->
 
 ## Programming is the Missing Link in Education
 
@@ -23,26 +29,26 @@ Programming is the perfect sandbox. Remember back to your 5-year-old days playin
 
 Why is programming an effective education?
 
-1. It is **problem-driven** and **individualized**. By definition, every program you write is solving a problem. Why? Because every program accomplishes a task - the problem is as simple as “I can’t accomplish this task.” For example, if I asked you to write all the factors of 10 on a piece of paper in less than 10 seconds, that’s your problem. Maybe this one is easy, but then I can ask you to do the same for the number 123456789 (still in 10 seconds). Not ready to solve that problem yet? Not to worry - there are plenty of easier problems out there waiting for you to solve them! Have an extra afternoon this week? Not to worry - you can do another problem! You can work at your own pace in solving small problems. 
-2. It is **fun**. The satisfaction of making your computer output text to you for the first time is pure joy - I still remember the time when my father taught me the “echo” command in the DOS prompt. I thought I was so cool. 
-3. It is **safe from failure**. Programming exercises are not mission-critical; if you mess up the first 100 times, no one is going to die as a result of your typo. No horrific droughts, no estrangements from relatives, no forest fires. You just take that you messed up and try again. 
-4. It is a **community**. Because there are countless others solving programming problems (in Python), you can always ask a question. 
+1. It is **problem-driven** and **individualized**. By definition, every program you write is solving a problem. Why? Because every program accomplishes a task - the problem is as simple as “I can’t accomplish this task.” For example, if I asked you to write all the factors of 10 on a piece of paper in less than 10 seconds, that’s your problem. Maybe this one is easy, but then I can ask you to do the same for the number 123456789 (still in 10 seconds). Not ready to solve that problem yet? Not to worry - there are plenty of easier problems out there waiting for you to solve them! Have an extra afternoon this week? Not to worry - you can do another problem! You can work at your own pace in solving small problems.
+2. It is **fun**. The satisfaction of making your computer output text to you for the first time is pure joy - I still remember the time when my father taught me the “echo” command in the DOS prompt. I thought I was so cool.
+3. It is **safe from failure**. Programming exercises are not mission-critical; if you mess up the first 100 times, no one is going to die as a result of your typo. No horrific droughts, no estrangements from relatives, no forest fires. You just take that you messed up and try again.
+4. It is a **community**. Because there are countless others solving programming problems (in Python), you can always ask a question.
 
 ## Python is the Answer
 
-When you start to learn programming, why start with Python in particular? A few reasons: 
+When you start to learn programming, why start with Python in particular? A few reasons:
 
-1. Python is industry standard. If you learn / master it and want a software engineering job, this is one step. Google and YouTube both have sections of their back-end software written in Python. 
-2. There is a large community of developers in Python. Sharing, commenting, looking at other's code is exactly the way to learn more. (See educational criterion number 4 from above) 
-3. There are scores of libraries written in Python to solve many tasks. There are new tools and libraries being developed every day, so you can automate any kind of task you can think of in Python. The fuzzywuzzy library implements fuzzy search; the Youtube-dl package lets you download YouTube videos; the this package shows the text of “The Zen of Python” on the screen; etc. 
-4. Python reads like English - if there is any language whose code you can look at and just read, it is Python. For example: 
+1. Python is industry standard. If you learn / master it and want a software engineering job, this is one step. Google and YouTube both have sections of their back-end software written in Python.
+2. There is a large community of developers in Python. Sharing, commenting, looking at other's code is exactly the way to learn more. (See educational criterion number 4 from above)
+3. There are scores of libraries written in Python to solve many tasks. There are new tools and libraries being developed every day, so you can automate any kind of task you can think of in Python. The fuzzywuzzy library implements fuzzy search; the Youtube-dl package lets you download YouTube videos; the this package shows the text of “The Zen of Python” on the screen; etc.
+4. Python reads like English - if there is any language whose code you can look at and just read, it is Python. For example:
 
 {% highlight python %}
-	for number in range(-4, 5):
-	if number > 0:
-	  print("positive")
-	else:
-	  print("negative")
+    for number in range(-4, 5):
+        if number > 0:
+            print("positive")
+        else:
+            print("negative")
 {% endhighlight %}
 
 What does this program do? It looks at each number in the range of numbers from -4 to 5 (non-inclusive), then checks whether the number is greater than zero or not, printing a message according to that property. Look, English!

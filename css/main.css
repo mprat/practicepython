@@ -132,6 +132,11 @@ img{
 	width: 50%;
 }*/
 
+figure figcaption {
+	text-align: center;
+	display: block;
+}
+
 .logo-small{
 	width: 25px;
 	height: 25px;
@@ -183,6 +188,12 @@ img{
 	display: inline;
 	float: right;
 	margin: 3px;
+}
+
+.post-img{
+	width: 80%;
+	margin: auto;
+	display: block;
 }
 
 @media all and (max-width: 800px){
