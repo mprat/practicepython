@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% if page.tags %}
+	<div>
+	<i>
+	{% for tag in page.tags %}
+		{{ tag }}
+	{% endfor %}
+	</i>
+	</div>
+{% endif %}
+
+{{ content }}
+
+{% if jekyll.environment == 'production' %}
+	{% include comments.html %}
+{% endif %}

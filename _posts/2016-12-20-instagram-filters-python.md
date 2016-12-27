@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: Instagram Filters in 15 Lines of Python
 categories: [blog]
 ---
@@ -44,7 +44,7 @@ Let's import a picture (I am using a picture I took in downtown Seattle that is 
 For this code to work, make sure the `skyline.jpg` image is in the same folder as your Python script. If it is not in the same folder, just put the full or relative path of the file into the `imread` function.
 
 {% highlight python %}
-original_image = skimage.img_as_float(skimage.io.imread("skyline.jpg"))
+original_image = skimage.img_as_float(io.imread("skyline.jpg"))
 {% endhighlight %}
 
 If you want to see the image, you can use `matplotlib`:
@@ -78,7 +78,7 @@ Sharpening an image is the same as removing a blurred version of the image from 
 
 {% highlight python %}
 def sharpen(image, a, b, sigma=10):
-    blurred = skimage.filters.gaussian(image, sigma=sigma, multichannel=True)
+    blurred = filters.gaussian(image, sigma=sigma, multichannel=True)
     sharper = np.clip(image * a - blurred * b, 0, 1.0)
     return sharper
 {% endhighlight %}
@@ -297,7 +297,7 @@ def channel_adjust(channel, values):
     flat_channel = channel.flatten()
     adjusted = np.interp(flat_channel, np.linspace(0, 1, len(values)), values)
     return adjusted.reshape(orig_size)
-original_image = skimage.img_as_float(skimage.io.imread("skyline.jpg"))
+original_image = skimage.img_as_float(io.imread("skyline.jpg"))
 r = original_image[:, :, 0]
 b = original_image[:, :, 2]
 r_boost_lower = channel_adjust(r, [
@@ -306,7 +306,7 @@ r_boost_lower = channel_adjust(r, [
     0.95, 1.0])
 b_more = np.clip(b + 0.03, 0, 1.0)
 merged = np.stack([r_boost_lower, original_image[:, :, 1], b_more], axis=2)
-blurred = skimage.filters.gaussian(merged, sigma=10, multichannel=True)
+blurred = filters.gaussian(merged, sigma=10, multichannel=True)
 final = np.clip(merged * 1.3 - blurred * 0.3, 0, 1.0)
 b = final[:, :, 2]
 b_adjusted = channel_adjust(b, [
