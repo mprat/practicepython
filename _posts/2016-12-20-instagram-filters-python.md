@@ -140,7 +140,7 @@ def channel_adjust(channel, values):
     return adjusted.reshape(orig_size)
 {% endhighlight %}
 
-We will take in a single image channel (either the red, blue, or green channel), and specify a list of float values that will serve as our interpolation points. The channel will then be broken into that many segments, and the points originally from those segments will be linearly interpolated according to the values. For example, if I specify the `values` as [0, 0.05, 0.5, 0.95, 1.0], the values from [0, 1.0] will be broken into 5 equal buckets: [0, 0.25, 0.5, 0.75, 1.0], and each segment of values will be mapped to the output values. So the range [0, 0.25] will be re-mapped linearly to the range [0, 0.25]. The range [0.25, 0.5] will be mapped to the range [0.05, 0.5], and so on.
+We will take in a single image channel (either the red, blue, or green channel), and specify a list of float values that will serve as our interpolation points. The channel will then be broken into that many segments, and the points originally from those segments will be linearly interpolated according to the values. For example, if I specify the `values` as [0, 0.05, 0.5, 0.95, 1.0], the values from [0, 1.0] will be broken into 5 equal buckets: [0, 0.25, 0.5, 0.75, 1.0], and each segment of values will be mapped to the output values. So the range [0, 0.25] will be re-mapped linearly to the range [0, 0.05]. The range [0.25, 0.5] will be mapped to the range [0.05, 0.5], and so on.
 
 A visualization of what the code is doing is shown below:
 
