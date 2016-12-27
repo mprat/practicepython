@@ -238,7 +238,7 @@ And the image changes:
 
 ### Step 2
 
-Next, we'll make the blacks a little bit bluer, by simply adding `0.3` to every single black pixel value. This makes everything that is already blue, bluer. We'll merge the image back together to see where we are at now. We use `np.clip` to make sure none of the image pixel values end up outside the allowed image range, so in some cases we are saturating the blue channel.
+Next, we'll make the blacks a little bit bluer, by simply adding `0.03` to every single black pixel value. This makes everything that is already blue, bluer. We'll merge the image back together to see where we are at now. We use `np.clip` to make sure none of the image pixel values end up outside the allowed image range, so in some cases we are saturating the blue channel.
 
 {% highlight language %}
 bluer_blacks = merge_channels(r_boost_lower, g, np.clip(b + 0.03, 0, 1.0))
