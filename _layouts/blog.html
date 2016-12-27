@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.title %}
+	<span><h1 class="pagetitle">{{ page.title }} </h1>
+{% endif %}
+
 {% if page.tags %}
 	<div>
 	<i>
