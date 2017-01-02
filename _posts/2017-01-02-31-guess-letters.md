@@ -16,11 +16,11 @@ Let's say the word the player has to guess is "EVAPORATE". For this exercise, wr
 An example interaction can look like this:
 
 {% highlight pycon %}
-Welcome to Hangman!
+>>> Welcome to Hangman!
 _ _ _ _ _ _ _ _ _
-Guess your letter: S
+>>> Guess your letter: S
 Incorrect!
-Guess your letter: E
+>>> Guess your letter: E
 E _ _ _ _ _ _ _ E
 ...
 {% endhighlight %}
