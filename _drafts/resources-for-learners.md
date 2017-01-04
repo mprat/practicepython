@@ -4,7 +4,6 @@ title: Resources for Learning Python and Programming
 categories: [blog]
 slug: resources-for-learners
 permalink: /:slug/
-published: false
 ---
 
 Practice Python aims to provide basic exercises for Python learners to discover Python, but it is certainly not complete. There are plenty of other resources out there online (both free and not free) that Practice Python recommends. _This page contains affiliate links._
@@ -29,10 +28,12 @@ There are many free resources out there to help you learn Python. Often the down
 
 # Online courses (for a fee)
 
-* treehouse
-* udemy - automate the boring stuff with python
+Another way to learn Python and programming is to pay for guided courses.
+
+* [Treehouse](http://treehouse.7eer.net/c/348966/245646/3944) - This company makes easy, digestible courses across a variety of subjects. On top of that, Treehouse as a company has a great work philosophy, and I will happily recommend anything this company produces. To see if you like it, sign up for the free account and check it out!
+* [Udemy](http://click.linksynergy.com/fs-bin/click?id=xcNOXHETw7Y&offerid=323058.7&type=3&subid=0) - With hundreds of course offerings across disciplines you might never even have heard of, Udemy is a platform where subject experts create courses with videos, worksheets, and exercises. One of my favorite courses is called [Automate the Boring Stuff with Python](http://click.linksynergy.com/fs-bin/click?id=xcNOXHETw7Y&offerid=323058.3099&type=3&subid=0), but there are many more on the platform, with even more being added daily.
 
 # General resources
 
-* pythontutor
-* repl.it
+* [PythonTutor](http://pythontutor.com/) - A friend's website visualizes the line-by-line execution of any Python program you write, directly into the browser! He recently updated the site to include other languages as well.
+* [repl.it](https://repl.it/languages/python3) - If you don't want to download a text editor, you can code Python 3 directly in the cloud! You can share your programs, and there are other supported languages.

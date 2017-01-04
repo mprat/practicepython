@@ -20,3 +20,4 @@ If you are teaching Python (or any other programming language, for that matter) 
 # Miscellaneous
 
 * Terminus
+* [repl.it for the classroom](https://repl.it/site/classrooms)
