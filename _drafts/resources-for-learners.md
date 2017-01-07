@@ -4,6 +4,7 @@ title: Resources for Learning Python and Programming
 categories: [blog]
 slug: resources-for-learners
 permalink: /:slug/
+published: false
 ---
 
 Practice Python aims to provide basic exercises for Python learners to discover Python, but it is certainly not complete. There are plenty of other resources out there online (both free and not free) that Practice Python recommends. _This page contains affiliate links._
