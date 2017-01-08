@@ -2,10 +2,11 @@
 layout: post
 number: 31
 chili: 2
-categories: [exercise]
+categories: [solution]
+published: true
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2017-01-08-31-guess-letters-solutions %}))
+## [Exercise]({{ site.baseurl }}{% post_url 2017-01-02-31-guess-letters %})
 
 _This exercise is Part 2 of 3 of the Hangman exercise series. The other 2 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %}) and [Part 3]({{ site.baseurl }}/exercise/comingsoon)._
 
@@ -27,6 +28,25 @@ E _ _ _ _ _ _ _ E
 
 And so on, until the player gets the word.
 
-Happy Coding!
+## Sample solution
 
-{% include submit.md %}
+To write the logic of our Hangman game, we need a few components:
+
+1. A way to store the word in play
+2. Keep track of which letters in the word have already been guessed
+3. Ask the user for a letter and display the results
+
+As a bonus, we can add the component of displaying a different message if the user has already guessed that letter.
+
+Things to keep in mind:
+
+* Upper-case letters and lower-case letters are not equal! When you do `'a' == 'A'` in Python, the result will be FALSE! So make sure to do all your operations in either lowercase or uppercase.
+* It is much faster to check whether an element is in a set than a list. This is not important for the correctness of your program, but it is a good thing to keep in mind for when your programs become more complex.
+
+Here is one sample solution:
+
+<script src="https://gist.github.com/anonymous/c39e3b9db1764a3a119f6dc90905c2b2.js"></script>
+
+The only thing I would change here is on line 9, change `lstGuessed` to a `set()`, so that on line 12, the `in` check will be very fast.
+
+As always, play on!
