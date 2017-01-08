@@ -7,7 +7,9 @@ permalink: /:slug/
 published: false
 ---
 
-If you are teaching Python (or any other programming language, for that matter) to beginners, you might be looking for a few resources both to help you teach and to help your students learn. This page contains a list of my favorite Python teaching resources. Check out the page about [Resources for Learners]({{ site.baseurl }}/resources-for-learners/) to suggest resources to your students.
+If you are teaching Python (or any other programming language, for that matter) to beginners, you might be looking for a few resources both to help you teach and to help your students learn. This page contains a list of my favorite Python teaching resources. Check out the page about [Resources for Learners]({{ site.baseurl }}/resources-for-learners/) to suggest resources to your students, both free and paid. _This page contains affiliate links._
+
+<!--more-->
 
 # Sources of Python exercises
 
