@@ -21,6 +21,8 @@ Benjamin Franklin
 >>> Benjamin Franklin's birthday is 01/17/1706.
 {% endhighlight %}
 
+Happy coding!
+
 ## Discussion topics
 
 1. Dictionaries
@@ -143,5 +145,34 @@ These checks can be used together with `if` statements to make more complex prog
 
 ### String formatting
 
+We've talked about strings a lot on this blog:
 
-* INTRODUCE THE % NOTATION IN STRING FORMATTING
+* [Exercise 1 about printing basic strings]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
+* [Exercise 6 about turning strings into lists]({{ site.baseurl }}{% post_url 2014-03-12-06-string-lists %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
+* [Exercise 15 where `join` statements are introduced]({{ site.baseurl }}{% post_url 2014-05-21-15-reverse-word-order %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
+
+But we want to introduce one more optional concept for this exercise related to string formatting. There are a number of ways to format strings in Python, so I am just going to show you one quick way for a scenario you find yourself in often while programming.
+
+A common scenario is like this: you want to print both a string and a number in the same line using one `print()` statement. You can solve this problem like so:
+
+{% highlight python %}
+>>> a = 1
+>>> b = 10
+>>> print("my number is " + str(a) + " and his number is " + str(b))
+my number is 1 and his number is 10
+{% endhighlight %}
+
+But it gets tedious to use `+` and `str()`. Instead, you can use the `.format()` method to _cast_ (i.e. transform) your number into a string when it gets printed.
+
+{% highlight python %}
+>>> a = 1
+>>> b = 10
+>>> print("my number is {} and his number is {}".format(a, b))
+my number is 1 and his number is 10
+{% endhighlight %}
+
+What we are doing is substituting the symbol `{}` in the print statement in the string we want to display in the exact place we want the number to go, and use the `.format()` to pass variables to the `{}` that appear in order. What happens is the variables `a` and `b` get converted into strings automatically and injected into our `print` statement cleanly. You can do this with floats, lists, dictionaries, or anything else you want to display.
+
+There are a number of different formatting options if you want to get specific about how many decimal points to display, etc., but that is out of the scope of this exercise. If you want to read more about string formatting in Python, you can read about it [on this helpful website that goes into a great amount of detail](https://pyformat.info/).
+
+Happy coding!
