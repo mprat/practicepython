@@ -5,7 +5,7 @@ chili: 3
 categories: [solution]
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})
 
 In 3 previous exercises, we built up a few components needed to build a Tic Tac Toe game in Python:
 

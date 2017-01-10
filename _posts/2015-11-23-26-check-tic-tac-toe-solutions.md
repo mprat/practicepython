@@ -6,7 +6,7 @@ categories: [solution]
 published: True
 ---
 
-## Exercise
+## Exercise {{ page.number }}
 
 In a [previous exercise]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}) we drew a Tic Tac Toe board. As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
 

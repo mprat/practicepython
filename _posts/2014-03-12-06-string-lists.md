@@ -5,7 +5,7 @@ chili: 2
 categories: [exercise]
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-03-19-06-string-lists-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-03-19-06-string-lists-solutions %}))
 
 Ask the user for a string and print out whether this string is a palindrome or not. (A **palindrome** is a string that reads the same forwards and backwards.)
 

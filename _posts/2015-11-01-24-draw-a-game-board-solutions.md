@@ -5,8 +5,7 @@ categories: [solution]
 published: True
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %})
-
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %})
 
 Time for some fake graphics! Let's say we want to draw game boards that look like this: 
 

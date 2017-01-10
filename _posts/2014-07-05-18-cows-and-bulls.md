@@ -5,7 +5,7 @@ chili: 3
 categories: [exercise]
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-07-18-18-cows-and-bulls-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-07-18-18-cows-and-bulls-solutions %}))
 
 Create a program that will play the "cows and bulls" game with the user. The game works like this:
 

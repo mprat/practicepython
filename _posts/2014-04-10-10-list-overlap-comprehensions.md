@@ -5,7 +5,7 @@ chili: 2
 categories: [exercise]
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-04-16-10-list-overlap-comprehensions-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-04-16-10-list-overlap-comprehensions-solutions %}))
 
 This week's exercise is going to be revisiting an old exercise (see [Exercise 5]({% post_url 2014-03-05-05-list-overlap %})), except require the solution in a different way. 
 

@@ -6,7 +6,7 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2015-11-23-26-check-tic-tac-toe-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2015-11-23-26-check-tic-tac-toe-solutions %}))
 
 _This exercise is Part 2 of 4 of the Tic Tac Toe exercise series. The other 3 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}), [Part 3]({{ site.baseurl }}{% post_url 2015-11-26-27-tic-tac-toe-draw %}), and [Part 4]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})._
 

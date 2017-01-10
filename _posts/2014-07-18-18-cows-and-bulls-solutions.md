@@ -4,7 +4,7 @@ number: 18
 categories: [solution]
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2014-07-05-18-cows-and-bulls %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-07-05-18-cows-and-bulls %})
 
 Create a program that will play the "cows and bulls" game with the user. The game works like this:
 

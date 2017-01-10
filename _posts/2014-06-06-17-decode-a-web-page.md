@@ -5,9 +5,9 @@ chili: 4
 categories: [exercise]
 ---
 
-My sincerest apologies for being late in posting these exercises. My boyfriend came to visit me in Jerusalem for the last two weeks, so I haven't had any spare cycles to tackle the Python problems. I should learn to write a few in advance in case I am ever put in this kind of situation again. In any case, this exercise should make up for the lack of exercises the last few weeks - it's a fun one. This is a slightly longer and more involved exercise than many previous ones, so I will not post the solution for two weeks, but I will post a new exercise next week. Enjoy! 
+This is the first 4-chili exercise of this blog! We'll see what people think, and decide whether or not to continue with 4-chili exercises in the future. 
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %}))
 
 Use the `BeautifulSoup` and `requests` Python packages to print out a list of all the article titles on the [New York Times homepage](http://www.nytimes.com).
 

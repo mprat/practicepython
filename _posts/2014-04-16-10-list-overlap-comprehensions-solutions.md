@@ -4,7 +4,7 @@ number: 10
 categories: [solution]
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2014-04-10-10-list-overlap-comprehensions %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-04-10-10-list-overlap-comprehensions %})
 
 This week's exercise is going to be revisiting an old exercise (see [Exercise 5]({% post_url 2014-03-05-05-list-overlap %})), except require the solution in a different way. 
 

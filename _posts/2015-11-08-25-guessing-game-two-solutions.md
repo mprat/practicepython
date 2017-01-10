@@ -5,7 +5,7 @@ categories: [solution]
 published: True
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2015-11-01-25-guessing-game-two %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2015-11-01-25-guessing-game-two %})
 
 In [a previous exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-one %}), we've written a program that "knows" a number and asks a user to guess it.
 

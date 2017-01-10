@@ -4,7 +4,7 @@ number: 3
 categories: [solution]
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-ten %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-ten %})
 
 Take a list, say for example this one: 
 

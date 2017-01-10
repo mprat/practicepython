@@ -5,7 +5,7 @@ chili: 2
 categories: [solution]
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2014-03-05-05-list-overlap %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-03-05-05-list-overlap %})
 
 Take two lists, say for example these two: 
 

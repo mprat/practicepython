@@ -6,7 +6,7 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise (and [Solution]({{ site.baseurl }}{% post_url 2016-09-11-29-tic-tac-toe-game-solutions %}))
+## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2016-09-11-29-tic-tac-toe-game-solutions %}))
 
 _This exercise is Part 4 of 4 of the Tic Tac Toe exercise series._
 

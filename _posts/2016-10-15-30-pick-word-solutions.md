@@ -6,7 +6,7 @@ categories: [solution]
 published: true
 ---
 
-## [Exercise]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %})
+## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %})
 
 _This exercise is Part 1 of 3 of the Hangman exercise series. The other 2 exercises are: [Part 2]({{ site.baseurl }}{% post_url 2017-01-02-31-guess-letters %}) and [Part 3]({{ site.baseurl }}/exercise/comingsoon)._
 

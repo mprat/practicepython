@@ -6,7 +6,7 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise
+## Exercise {{ page.number }}
 
 In [a previous exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-one %}), we've written a program that "knows" a number and asks a user to guess it.
 
