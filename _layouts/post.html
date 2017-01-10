@@ -2,8 +2,10 @@
 layout: default
 ---
 
-{% if page.title %}
+{% if page.title and page.number %}
 	<span><h1 class="pagetitle">{{ page.title | replace: '1', '' | replace: '2', '' | replace: '3', '' | replace: '4', '' | replace: '5', ''  | replace: '6', '' | replace: '7', '' | replace: '8', ''  | replace: '9', ''  | replace: '0', '' }} {% include chili.md chilis=page.chili %} </h1>
+{% else %}
+	<span><h1 class="pagetitle">{{ page.title }} </h1>
 
 <!-- 	</span> <span class="flattr"><a href="https://flattr.com/submit/auto?user_id=mpratland&url={{ site.production_url }}{{ page.url }}" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" width="93" height="20"></a></span> -->
 {% endif %}

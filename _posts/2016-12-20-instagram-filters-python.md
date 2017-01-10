@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Instagram Filters in 15 Lines of Python
 categories: [blog]
 ---
