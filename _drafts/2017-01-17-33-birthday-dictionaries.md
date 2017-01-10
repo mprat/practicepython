@@ -2,12 +2,15 @@
 layout: post
 number: 33
 chili: 1
+part: 1
+of: 4
+part_text: birthday data
 categories: [exercise]
 ---
 
-## Exercise
+## Exercise {{ post.number }}
 
-_This exercise is Part 1 of 4 of the Birthday data exercise series. The other exercises are: [Part 2]({{ site.baseurl }}/exercise/comingsoon), [Part 3]({{ site.baseurl }}/exercise/comingsoon), and [Part 4]({{ site.baseurl }}/exercise/comingsoon)._
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 For this exercise, we will keep track of when our friend's birthdays are, and be able to find that information based on their name. Create a dictionary (in your file) of names and birthdays. When you run your program it should ask the user to enter a name, and return the birthday of that person back to them. The interaction should look something like this:
 

@@ -1,0 +1,3 @@
+{% assign posts = site.categories.exercise | where_exp:"p", "p.part_text == include.part_text" | sort 'part' %}
+
+_This exercise is Part {{ include.part }} of {{ include.part_of }} of the {{ include.part_text }} exercise series. The other exercises are: {% for part_num in (1..include.part_of) %}{% assign post = posts | where:"part", part_num | last %}{% if post %}{% assign link = post.url %}{% else %}{% assign link = "/exercises/comingsoon" %}{% endif %}{% if part_num != include.part %}{% if part_num == include.part_of %}and [Part {{ part_num }}]({{ site.baseurl}}{{ link }})._{% else %}[Part {{ part_num }}]({{ site.baseurl}}{{ link }}), {% endif %}{% endif %}{% endfor %}
