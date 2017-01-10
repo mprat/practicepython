@@ -147,9 +147,9 @@ These checks can be used together with `if` statements to make more complex prog
 
 We've talked about strings a lot on this blog:
 
-* [Exercise 1 about printing basic strings]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
-* [Exercise 6 about turning strings into lists]({{ site.baseurl }}{% post_url 2014-03-12-06-string-lists %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
-* [Exercise 15 where `join` statements are introduced]({{ site.baseurl }}{% post_url 2014-05-21-15-reverse-word-order %}) <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png"> <img class="chili" src="{{ site.baseurl }}/assets/img/chili-liz-20x20.png">
+* [Exercise 1 about printing basic strings]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}) {% include chili.md chilis=1 %}
+* [Exercise 6 about turning strings into lists]({{ site.baseurl }}{% post_url 2014-03-12-06-string-lists %}) {% include chili.md chilis=2 %}
+* [Exercise 15 where `join` statements are introduced]({{ site.baseurl }}{% post_url 2014-05-21-15-reverse-word-order %}) {% include chili.md chilis=3 %}
 
 But we want to introduce one more optional concept for this exercise related to string formatting. There are a number of ways to format strings in Python, so I am just going to show you one quick way for a scenario you find yourself in often while programming.
 
