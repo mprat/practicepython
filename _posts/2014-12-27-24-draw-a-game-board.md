@@ -9,7 +9,7 @@ categories: [exercise]
 published: True
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2015-11-01-24-draw-a-game-board-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 

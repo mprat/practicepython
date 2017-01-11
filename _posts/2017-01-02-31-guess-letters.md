@@ -8,7 +8,7 @@ part_text: Hangman
 categories: [exercise]
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2017-01-08-31-guess-letters-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 

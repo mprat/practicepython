@@ -4,7 +4,7 @@ number: 6
 categories: [solution]
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-03-12-06-string-lists %})
+{% include solution_header.md number=page.number %}
 
 Ask the user for a string and print out whether this string is a palindrome or not. (A **palindrome** is a string that reads the same forwards and backwards.)
 

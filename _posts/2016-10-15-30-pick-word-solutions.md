@@ -9,7 +9,7 @@ categories: [solution]
 published: true
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %})
+{% include solution_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 

@@ -5,7 +5,7 @@ chili: 3
 categories: [exercise]
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-07-18-18-cows-and-bulls-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Create a program that will play the "cows and bulls" game with the user. The game works like this:
 

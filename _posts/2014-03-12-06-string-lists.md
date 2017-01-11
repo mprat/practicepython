@@ -3,9 +3,11 @@ layout: post
 number: 6
 chili: 2
 categories: [exercise]
+tags: [strings, lists, index]
+light_text: turning strings into lists
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-03-19-06-string-lists-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Ask the user for a string and print out whether this string is a palindrome or not. (A **palindrome** is a string that reads the same forwards and backwards.)
 

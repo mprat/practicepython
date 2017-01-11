@@ -7,7 +7,7 @@ categories: [exercise]
 
 This is the first 4-chili exercise of this blog! We'll see what people think, and decide whether or not to continue with 4-chili exercises in the future. 
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Use the `BeautifulSoup` and `requests` Python packages to print out a list of all the article titles on the [New York Times homepage](http://www.nytimes.com).
 

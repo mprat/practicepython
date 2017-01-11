@@ -5,7 +5,7 @@ categories: [solution]
 published: True
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-12-14-23-file-overlap %})
+{% include solution_header.md number=page.number %}
 
 
 Given two `.txt` files that have lists of numbers in them, find the numbers that are overlapping. [One `.txt` file]({{ site.url }}/assets/primenumbers.txt) has a list of all prime numbers under 1000, and [the other `.txt` file]({{ site.url }}/assets/happynumbers.txt) has a list of happy numbers up to 1000.

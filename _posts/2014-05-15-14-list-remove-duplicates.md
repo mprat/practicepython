@@ -5,7 +5,7 @@ chili: 2
 categories: [exercise]
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-05-21-14-list-remove-duplicates-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates. 
 

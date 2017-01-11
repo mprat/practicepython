@@ -3,9 +3,11 @@ layout: post
 number: 15
 chili: 3
 categories: [exercise]
+tags: [strings]
+light_text: where `join` statements are introduced
 ---
 
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-05-28-15-reverse-word-order-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string: 
 

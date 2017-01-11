@@ -6,9 +6,7 @@ categories: [exercise]
 tags: [list, numbers, elements, if, conditional]
 ---
 
-Followers and friends, I apologize for not posting this week. Sometimes life throws you lemons (or appendicitis) and you need to make lemonade (or spend a few nights in the hospital and have emergency surgery). I am now recovering, and this post will be up for a week and a half. Happy hacking! 
-
-## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2014-02-26-03-list-less-than-ten-solutions %}))
+{% include exercise_header.md number=page.number %}
 
 Take a list, say for example this one: 
 

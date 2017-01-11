@@ -9,7 +9,7 @@ categories: [solution]
 published: true
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2017-01-02-31-guess-letters %})
+{% include solution_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 

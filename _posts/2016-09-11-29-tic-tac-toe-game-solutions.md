@@ -8,7 +8,7 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})
+{% include solution_header.md number=page.number %}
 
 In 3 previous exercises, we built up a few components needed to build a Tic Tac Toe game in Python:
 

@@ -4,6 +4,8 @@ number: 19
 categories: [solution]
 ---
 
+{% include solution_header.md number=page.number %}
+
 The [How To Decode A Web Page Two]({{ site.baseurl }}{% post_url 2014-07-14-19-decode-a-web-page-two %}) exercise was a follow-up to the extremely challenging prelude, [How To Decode A Web Page]({{ site.baseurl }}{% post_url 2014-06-06-17-decode-a-web-page %}). The purpose of the original (and the follow-up exercise) was to give people a chance to poke around at a close-to-real application of Python. 
 
 A few people submitted solutions to this exercise (one example is given at the bottom of the page), and many of them used things that I haven't yet talked about in the exercises. I will not go into extreme detail about how to solve this problem - I will just present the important points for one way you could solve this problem. For a more detailed solution to a similar problem, I encourage you to look at the [solution to the previous exercise (How To Decode A Web Page)]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %}).

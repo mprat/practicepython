@@ -8,7 +8,7 @@ part_text: birthday data
 categories: [exercise]
 ---
 
-## Exercise {{ post.number }}
+{% include exercise_header.md number=post.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
@@ -150,9 +150,7 @@ These checks can be used together with `if` statements to make more complex prog
 
 We've talked about strings a lot on this blog:
 
-* [Exercise 1 about printing basic strings]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}) {% include chili.md chilis=1 %}
-* [Exercise 6 about turning strings into lists]({{ site.baseurl }}{% post_url 2014-03-12-06-string-lists %}) {% include chili.md chilis=2 %}
-* [Exercise 15 where `join` statements are introduced]({{ site.baseurl }}{% post_url 2014-05-21-15-reverse-word-order %}) {% include chili.md chilis=3 %}
+{% include exercises_tags.md tag="strings" use_light_text=true %}
 
 But we want to introduce one more optional concept for this exercise related to string formatting. There are a number of ways to format strings in Python, so I am just going to show you one quick way for a scenario you find yourself in often while programming.
 

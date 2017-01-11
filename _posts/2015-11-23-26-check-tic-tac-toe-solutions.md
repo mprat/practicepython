@@ -9,7 +9,7 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-## Exercise {{ page.number }}
+{% include solution_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 

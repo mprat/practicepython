@@ -4,7 +4,7 @@ number: 14
 categories: [solution]
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-05-15-14-list-remove-duplicates %})
+{% include solution_header.md number=page.number %}
 
 Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates. 
 

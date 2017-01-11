@@ -5,7 +5,7 @@ categories: [solution]
 published: True
 ---
 
-## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-11-30-21-write-to-a-file %})
+{% include solution_header.md number=page.number %}
 
 Take the code from the [How To Decode A Website]({{ site.baseurl }}{% post_url 2014-06-06-17-decode-a-web-page %}) exercise (if you didn't do it or just want to play with some different code, use the code from the [solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %})), and instead of printing the results to a screen, write the results to a txt file. In your code, just make up a name for the file you are saving to.
 
