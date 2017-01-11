@@ -4,13 +4,16 @@ number: 26
 chili: 2
 categories: [exercise]
 published: True
+part: 2
+of: 4
+part_text: Tic Tac Toe
 ---
 
 ## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2015-11-23-26-check-tic-tac-toe-solutions %}))
 
-_This exercise is Part 2 of 4 of the Tic Tac Toe exercise series. The other 3 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}), [Part 3]({{ site.baseurl }}{% post_url 2015-11-26-27-tic-tac-toe-draw %}), and [Part 4]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})._
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
-In a [previous exercise]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}) we drew a Tic Tac Toe board. As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
+As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
 
 Today, we will simply focus on checking whether someone has WON a game of Tic Tac Toe, not worrying about how the moves were made.
 

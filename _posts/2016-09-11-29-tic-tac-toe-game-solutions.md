@@ -3,6 +3,9 @@ layout: post
 number: 29
 chili: 3
 categories: [solution]
+part: 4
+of: 4
+part_text: Tic Tac Toe
 ---
 
 ## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-08-03-29-tic-tac-toe-game %})

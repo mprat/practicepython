@@ -4,11 +4,16 @@ number: 26
 chili: 2
 categories: [solution]
 published: True
+part: 2
+of: 4
+part_text: Tic Tac Toe
 ---
 
 ## Exercise {{ page.number }}
 
-In a [previous exercise]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}) we drew a Tic Tac Toe board. As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
+
+As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
 
 Today, we will simply focus on checking whether someone has WON a game of Tic Tac Toe, not worrying about how the moves were made.
 

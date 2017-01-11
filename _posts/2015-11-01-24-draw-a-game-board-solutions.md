@@ -3,9 +3,14 @@ layout: post
 number: 24
 categories: [solution]
 published: True
+part: 2
+of: 4
+part_text: Tic Tac Toe
 ---
 
 ## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %})
+
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 Time for some fake graphics! Let's say we want to draw game boards that look like this: 
 

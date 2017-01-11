@@ -4,11 +4,14 @@ number: 29
 chili: 3
 categories: [exercise]
 published: True
+part: 4
+of: 4
+part_text: Tic Tac Toe
 ---
 
 ## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2016-09-11-29-tic-tac-toe-game-solutions %}))
 
-_This exercise is Part 4 of 4 of the Tic Tac Toe exercise series._
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 In 3 previous exercises, we built up a few components needed to build a Tic Tac Toe game in Python:
 
