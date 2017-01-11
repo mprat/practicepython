@@ -13,7 +13,7 @@
 </div>
 
 <div class="right">
-<h2 class="midheader"> All Solutions: </h2>
+<h2 class="midheader"> All Solutions</h2>
 <ul>
   {% assign count = site.categories.exercise.size %}
   {% assign solist = (site.categories.solution | sort: 'title') %}
