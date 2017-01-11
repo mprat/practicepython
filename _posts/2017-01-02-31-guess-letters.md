@@ -2,12 +2,15 @@
 layout: post
 number: 31
 chili: 2
+part: 2
+of: 3
+part_text: Hangman
 categories: [exercise]
 ---
 
 ## Exercise {{ page.number }} (and [Solution]({{ site.baseurl }}{% post_url 2017-01-08-31-guess-letters-solutions %}))
 
-_This exercise is Part 2 of 3 of the Hangman exercise series. The other 2 exercises are: [Part 1]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %}) and [Part 3]({{ site.baseurl }}/exercise/comingsoon)._
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 Let's continue building Hangman. In the game of Hangman, a clue word is given by the program that the player has to guess, letter by letter. The player guesses one letter at a time until the entire word has been guessed. (In the actual game, the player can only guess 6 letters incorrectly before losing).
 

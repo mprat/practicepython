@@ -2,13 +2,16 @@
 layout: post
 number: 30
 chili: 2
+part: 1
+of: 3
+part_text: Hangman
 categories: [solution]
 published: true
 ---
 
 ## [Exercise {{ page.number }}]({{ site.baseurl }}{% post_url 2016-09-24-30-pick-word %})
 
-_This exercise is Part 1 of 3 of the Hangman exercise series. The other 2 exercises are: [Part 2]({{ site.baseurl }}{% post_url 2017-01-02-31-guess-letters %}) and [Part 3]({{ site.baseurl }}/exercise/comingsoon)._
+{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 In this exercise, the task is to write a function that picks a random word from a list of words from the [SOWPODS dictionary](http://norvig.com/ngrams/sowpods.txt). Download this file and save it in the same directory as your Python code. This file is [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)'s compilation of the dictionary of words used in professional Scrabble tournaments. Each line in the file contains a single word.
 
