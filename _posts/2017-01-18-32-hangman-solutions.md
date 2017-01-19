@@ -2,6 +2,9 @@
 layout: post
 number: 32
 chili: 2
+part: 3
+of: 3
+part_text: Hangman
 categories: [solution]
 ---
 
@@ -29,6 +32,10 @@ Your solution will be a lot cleaner if you make use of functions to help you!
 
 ## Sample Solution
 
-Here is a sample solution that uses the solutions to Parts 1 and 2, and just puts them on one file:
+Here is a sample solution from a reader that uses the solutions to Parts 1 and 2, and just puts them on one file:
 
 <script src="https://gist.github.com/anonymous/8ed14085c77095e106c79952be5588cf.js"></script>
+
+And here's my solution, making more heavy use of functions:
+
+<script src="https://gist.github.com/mprat/ed31902d422353bc572ae8b335150f6c.js"></script>
