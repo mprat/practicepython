@@ -2,7 +2,13 @@
 layout: post
 title: How it Works and How to Submit Solutions
 date: 2013-12-30 12:00:00
+categories: [blog]
+permalink: how-it-works
 ---
+
+This site has regular exercise postings, and if you are quick to submit your solutions, they will be featured on the next week's solution post!
+
+<!--more-->
 
 ## Problems
 
