@@ -1,0 +1,1 @@
+post about how to write code for python 3 and python 2 at the same time (but really everyone should move to Python 3)

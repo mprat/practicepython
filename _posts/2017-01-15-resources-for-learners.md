@@ -6,7 +6,7 @@ slug: resources-for-learners
 permalink: /:slug/
 ---
 
-Practice Python aims to provide basic exercises for Python learners to discover Python, but it is certainly not complete. There are plenty of other resources out there online (both free and not free) that Practice Python recommends. _This page contains affiliate links._
+Practice Python aims to provide basic exercises for Python learners to discover Python, but it is certainly not a full and comprehensive resource. There are plenty of other resources out there online (both free and not free) that Practice Python recommends.
 
 <!--more-->
 
@@ -16,7 +16,7 @@ This page contains a collection of resources for learners of Python - some are c
 
 There are many free resources out there to help you learn Python. Often the downside of free resources is that the usability is not great, or it requires some digging to find some useful content. If you are patient, it can pay off nicely. Some of my favorites:
 
-* [Codeacademy](https://www.codecademy.com/learn/python){:target="_blank"}. One of my favorite online courses about Python is completely free on Codeacademy. They create great courses (with some sandboxed environments included, so no installation needed!) on a variety of programming languages, and their Python course is great.
+* [Codeacademy](https://www.codecademy.com/learn/python){:target="_blank"}. One of my favorite online courses about Python is completely free on Codeacademy. They create great courses (with some sandboxed environments included, so no installation needed!) on a variety of programming languages, and their Python course is great. They will try to upsell you into buying their "premium" course, but I found the free one to be good.
 
 * [OCW (OpenCourseWare) from MIT](http://ocw.mit.edu){:target="_blank"} - this initiative was started in 2001 to make public materials from courses taught at MIT. It is a collection of materials, so you are responsible for pacing yourself, finding the right materials, checking your work, etc. If you are patient enough, you can find the goldmine of materials in the entire site. My biggest beef with this website is the usability - it is really hard to find what kinds of courses you are looking for unless you know the course numbers at MIT. Fortunately, I do. Here are some free reference materials that can provide lecture notes, exercises, and the occasional video:
 
