@@ -58,7 +58,7 @@ info_about_me = {
 }
 {% endhighlight %}
 
-Then, to save your dictionary to disk you need to open a file and use the `json.dump()` method:
+Then, to save your dictionary to disk you need to open a file and use the `json.dump()` method. Remember to use the `w` flag when opening a file for writing:
 
 {% highlight python %}
 with open("info.json", "w") as f:
@@ -70,7 +70,7 @@ And you will have saved a file called `info.json` in the same directory as your 
 {% highlight json %}
 {
     "name": "Michele",
-    "has_a_dog": False
+    "has_a_dog": false
 }
 {% endhighlight %}
 
