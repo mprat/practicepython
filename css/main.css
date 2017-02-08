@@ -24,6 +24,15 @@ code, pre {
 }
 /* styling */
 
+td, tr, th {
+	padding: 5px;
+	margin: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
 .boxframe p, .boxframe ul, .boxframe ol, .header li, .boxframe figcaption{
 	font-family: "Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	line-height: 21pt;
