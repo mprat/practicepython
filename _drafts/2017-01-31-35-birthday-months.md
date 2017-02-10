@@ -26,7 +26,7 @@ Your program should output something like:
 
 ## Discussion
 
-You already have the skills to achieve this exercise with concepts we've already covered: for loops, dictionaries, and basic arithmetic. However, I want to talk about a Python built-in called a `Counter`.
+You already have the skills to achieve this exercise with concepts we've already covered: [for loops]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-ten %}), [dictionaries]({{ site.baseurl }}{% post_url 2014-12-06-22-read-from-file %}), and basic arithmetic. However, I want to talk about a Python built-in called a `Counter`.
 
 A [`Counter`](https://docs.python.org/3/library/collections.html#collections.Counter) takes a list and counts how many of each element were in the list. To use the Counter, first import it from `collections`:
 
@@ -37,7 +37,21 @@ from collections import Counter
 This lets you use the `Counter` data structure built into Python in your program. Then, give it a list: 
 
 {% highlight python %}
-my_list = [1, 6, 5, 1, 6, 5, 1]
-c = Counter(my_list)
+sandwiches = ["ham", "cheese", "roast beef", "ham", "cheese", "roast beef", "ham"]
+c = Counter(sandwiches)
 {% endhighlight %}
 
+If you `print(c)`, you will see this:
+
+{% highlight python %}
+Counter({"ham": 3, "roast beef": 2, "cheese": 2})
+{% endhighlight %}
+
+This means there are 3 `ham`, 2 `roast beef`, and 2 `cheese` sandwiches in my list. I can get this information directly from the `Counter`:
+
+{% highlight python %}
+>>> print("There are {} ham sandwiches".format(c["ham"]))
+There are 3 ham sandwiches
+{% endhighlight %}
+
+Hope this is useful! Happy coding!
