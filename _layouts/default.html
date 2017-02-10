@@ -12,6 +12,9 @@
 <noscript id="deferredstyle">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css">
 </noscript>
+
+{% include header.html %}
+
 <script>
   var loadDeferredStyles = function() {
     var addStylesNode = document.getElementById("deferred-styles");
@@ -25,9 +28,6 @@
   if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
   else window.addEventListener('load', loadDeferredStyles);
 </script>
-
-
-{% include header.html %}
 
 <div class="boxframe center">	
 	{% if page.date %}
