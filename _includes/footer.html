@@ -1,5 +1,7 @@
 <div class="footer center">
-{% if jekyll.environment == 'production' %}
+{% if page.url contains 'exercises' or page.title == 'Practice Python' %}
+	{% include udemy_banner.html %}
+{% else if jekyll.environment == 'production' %}
 	{% include adsense.html %}
 {% endif %}
 

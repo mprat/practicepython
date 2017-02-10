@@ -40,3 +40,4 @@ This lets you use the `Counter` data structure built into Python in your program
 my_list = [1, 6, 5, 1, 6, 5, 1]
 c = Counter(my_list)
 {% endhighlight %}
+

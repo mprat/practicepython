@@ -62,7 +62,7 @@ table {
 }
 
 .boxframe > iframe {
-	width: 50%;
+	width: 100%;
 }
 
 .header li{
@@ -205,6 +205,22 @@ figure figcaption {
 	display: block;
 }
 
+#treehouse-mobile {
+	display: block;
+}
+
+#treehouse-fullsize {
+	display: none;
+}
+
+#udemy-mobile {
+	display: block;
+}
+
+#udemy-fullsize {
+	display: none;
+}
+
 @media all and (max-width: 800px){
 	.logo {
 		margin-left: auto;
@@ -241,5 +257,25 @@ figure figcaption {
 
 	.logo {
 		width: 100px;
+	}
+
+	#treehouse-mobile {
+		display: none;
+	}
+
+	#treehouse-fullsize {
+		display: block;
+	}
+
+	#udemy-mobile {
+		display: none;
+	}
+
+	#udemy-fullsize {
+		display: block;
+	}
+
+	.boxframe > iframe {
+		width: 50%;
 	}
 }

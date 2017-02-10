@@ -22,6 +22,9 @@ layout: default
 
 {{ content }}
 
+<br>
+{% include treehouse.html %}
+
 {% if jekyll.environment == 'production' %}
 	{% include comments.html %}
 {% endif %}
