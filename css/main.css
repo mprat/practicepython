@@ -44,8 +44,6 @@ table {
 }
 
 .footer {
-	/*border-style: solid;
-	border-top-width: 1px;*/
 	padding-top: 3px;
 }
 
@@ -136,10 +134,6 @@ figure{
 .text-center{
 	text-align: center;
 }
-/*
-img{
-	width: 50%;
-}*/
 
 figure figcaption {
 	text-align: center;
@@ -160,8 +154,6 @@ figure figcaption {
 }
 
 .chili {
-	/*margin-top: -5px;*/
-	/*margin-bottom: -5px;*/
 	width: 16px;
 }
 
