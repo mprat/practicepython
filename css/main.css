@@ -179,6 +179,7 @@ figure figcaption {
 
 .logodiv{
 	display: inline;
+	float: left;
 }
 
 .header-text {
@@ -217,7 +218,7 @@ figure figcaption {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
-		width: 100px;
+		width: 87px;
 	}
 }
 
@@ -236,18 +237,29 @@ figure figcaption {
 
 	.center {
 		width: 75%;
+		max-width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.header-text{
 		display: inline;
-		width: 90%;
+		width: 80%;
+	}
+
+	.header-left {
+		width: 60%;
+		display: inline-block;
+	}
+
+	.header-right {	
+		width: 20%;
 		float: right;
+		padding-top: 15px;
 	}
 
 	.logo {
-		width: 100px;
+		width: 87px;
 	}
 
 	#treehouse-mobile {
