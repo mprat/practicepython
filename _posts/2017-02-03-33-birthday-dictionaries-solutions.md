@@ -30,5 +30,7 @@ One reader does the basics:
 
 <script src="https://gist.github.com/Dimithrandir/75b943f35297a0708a9393d02dfe2121.js"></script>
 
+And here is another reader submission:
 
+<script src="https://gist.github.com/nhyy24/5efa95d627902eba38dbfd1e6f853340.js"></script>
 
