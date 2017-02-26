@@ -8,7 +8,7 @@ part_text: birthday data
 categories: [solution]
 ---
 
-{% include solution_header.md number=post.number %}
+{% include solution_header.md number=page.number %}
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
