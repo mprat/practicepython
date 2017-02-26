@@ -18,4 +18,8 @@ In the [previous exercise]({{ site.baseurl }}{% post_url 2017-01-24-33-birthday-
 
 ## Sample solution
 
+Here is one reader's solution to the exercise:
 
+<script src="https://gist.github.com/Evilizard83/bcfa5b0e4579737a7f4ad28676347832.js"></script>
+
+Happy coding!
