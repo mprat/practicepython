@@ -28,7 +28,7 @@ There are many free resources out there to help you learn Python. Often the down
 
 # Online courses (for a fee)
 
-Another way to learn Python and programming is to pay for guided courses. _Disclaimer: If you use the links from this page to sign up, this blog will receive a small kickback at no cost to you._
+Another way to learn Python and programming is to pay for guided courses. _Disclaimer: If you use the links from this page to sign up, this blog will receive a small kickback at no cost to you. Read our [full advertising disclosure here]({{ site.baseurl }}/disclosure.html)_.
 
 * [Treehouse](http://treehouse.7eer.net/c/348966/245646/3944){:target="_blank"} - This company makes easy, digestible courses across a variety of subjects. On top of that, Treehouse as a company has a great work philosophy, and I will happily recommend anything this company produces. To see if you like it, sign up for the free account and check it out!
 * [Udemy](http://click.linksynergy.com/fs-bin/click?id=xcNOXHETw7Y&offerid=323058.7&type=3&subid=0){:target="_blank"} - With hundreds of course offerings across disciplines you might never even have heard of, Udemy is a platform where subject experts create courses with videos, worksheets, and exercises. One of my favorite courses is called [Automate the Boring Stuff with Python](http://click.linksynergy.com/fs-bin/click?id=xcNOXHETw7Y&offerid=323058.3099&type=3&subid=0){:target="_blank"}, but there are many more on the platform, with even more being added daily.
@@ -42,5 +42,7 @@ Another way to learn Python and programming is to pay for guided courses. _Discl
 # Books
 
 {% include books.md %}
+
+_Read our [full advertising disclosure]({{ site.baseurl }}/disclosure.html)._
 
 If you have any course or book recommendations, let me know in the comments!

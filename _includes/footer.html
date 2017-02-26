@@ -1,9 +1,12 @@
 <div class="footer center">
 {% if page.url contains 'exercises' or page.title == 'Practice Python' %}
 	{% include udemy_banner.html %}
-{% else if jekyll.environment == 'production' %}
-	{% include adsense.html %}
 {% endif %}
 
-<div><i>Copyright Michele Pratusevich, 2017.</i></div>
+<div><i>Copyright Michele Pratusevich, 2014-2017.</i></div>
+<div><a href="{{ site.baseurl }}/disclosure.html"><i>Adversiting disclosure</i></a></div>
+
+{% if jekyll.environment == 'production' %}
+	{% include adsense.html %}
+{% endif %}
 </div>
