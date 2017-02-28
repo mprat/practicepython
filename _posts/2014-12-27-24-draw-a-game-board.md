@@ -49,6 +49,4 @@ The main topic of this exercise is functions. They are tricky, and deserve lots 
 There are hundreds more out there - read and practice away!
 
 
-Happy Coding!
-
 {% include submit.md %}

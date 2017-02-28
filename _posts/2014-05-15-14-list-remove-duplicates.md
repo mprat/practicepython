@@ -65,6 +65,4 @@ And the result of this will be:
   ['Michele', 'Robin', 'Sara']
 {% endhighlight %}
 
-Explore away!
-
 {% include submit.md %}

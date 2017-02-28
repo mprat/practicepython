@@ -24,6 +24,4 @@ You can refer to [this exercise on user input]({{ site.baseurl }}{% post_url 201
 
 If you want to implement the optimal solution without thinking about it first, you can read this [Wikipedia article on binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
-Happy Coding!
-
 {% include submit.md %}

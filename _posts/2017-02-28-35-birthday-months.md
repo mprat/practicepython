@@ -12,7 +12,7 @@ categories: [exercise]
 
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
 
-In the [previous exercise]{{ site.baseurl }}{% post_url 2017-02-06-34-birthday-json %} we saved information about famous scientists' names and birthdays to disk. In this exercise, load the JSON file from disk, extract the months of all the birthdays, and count how many scientists have a birthday in each month.
+In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-06-34-birthday-json %}) we saved information about famous scientists' names and birthdays to disk. In this exercise, load that JSON file from disk, extract the months of all the birthdays, and count how many scientists have a birthday in each month.
 
 Your program should output something like:
 
@@ -54,4 +54,6 @@ This means there are 3 `ham`, 2 `roast beef`, and 2 `cheese` sandwiches in my li
 There are 3 ham sandwiches
 {% endhighlight %}
 
-Hope this is useful! Happy coding!
+Hope this is useful!
+
+{% include submit.md %}

@@ -23,6 +23,4 @@ Topics:
 3. Lists, in [Exercise 3]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-ten %}) and [Exercise 5]({{ site.baseurl }}{% post_url 2014-03-05-05-list-overlap %})
 
 
-Enjoy!
-
 {% include submit.md %}

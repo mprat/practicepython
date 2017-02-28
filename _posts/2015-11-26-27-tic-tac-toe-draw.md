@@ -63,6 +63,4 @@ Instead, there are two string manipulation functions that will help you:
 
 I challenge you to figure out how to use them in the exercise!
 
-Happy Coding!
-
 {% include submit.md %}

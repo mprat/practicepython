@@ -56,3 +56,7 @@ What does this program do? It looks at each number in the range of numbers from 
 ## Why You Should Learn to Program Now
 
 For the average person, programming is the gateway to automation. For engineers, programming is one of many tools of the trade. For data scientists, programming is THE tool. Working at your own pace on small problems, with repetitions approximately weekly, you will train yourself in the art of problem solving and expand your confidence in solving ever larger problems. In your own ventures, in your own disciplines, in your own lives, you can make a difference.
+
+## Getting started
+
+Want to get started? Start with [Exercise 1]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}), or visit our [resources for learners]({{ site.baseurl }}{% post_url 2017-01-15-resources-for-learners %}) page to find Python books, courses, and online resources to help you along your journey.

@@ -46,6 +46,4 @@ To effectively complete this exercise, you will need to make extensive use of fu
 
 If you are new to Python, this might be one of the longest programs you have written so far, so have fun!
 
-Happy Coding!
-
 {% include submit.md %}

@@ -84,6 +84,4 @@ When working with lists of lists, it is the same! Say you have a list `matrix = 
 
 The cool part is that you can use double-indexing to read the elements from our list of lists `matrix`! By indexing `matrix[0][1]` we are saying give me the 1st element of the 0th element of `matrix`, which in this case is `2`.
 
-Happy Coding!
-
 {% include submit.md %}

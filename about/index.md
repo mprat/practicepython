@@ -6,7 +6,28 @@ date: 2016-05-28 23:00:00
 
 # What is Practice Python
 
-Practice Python was created as a side project to provide small, short, and relevant introductory Python programming exercises for beginners. When I worked for [MEET](http://meet.mit.edu/) as a computer science instructor, I had a hard time finding Python exercises that were small, self-contained, and suited for beginners. Many resources online, while thorough, were partially inaccessible to complete beginners. Mainly, the exercises were given without context. I recognized many of the problems as arbitrary and distinctly computer-sciency. They were all about sorting lists, class-design of different kinds of students, and searching through lists of strings. I wanted to provide easier problems that were more relevant to someone interested in learning Python or programming in general. Long-term, I want to provide Python resources for learners and educators alike - Pratice Python is the first step. Read more at [Why Practice Python]({{ site.baseurl }}/why-practice-python/).
+Practice Python was created as a side project to provide small, short, and relevant introductory Python programming exercises for beginners. When I worked for [MEET](http://meet.mit.edu/) as a computer science instructor, I had a hard time finding Python exercises that were small, self-contained, and suited for beginners. Many resources online, while thorough, were partially inaccessible to complete beginners. Mainly, the exercises were given without context. I recognized many of the problems as arbitrary and distinctly computer-sciency. They were all about sorting lists, class-design of different kinds of students, and searching through lists of strings. I wanted to provide easier problems that were more relevant to someone interested in learning Python or programming in general. Long-term, I want to provide Python resources for learners and educators alike - Practice Python is the first step. Read more at [Why Practice Python]({{ site.baseurl }}/why-practice-python/).
+
+## Exercises
+
+Practice Python is written and maintained by me, Michele Pratusevich ([personal site](http://mprat.org), [github profile](http://github.com/mprat)). The blog is roughly monthly, with an exercise the comes out one week and a solution for that exercise that comes out the next week. As I experiment with this site over time, the frequency might become more or less frequent. If you have opinions, please feel free to let me know!
+
+In each exercise post, I will post a small tidbit of Python 3 (an explanation, a library, a sample function) and pose an exercise that relates to the explanation / sample written in the post. The exercise should take no more than 30 minutes to solve and test. I will also try to include links to external websites that explain concepts in a simple way. The exercises will vary in difficulty from week to week. Check out the [explanation of the chili difficulty system]({{ site.baseurl }}/chilis/) for more information.
+
+## Solutions
+
+This site has regular exercise postings, and if you are quick to submit your solutions, they will be featured on the next week's solution post!
+
+### Your Solution
+
+At the bottom of every post, there will be an embedded Google Form where you will submit your solutions. The way to submit solutions will be through an anonymous Gist. This is like [pastebin](http://pastebin.com/), except I can automate some scripts to make processing solutions easier for me.
+
+All you need to do is go to [http://gist.github.com,](http://gist.github.com) paste your code into the text box (not the Disqus comment box), and Create a Public Gist. You can even do this without a Github account! The link that is created with your code is the submission link that you will put into the form at the bottom of every exercise post. That's it! (Note: if you want to make a Github account and keep copies of your code for yourself as gists, feel free to do that as well).
+
+### My Solution
+
+I will post a few submitted solutions and comment on them, so you can see examples of other people's solutions. In my comments I will refer to general coding style and methodology as well as Python coding conventions. In the event that my solution differs significantly from posted solutions, I will post my solution as well. You can check your submitted solutions against the posted solutions to see how you did.
+
 
 # Follow along
 
@@ -26,4 +47,8 @@ My name is Michele Pratusevich, and in my day job I am a research engineer. This
 
 # Getting in touch
 
-I welcome any and all feedback about the site. Are exercises too easy? Do you want to interact with other readers? Do you want to interact with ME? Please get in touch with me via email - <a href="mailto:mprat@alum.mit.edu">mprat@alum.mit.edu</a>. I will get back to you as soon as I can.
+I welcome any and all feedback about the site. Are exercises too easy? Do you want to interact with other readers? Do you want to interact with ME? Please get in touch with me via email - <a href="mailto:mprat@alum.mit.edu">mprat@alum.mit.edu</a>. I will get back to you as soon as I can. If you are a teacher and interested in using the exercises in the classroom, go right ahead! All the exercises are published under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). If you do, I would love to hear your experience and incorporate any feedback.
+
+# Getting started
+
+Ready to get started? Start with [Exercise 1]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}), or visit our [resources for learners]({{ site.baseurl }}{% post_url 2017-01-15-resources-for-learners %}) page to find Python books, courses, and online resources to help you along your journey.

@@ -30,6 +30,4 @@ E _ _ _ _ _ _ _ E
 
 And so on, until the player gets the word.
 
-Happy Coding!
-
 {% include submit.md %}
