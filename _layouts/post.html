@@ -24,7 +24,9 @@ layout: default
 
 {% include share_icons.html %}
 
-{% include previous_and_next_exercises.html current=page.number %}
+{% if page.title and page.number %}
+	{% include previous_and_next_exercises.html current=page.number %}
+{% endif %}
 
 <br>
 {% include treehouse.html %}
