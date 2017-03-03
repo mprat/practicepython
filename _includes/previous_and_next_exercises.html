@@ -1,0 +1,15 @@
+{% assign sorted_exercises = site.categories.exercise | sort 'number' %}
+{% assign prev_number = include.current | minus: 2 %}
+{% assign next_number = include.current %}
+{% assign prev = sorted_exercises[prev_number] %}
+{% assign next = sorted_exercises[next_number] %}
+
+<div class="next-page-links">
+{% if prev %}
+	<a class="prev-link" href="{{prev.url}}">&laquo; Pevious exercise</a>
+{% endif %}
+
+{% if next %}
+	<a class="next-link" href="{{next.url}}">Next exercise &raquo;</a>
+{% endif %}
+</div>
