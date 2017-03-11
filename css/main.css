@@ -197,6 +197,10 @@ figure figcaption {
 	display: block;
 }
 
+.post-img-max {
+	max-width: 300px;
+}
+
 #treehouse-mobile {
 	display: block;
 }
