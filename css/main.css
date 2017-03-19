@@ -32,6 +32,17 @@ table {
 	border-collapse: collapse;
 }
 
+.bk-canvas-wrapper, .bk-canvas, .bk-plot-layout, .bk-plot-wrapper {
+	max-width: 350px;
+	max-height: 300px;
+	width: 98% !important;
+	height: 98% !important;
+}
+
+.bk-toolbar-wrapper {
+	left: 99% !important;
+}
+
 .boxframe p, .boxframe ul, .boxframe ol, .header li, .boxframe figcaption{
 	font-family: "Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	line-height: 21pt;
