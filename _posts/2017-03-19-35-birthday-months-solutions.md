@@ -54,7 +54,7 @@ Here is my code to do that:
 import json
 from collections import Counter
 
-with open("info.json", "r") as f:
+with open("birthdays.json", "r") as f:
 	birthdays = json.load(f)
 
 num_to_string = {
