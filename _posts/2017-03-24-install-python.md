@@ -8,39 +8,40 @@ _Written by Michele Pratusevich._ One barrier to learning programming is getting
 
 <!--more-->
 
-"I haven't installed Python." "I don't want to mess up my computer by installing new software." "I have a Windows machine." I've heard all of these and more from readers as an excuse for not starting to learn Python. Never fear! Installing Python is a painless process for all 3 major operating systems (disclaimer: I haven't tried installing it on anything except Windows, OSX, and Ubuntu so I can't speak for those), and there are even installation-free alternatives if you just want to play around with basic syntax and code.
+"I haven't installed Python." "I don't want to mess up my computer by installing new software." "I have a Windows machine." I've heard all of these and more from readers as an excuse for not starting to learn Python. Never fear! Installing Python is a painless process for all 3 major operating systems (disclaimer: I haven't tried installing it on anything except Windows, OSX, and Ubuntu so I can't speak for any other system), and there are even installation-free alternatives if you just want to play around with basic syntax and code.
 
 I'll go through my recommendations for installing Python on Windows, OSX, and Ubuntu, and then list a few no-installation-required options. You are not limited by your operating system!
 
+# The ultimate Python installation recommendation
+
+Whether you are on Windows, OSX, or Ubuntu, and want to quickly get started with Python, my recommendation is to install [Anaconda Python](https://www.continuum.io/downloads). The company that distributes Anaconda specifically packages Python and a few useful libraries, such as [Numpy](http://www.numpy.org/) and [Scipy](http://scipy.org) into an easy installer. It will create a desktop icon for Python, and will install a tool called `conda` that you can then use to install any extra Python packages you need.
+
+Another benefit: you don't need administrative permissions! You can install Anaconda anywhere you have write permissions, such as your user's home directory.
+
+You can read the official Anaconda installation recommendations [on their docs page](https://conda.io/docs/install/full.html). It's as easy as downloading and running the installer!
+
 # Windows
 
-Installing software on Windows is hard. I personally started my computing career out on Windows (as I'm sure many of us did), and didn't switch to Ubuntu until I was halfway through my computer science degree at MIT.
-
-Not everyone has the option of switching from Windows to Ubuntu or some other operating system - perhaps you are on a tablet that only supports Windows, or perhaps your computer is a shared computer at the library or school.
-
-Never fear! There are options to installing Python that are as painless as can be on Windows.
-
-My biggest recommendation is to instal [Anaconda Python](https://www.continuum.io/downloads). The company that distributes Anaconda specifically packages Python and a few useful libraries, such as [Numpy](http://www.numpy.org/) and Scipy (http://scipy.org) into an easy Windows installer. It will create a desktop icon for Python, and will install a tool called `conda` that you can then use to install any extra Python packages you need.
-
-As text editors, you can use regular old Notepad, or a souped-up free version called [Notepad++](https://notepad-plus-plus.org/). You can also install my favorite text editor [Sublime Text](https://www.sublimetext.com/3) for Windows, and use those to edit Python files, running them through Anaconda.
-
-The pre-made installers from Continuum are easy to use and are definitely the easiest option when installing for Windows.
+You can't write your program in Microsoft Word. What you need is a text editor - a program that lets you edit text (programs!) without getting in your way. On Windows, you can use regular old Notepad, or a souped-up free version called [Notepad++](https://notepad-plus-plus.org/). You can also install my favorite text editor, [Sublime Text](https://www.sublimetext.com/3), on Windows. Regardless of which editor you use, you can run your 
 
 If you can't install packages on your Windows computer because it is a shared computer, check out the section on [options where you don't need to install anything](#no-installation-required).
 
 # OSX
 
-There are a few more options for installing and using Python on OSX, dependeing on how deep and detailed you want to go. If you are planning on using Python for data processing or are casually playing with Python, I recommend you install [Anaconda Python](https://www.continuum.io/downloads), just like I recommend it for Windows. Anaconda will install Python together with some basic libraries needed for data processing. It will also `conda`, which lets you install any other packages you need.
-
 For text editors, OSX comes with Xcode, but I recommend using a text editor like [Sublime Text](https://www.sublimetext.com/3), which you can download for free. 
 
-For those who will be doing more serious Python development, you will want to go through a slightly lengthier process to install Python.
+For those who will be doing more serious Python development or want to use the command-line to install Python, I recommend doing the following (not for the faint of heart):
 
-SHOULD I INCLUDE IT HERE OR NOT?
+1. Install [Homebrew](https://brew.sh/) using the instructions on their website. Homebrew calls itself "the missing package manager for OSX" - it is definitively the easiest way to install and maintain software for development on OSX.
+2. Do `brew install python3`. (You're using Python 3, right?)
+
+Now you can run Python from the command line by running `python3` to get a Python shell, or writing a Python program in a text editor and running `python3 MyProgram.py`. To install Python packages, you run `pip3 install PACKAGE_NAME` on the command line.
 
 # Ubuntu
 
-The easiest way to get set up with Python on Ubuntu is to use `apt` to install Python:
+Yep, you can install Anaconda Python for Ubuntu as well. It's a great option, even for experienced terminal users.
+
+But if you don't want to use Anaconda, you can use `apt` to install Python 3:
 
 {% highlight bash %}
 sudo apt-get install python3
@@ -49,7 +50,7 @@ sudo apt-get install python3
 Then, to write Python programs, use your favorite text editor (have you guessed that my favorite is [Sublime Text](https://www.sublimetext.com/3)?), and run your Python programs by doing
 
 {% highlight bash %}
-python MY_PYTHON_FILE.py
+python3 MY_PYTHON_FILE.py
 {% endhighlight %}
 
 `apt` also installs `pip3`, which is the Python-recommended way of installing Python packages. So if you want to install `numpy`, you would do 
