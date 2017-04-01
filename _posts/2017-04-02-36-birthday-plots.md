@@ -17,19 +17,11 @@ In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-
 
 In this exercise, use the [bokeh](http://bokeh.pydata.org/en/latest/) Python library to plot a histogram of which months the scientists have birthdays in! Because it would take a long time for you to input the months of various scientists, you can use [my scientist birthday JSON file]({{ site.baseurl }}/assets/scientist_birthdays.json). Just parse out the months (if you don't know how, I suggest looking at the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-months %}) or [its solution]({{ site.baseurl }}{% post_url 2017-03-19-35-birthday-months-solutions %})) and draw your histogram.
 
-If you are using a purely web-based interface for coding, this exercise won't work for you! Now might be a good time to [install Python on your own computer]().
+If you are using a purely web-based interface for coding, this exercise won't work for you, since it requires installing the `bokeh` Python package. Now might be a good time to [install Python on your own computer]({% post_url 2017-03-24-install-python %}).
 
 # Discussion
 
-Today's topic is going to be about the [bokeh](http://bokeh.pydata.org/en/latest/) Python library. Sometimes it is really nice to write code or algorithms from scratch to learn and practice. And sometimes, someone has already written the code so well that you should use theirs. Bokeh is one of these libraries - it is library specifically with functions for making plots, based on the famous [D3.js](https://d3js.org/) library originally developed at the New York Times for their visualizations.
-
-## Plotting libraries in Python
-
-If you are looking for a plotting library in Python, you have two main options: [matplotlib](http://matplotlib.org/) and [bokeh](http://bokeh.pydata.org/en/latest/). Today I want to discuss bokeh, because I think it will become more popular in years to come.
-
-Many Python developers (and especially data scientists and researchers) will tell you that the most commonly used plotting library in Python is [matplotlib](http://matplotlib.org/). I myself was a matplotlib user for many years - the integrations with Python data libraries are great, and migrating from the MATLAB plotting environment to matplotlib is easy. But a friend introduced me to bokeh and I was hooked ever since. Because it is based on D3.js, the visualizations look smooth and professional.
-
-There is no one "best" plotting library - you should use whichever one feels and looks better for you.
+Today's topic is going to be about the [bokeh](http://bokeh.pydata.org/en/latest/) plotting library. We create plots and charts to display and communicate information from data, and it would be great to do that directly from Python. Sometimes it is really nice to write code or algorithms from scratch to learn and practice, and sometimes, someone has already written the code so well that you should use theirs. Bokeh is one of these libraries - it is library specifically with functions for making plots, charts, and graphs. It is based on the famous [D3.js](https://d3js.org/) library originally developed at the _New York Times_ for their visualizations, which has been used for many years to programmatically create visually appealing data visualizations.
 
 ## When to make plots
 
@@ -40,6 +32,14 @@ We use plots to convey information. From this histogram:
 You can immediately see that the US government spending has been steadily increasing, reaching a peak in January 2017.
 
 So learning how to make plots will help you become better at displaying and communicating information, both to yourself and to others.
+
+## Plotting libraries in Python
+
+If you are looking for a plotting library in Python, you have two main options: [matplotlib](http://matplotlib.org/) and [bokeh](http://bokeh.pydata.org/en/latest/). Today I want to discuss bokeh, because I think it will become more popular in years to come.
+
+Many Python developers (and especially data scientists and researchers) will tell you that the most commonly used plotting library in Python is [matplotlib](http://matplotlib.org/). I myself was a matplotlib user for many years - the integrations with Python data libraries are great, and migrating from the MATLAB plotting environment to matplotlib is easy. But a friend introduced me to bokeh and I was hooked ever since. Because it is based on D3.js, the visualizations look smooth and professional.
+
+There is no one "best" plotting library - you should use whichever one feels and looks better for you. But for the rest of this post, I'll talk about how to use bokeh to make a basic plot.
 
 ## Installing bokeh
 
@@ -56,10 +56,10 @@ in the Windows command prompt or the bash shell.
 On OSX or GNU / Linux, just type
 
 {% highlight bash %}
-pip install bokeh
+pip3 install bokeh
 {% endhighlight %}
 
-(If you have Python 2 and Python 3 installations side by side you might have to do `pip3 install bokeh` to specifically install it for Python 3.)
+(If you have are using Python 2, you should do `pip install bokeh`.)
 
 ## Using bokeh
 
@@ -68,7 +68,7 @@ The basic idea of any plotting package is simple:
 1. Load the data
 2. Display the data
 
-So the first thing you have to do is prepare some data. Usually, when you are plotting data you have two axes, or groups of data, an x-axis (or horizontal axis) and a y-axis (or vertical axis). The `x` variable is your input (independent) variable and the `y` variable is your output (dependent) axis.
+So the first thing you have to do is prepare some data. Usually, when you are plotting data you have two axes, or groups of data, an x-axis (or horizontal axis) and a y-axis (or vertical axis). The `x` variable is your input (independent) variable and the `y` variable is your output (dependent) variable.
 
 For use in bokeh, your data should be loaded into two separate lists, one for the x-axis and one for the y-axis. The basic format of a bokeh (in this case histogram) looks like this:
 
