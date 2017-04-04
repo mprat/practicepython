@@ -10,7 +10,7 @@ Practice Python was created as a side project to provide small, short, and relev
 
 ## Exercises
 
-Practice Python is written and maintained by me, Michele Pratusevich ([personal site](http://mprat.org), [github profile](http://github.com/mprat)). The blog is roughly monthly, with an exercise the comes out one week and a solution for that exercise that comes out the next week. As I experiment with this site over time, the frequency might become more or less frequent. If you have opinions, please feel free to let me know!
+Practice Python is written and maintained by me, Michele Pratusevich ([personal site](http://mprat.org), [github profile](http://github.com/mprat)). The blog is roughly monthly, with an exercise that comes out one week and a solution for that exercise that comes out the next week. As I experiment with this site over time, the frequency might become more or less frequent. If you have opinions, please feel free to let me know!
 
 In each exercise post, I will post a small tidbit of Python 3 (an explanation, a library, a sample function) and pose an exercise that relates to the explanation / sample written in the post. The exercise should take no more than 30 minutes to solve and test. I will also try to include links to external websites that explain concepts in a simple way. The exercises will vary in difficulty from week to week. Check out the [explanation of the chili difficulty system]({{ site.baseurl }}/chilis/) for more information.
 
