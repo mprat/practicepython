@@ -220,11 +220,11 @@ figure figcaption {
 	display: none;
 }
 
-#udemy-mobile {
+#udemy-mobile, #amazon-mobile {
 	display: block;
 }
 
-#udemy-fullsize {
+#udemy-fullsize, #amazon-fullsize {
 	display: none;
 }
 
@@ -327,11 +327,11 @@ figure figcaption {
 		display: block;
 	}
 
-	#udemy-mobile {
+	#udemy-mobile, #amazon-mobile {
 		display: none;
 	}
 
-	#udemy-fullsize {
+	#udemy-fullsize, #amazon-fullsize {
 		display: block;
 	}
 

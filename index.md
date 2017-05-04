@@ -24,4 +24,6 @@ Welcome to Practice Python! There are over {{ site.categories.exercise.size | di
 
 </div>
 
+{% include amazon.html %}
+
 {% include exercises.md %}
