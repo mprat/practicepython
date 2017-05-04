@@ -87,10 +87,10 @@ You can take sublists:
   >>> string = "example"
   >>> s = string[0:5]
   >>> print s
-  exam
+  examp
 {% endhighlight %}
 
-Now `s` has the string "exam" in it. 
+Now `s` has the string "examp" in it. 
 
 Moral of the story: a string is a list.
 
