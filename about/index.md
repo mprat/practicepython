@@ -35,7 +35,8 @@ If you like the idea of Practice Python, want to do the exercises, or just want 
 
 1. Add this blog to your Feedly feed, by clicking on the link in the top right corner of the page, or clicking here. <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fpracticepython.org%2Fatom.xml' target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='25'></a>
 2. If you don't have Feedly but use some other RSS reader, add this blog to your RSS reader by clicking the RSS icon in the top right corner of the page, or click here. <a href="{{ site.production_url }}/atom.xml" target="_blank"><img class="logo-small" src="{{ site.baseurl }}/assets/img/rss_img.png" alt="Atom feed XML"></a>
-
+3. Sign up for the Practice Python email list and get emailed once in a while: new exercises, solutions, blog posts, and occassional special promotions. 
+<iframe width="540" height="800" src="https://77c43a6f.sibforms.com/serve/MUIEAGVXX8DJbmD3Mg11CoMrzwUo6PV1DWjI0VCanumZ1nOTu5G0vDFxvmJlB1pV0SbZjUSdQx65AORwo2s6HKlT2zkuHrDUMbYhiVD5_CRkfS-Yeun0nb99tU9KB2gDDo0jGjipckbJJG8N6iJ_8Zrh7k_BnFduXWsDXHDLo8J06M7kSYUllf8MdiWGw8H3jUin12RzE5M8dgAs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
 # About the author
 
