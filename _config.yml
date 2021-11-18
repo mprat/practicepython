@@ -1,3 +1,4 @@
+lsi: false
 safe: true
 markdown: kramdown
 highlighter: rouge
@@ -9,10 +10,14 @@ author:
 twitter:
   username: practice_python
 production_url: http://practicepython.org
+gist:
+  noscript: false
 kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
   input: GFM
   hard_wrap: false
-gems:
+plugins:
   - jekyll-coffeescript
   - jekyll-gist
   - jekyll-mentions
