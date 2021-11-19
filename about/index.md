@@ -46,7 +46,7 @@ My name is Michele Pratusevich, and in my day job I am a research engineer. This
 
 # Getting in touch
 
-I welcome any and all feedback about the site. Are exercises too easy? Do you want to interact with other readers? Do you want to interact with ME? Please get in touch with me via email - <a href="mailto:mprat@alum.mit.edu">mprat@alum.mit.edu</a>. I will get back to you as soon as I can. If you are a teacher and interested in using the exercises in the classroom, go right ahead! All the exercises are published under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). If you do, I would love to hear your experience and incorporate any feedback.
+I welcome any and all feedback about the site. Are exercises too easy? Do you want to interact with other readers? Do you want to interact with ME? Please get in touch with me via email - <a href="mailto:practicepythonsite@gmail.com">practicepythonsite@gmail.com</a>. I will get back to you as soon as I can. If you are a teacher and interested in using the exercises in the classroom, go right ahead! All the exercises are published under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). If you do, I would love to hear your experience and incorporate any feedback.
 
 # Getting started
 
