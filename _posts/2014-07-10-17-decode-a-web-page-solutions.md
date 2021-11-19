@@ -28,7 +28,7 @@ Line 1:
   import requests
 {% endhighlight %}
 
-First, install the `requests` library according to [the official documentation](http://docs.python-requests.org/en/latest/) and your operating system, then import the library into the program.
+First, install the `requests` library according to [the official documentation](https://docs.python-requests.org/en/latest/) and your operating system, then import the library into the program.
 
 Next, 
 
@@ -45,7 +45,7 @@ Next:
   r = requests.get(base_url)
 {% endhighlight %}
 
-These lines make the request to the New York Times homepage. Making a request is simple, according to the [documentation](http://docs.python-requests.org/en/latest/user/quickstart/#make-a-request) you supply a URL and make a GET request.
+These lines make the request to the New York Times homepage. Making a request is simple, according to the [documentation](https://docs.python-requests.org/en/latest/user/quickstart/#make-a-request) you supply a URL and make a GET request.
 
 {% highlight python %}
   soup = BeautifulSoup(r.text)

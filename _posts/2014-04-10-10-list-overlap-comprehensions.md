@@ -34,7 +34,7 @@ Concepts for this week:
 
 ### List comprehensions
 
-We already discussed list comprehensions in [Exercise 7](http://practicepython.blogspot.com/2014/03/exercise-7-list-comprehensions.html), but they can be made much more complicated. 
+We already discussed list comprehensions in [Exercise 7]({% post_url 2014-03-19-07-list-comprehensions %}), but they can be made much more complicated. 
 
 For example: 
 

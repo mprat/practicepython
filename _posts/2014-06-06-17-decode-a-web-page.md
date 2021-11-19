@@ -31,7 +31,7 @@ There are three main things to keep in mind when using a library:
 
 ### Requests
 
-One of the most useful libraries written for Python recently, [requests](http://docs.python-requests.org/en/latest/) does "HTTP for humans." What this means in laymen's terms is that it asks the internet things from Python. When you type "facebook.com" into the browser, you are asking the internet to show you Facebook's homepage. 
+One of the most useful libraries written for Python recently, [requests](https://docs.python-requests.org/en/latest/) does "HTTP for humans." What this means in laymen's terms is that it asks the internet things from Python. When you type "facebook.com" into the browser, you are asking the internet to show you Facebook's homepage. 
 
 In the same way, a program can ask the internet something. It might not be "show me Facebook", but you can for example ask Github for a list of all the repositories that the user "mprat" has. You can do this with an API (Application Programming Interface). This exercise doesn't use APIs, so we'll talk more about those in a later post. 
 
@@ -39,7 +39,7 @@ Back to showing the user a webpage. When I type "facebook.com" into the browser,
 
 The 'requests' library does half of that job: it asks (requests, if you will) a server for information. This could be just data (through an API - more later) or in the case of this exercise, HTML. 
 
-Look at the [documentation](http://docs.python-requests.org/en/latest/) for all the details you need. In this particular latest version, all you need to do to ask a website for it's HTML is: 
+Look at the [documentation](https://docs.python-requests.org/en/latest/) for all the details you need. In this particular latest version, all you need to do to ask a website for it's HTML is: 
 
 {% highlight python %}
   import requests

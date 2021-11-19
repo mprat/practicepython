@@ -69,7 +69,7 @@ There are many other properties of lists, but for the basic exercise all you sho
 
 For more information about lists in Python, check out these resources: 
 
-* [The official Python documentation on lists](http://docs.python.org/3.3/tutorial/datastructures.html)
+* [The official Python documentation on lists](https://docs.python.org/3.3/tutorial/datastructures.html)
 * [Tutorialspoint on Python lists](http://www.tutorialspoint.com/python/python_lists.htm)
 * [Someone else's blog post about lists](http://effbot.org/zone/python-list.htm)
 
