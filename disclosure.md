@@ -13,4 +13,4 @@ The other vendors serving specifics ads on this site include those listed below.
 * [Rakuten affiliate network](http://marketing.rakuten.com/affiliate-marketing), to provide Udemy and Coursera course links.
 * [ImpactRadius affiliate network](https://www.impactradius.com/), to provide Treehouse affiliate links.
 
-Practice Python is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to [practicepython.org](http://practicepython.org).
+Practice Python is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to [practicepython.org](https://practicepython.org).

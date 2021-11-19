@@ -40,7 +40,7 @@ If you like the idea of Practice Python, want to do the exercises, or just want 
 
 # About the author
 
-My name is Michele Pratusevich, and in my day job I am a research engineer. This means I do a combination of research and engineering, mostly for computer vision problems. I use Python daily, and constantly am looking for interesting Python tidbits and tricks. If you want to learn more about me, check out [my personal site](http://mprat.org). Previously, I got my bachelor of science and master's of engineering from MIT in Electrical Engineering and Computer Science. 
+My name is Michele Pratusevich, and in my day job I am a research engineer. This means I do a combination of research and engineering, mostly for computer vision problems. I use Python daily, and constantly am looking for interesting Python tidbits and tricks. If you want to learn more about me, check out [my personal site](https://mprat.org). Previously, I got my bachelor of science and master's of engineering from MIT in Electrical Engineering and Computer Science. 
 
 ![A picture of me]({{ site.baseurl }}/imgs/me.jpg)
 

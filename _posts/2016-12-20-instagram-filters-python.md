@@ -5,7 +5,7 @@ categories: [blog]
 ---
 
 _This post is written by Michele Pratusevich._
-I love the Python programming language, and I love computational photography. This post describes how to make (almost) any Instagram filter with about 15 lines of Python, using the (now-defunct) Gotham Instagram filter as a case study. I presented this at a lighting talk at the Boston Python Meetup on December 20th, and you can find my slides [on my personal site](http://mprat.org/assets/python-instagram-filters-slides.slides.html).
+I love the Python programming language, and I love computational photography. This post describes how to make (almost) any Instagram filter with about 15 lines of Python, using the (now-defunct) Gotham Instagram filter as a case study. I presented this at a lighting talk at the Boston Python Meetup on December 20th, and you can find my slides [on my personal site](https://mprat.org/assets/python-instagram-filters-slides.slides.html).
 
 <!-- more -->
 

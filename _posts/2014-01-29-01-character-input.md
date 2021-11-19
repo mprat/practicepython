@@ -27,7 +27,7 @@ Concepts for this week:
 
 ### User input in Python
 
-To get user input in Python (3), the command you use is [`input()`](http://docs.python.org/3.3/library/functions.html?highlight=input#input). Store the result in a variable, and use it to your heart's content. Remember that the result you get from the user will be a string, even if they enter a number. 
+To get user input in Python (3), the command you use is [`input()`](https://docs.python.org/3.3/library/functions.html?highlight=input#input). Store the result in a variable, and use it to your heart's content. Remember that the result you get from the user will be a string, even if they enter a number. 
 
 For example, 
 
@@ -49,7 +49,7 @@ What happens at the end of `input()` is that it waits for the user to type somet
 
 What you get from the `input()` function is a string. What can you do with it? 
 
-First: Make the string into a number. Let's say you are 100% positive that the user entered a number. You can turn the string into an integer with the function [`int()`](http://docs.python.org/3.3/library/functions.html#int). (In a later exercise or two or three there will be questions about what to do when the user does NOT enter a number and you try to do this; for now don't worry about that problem). Here is what this looks like: 
+First: Make the string into a number. Let's say you are 100% positive that the user entered a number. You can turn the string into an integer with the function [`int()`](https://docs.python.org/3.3/library/functions.html#int). (In a later exercise or two or three there will be questions about what to do when the user does NOT enter a number and you try to do this; for now don't worry about that problem). Here is what this looks like: 
 
 {% highlight python %}
 age = input("Enter your age: ")
@@ -66,7 +66,7 @@ age = int(input("Enter your age: "))
 In both cases, `age` will hold a variable that is an integer, and now you can do math with it. 
 
 (Note, you can also turn integers into strings exactly in the opposite way,
-using the [`str()`](http://docs.python.org/3.3/library/functions.html#str) function) 
+using the [`str()`](https://docs.python.org/3.3/library/functions.html#str) function) 
 
 Second: Do math with strings. What do I mean by that? I mean, if I want to combine (**concatenate** is the computer science word for this) strings, all I need to do is add them: 
 
