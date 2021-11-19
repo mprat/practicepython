@@ -1,0 +1,3 @@
+## Exercise
+
+f-string formatting

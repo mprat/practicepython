@@ -24,6 +24,10 @@ Extras:
 
 I will note that none of the solutions that were submitted were written in one line of Python. There will be more exercises later that show you how to do this!
 
-Here is a sample solution that solves the exercise, including extras 1 and 3. 
+Here is a sample solution that solves the exercise, including extras 1 and 2. 
 
-<script src="https://gist.github.com/seanosaur/3eba66848928803676e8.js"></script>
+<script src="https://gist.github.com/anonymous/d0ed6bc6196c74cfbcf6.js"></script>
+
+And here is a sample solution that solves the exercise with extra 3.
+
+<script src="https://gist.github.com/Privishell/e244707f9a2ef6bff058.js"></script>
