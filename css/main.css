@@ -150,6 +150,10 @@ figure figcaption {
 	display: block;
 }
 
+.logo-small-height {
+	height: 25px;
+}
+
 .logo-small{
 	width: 25px;
 	height: 25px;
@@ -305,12 +309,10 @@ figure figcaption {
 	}
 
 	.header-left {
-		width: 60%;
 		display: inline-block;
 	}
 
 	.header-right {	
-		width: 20%;
 		float: right;
 		padding-top: 15px;
 	}
