@@ -119,11 +119,6 @@ table {
 	margin-left: 1.35em;
 }
 
-.boxframe ul {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
 .left, .right, .center {
 	/*clear: both;*/
 	width: 85%;
@@ -148,6 +143,10 @@ figure{
 figure figcaption {
 	text-align: center;
 	display: block;
+}
+
+.logo-small-height {
+	height: 25px;
 }
 
 .logo-small{
@@ -305,12 +304,10 @@ figure figcaption {
 	}
 
 	.header-left {
-		width: 60%;
 		display: inline-block;
 	}
 
 	.header-right {	
-		width: 20%;
 		float: right;
 		padding-top: 15px;
 	}
