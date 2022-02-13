@@ -119,11 +119,6 @@ table {
 	margin-left: 1.35em;
 }
 
-.boxframe ul {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
 .left, .right, .center {
 	/*clear: both;*/
 	width: 85%;
