@@ -21,6 +21,10 @@ bokeh: false
 	</div>
 {% endif %}
 
+{% if page.categories contains 'exercise' %}
+	{% include exercise_header.md number=page.number %}
+{% endif %}
+
 {{ content }}
 
 {% include share_icons.html %}
