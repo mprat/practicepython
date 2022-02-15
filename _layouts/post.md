@@ -23,7 +23,7 @@ bokeh: false
 
 {% if page.categories contains 'exercise' %}
 	{% include exercise_header.md number=page.number %}
-{% else if page.categories contains 'solution' %}
+{% elsif page.categories contains 'solution' %}
 	{% include solution_header.md number=page.number %}
 {% endif %}
 
