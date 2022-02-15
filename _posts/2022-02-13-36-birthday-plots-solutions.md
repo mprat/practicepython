@@ -110,6 +110,22 @@ And my output plot looks like this (you must have Javascript enabled to see it):
   })();
 </script>
 
-One interesting syntax is the line `months, counts = list(zip(*months.items()))`. What this does is takes the 
+One interesting syntax is the line `months, counts = list(zip(*months.items()))`. What this does is takes the `months` dictionary, returns it as tuples, then unzips them into two lists. We can see this output by looking at the individual outputs one at a time in the shell:
+
+```
+In [1]: months
+Out[1]: Counter({'March': 1, 'December': 1, 'January': 1})
+
+In [2]: months.items()
+Out[2]: dict_items([('March', 1), ('December', 1), ('January', 1)])
+
+In [3]: zip(*months.items())
+Out[3]: <zip at 0x7fed18fd8040>
+
+In [4]: list(zip(*months.items()))
+Out[4]: [('March', 'December', 'January'), (1, 1, 1)]
+```
+
+The end result is two lists, one for the months and one for the counts, that are in the correct order.
 
 Happy coding!
