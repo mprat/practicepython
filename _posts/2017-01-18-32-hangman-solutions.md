@@ -8,8 +8,6 @@ part_text: Hangman
 categories: [solution]
 ---
 
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
-
 _You can start your Python journey anywhere, but to finish this exercise you will have to have finished Parts 1 and 2._
 
 In this exercise, we will finish building Hangman. In the game of Hangman, the player only has 6 incorrect guesses (head, body, 2 legs, and 2 arms) before they lose the game.

@@ -9,8 +9,6 @@ categories: [exercise]
 bokeh: true
 ---
 
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
-
 In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-months %}) we counted how many birthdays there are in each month in our dictionary of birthdays.
 
 In this exercise, use the [bokeh](http://bokeh.pydata.org/en/latest/) Python library to plot a histogram of which months the scientists have birthdays in! Because it would take a long time for you to input the months of various scientists, you can use [my scientist birthday JSON file]({{ site.baseurl }}/assets/scientist_birthdays.json). Just parse out the months (if you don't know how, I suggest looking at the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-months %}) or [its solution]({{ site.baseurl }}{% post_url 2017-03-19-35-birthday-months-solutions %})) and draw your histogram.

@@ -9,8 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 In 3 previous exercises, we built up a few components needed to build a Tic Tac Toe game in Python:
 
 1. [Draw the Tic Tac Toe game board]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %})
