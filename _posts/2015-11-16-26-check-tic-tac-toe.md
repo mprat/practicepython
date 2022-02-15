@@ -9,10 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include exercise_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.
 
 Today, we will simply focus on checking whether someone has WON a game of Tic Tac Toe, not worrying about how the moves were made.
@@ -83,5 +79,3 @@ When working with lists of lists, it is the same! Say you have a list `matrix = 
 {% endhighlight %}
 
 The cool part is that you can use double-indexing to read the elements from our list of lists `matrix`! By indexing `matrix[0][1]` we are saying give me the 1st element of the 0th element of `matrix`, which in this case is `2`.
-
-{% include submit.md %}

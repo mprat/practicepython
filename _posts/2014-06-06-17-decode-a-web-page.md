@@ -7,8 +7,6 @@ categories: [exercise]
 
 This is the first 4-chili exercise of this blog! We'll see what people think, and decide whether or not to continue with 4-chili exercises in the future. 
 
-{% include exercise_header.md number=page.number %}
-
 Use the `BeautifulSoup` and `requests` Python packages to print out a list of all the article titles on the [New York Times homepage](http://www.nytimes.com).
 
 ## Discussion
@@ -70,5 +68,3 @@ Your code would look something like this:
 {% endhighlight %}
 
 And you can do many more things in `BeautifulSoup`, but I will leave you to explore those by yourself or through other later exercises.
- 
-{% include submit.md %}

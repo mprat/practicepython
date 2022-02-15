@@ -5,8 +5,6 @@ chili: 2
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates. 
 
 Extras: 
@@ -64,5 +62,3 @@ And the result of this will be:
 {% highlight pycon %}
   ['Michele', 'Robin', 'Sara']
 {% endhighlight %}
-
-{% include submit.md %}

@@ -1,3 +1,3 @@
 {% assign exercise = site.categories.exercise | where: "number", include.number | last %}
 
-## [Exercise {{ include.number }}]({{ site.baseurl }}{{ exercise.url }})
+<h2><a href="{{ site.baseurl }}{{ exercise.url }}">Exercise {{ include.number }}</a></h2>

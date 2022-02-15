@@ -5,8 +5,6 @@ chili: 2
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Take two lists, say for example these two: 
 
 {% highlight python %}
@@ -44,5 +42,3 @@ You can of course use this in loops, conditionals, and any other programming con
   if name in list_of_students:
     print("This student is enrolled.")
 {% endhighlight %}
-
-{% include submit.md %}

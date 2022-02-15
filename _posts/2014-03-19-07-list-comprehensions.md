@@ -5,8 +5,6 @@ chili: 2
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Let's say I give you a list saved in a variable: `a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]`. Write one line of Python that takes this list `a` and makes a new list that has only the even elements of this list in it. 
 
 ## Discussion
@@ -42,5 +40,3 @@ It accomplishes the same thing as the first code sample - at the end, the `ages`
 The idea of the list comprehension is to condense the for loop and the list appending into one simple line. Notice that the for loop just shifted to the end of the list comprehension, and the part before the `for` keyword is the thing to append to the end of the new list. 
 
 You can also embed `if` statements into the list comprehension - check out [this reference](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) to help you out. There are many examples and a better explanation than I can ever give.
-
-{% include submit.md %}

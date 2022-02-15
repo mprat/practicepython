@@ -5,8 +5,6 @@ chili: 3
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Create a program that will play the "cows and bulls" game with the user. The game works like this:
 
 Randomly generate a 4-digit number. Ask the user to guess a 4-digit number. For every digit that the user guessed correctly _in the correct place_, they have a "cow". For every digit the user guessed correctly _in the wrong place_ is a "bull." Every time the user makes a guess, tell them how many "cows" and "bulls" they have. Once the user guesses the correct number, the game is over. Keep track of the number of guesses the user makes throughout teh game and tell the user at the end. 
@@ -78,5 +76,3 @@ Anything else in the file - variables created, functions that are called, operat
 However, in the case where you are importing a Python file into another, you want to load all of the functions without creating variables or executing any functions. You just want to load them to use them later. How do you reconcile this problem? With the `if __name__=="__main__"` statement. Create your variables and all your functions inside this statement, and when you import your file into another, it will not mess up your program by creating variables or calling functions.
 
 What the `if __name__=="__main__"` statement from above does is ensure that variables that are created, functions that are called, operations that are done, etc ONLY when you directly run the file, not when you import it into another. 
-
-{% include submit.md %}

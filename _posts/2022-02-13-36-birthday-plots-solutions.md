@@ -9,10 +9,6 @@ categories: [solution]
 bokeh: true
 ---
 
-{% include solution_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
-
 In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-months %}) we counted how many birthdays there are in each month in our dictionary of birthdays. In this exercise, use the [bokeh](http://bokeh.pydata.org/en/latest/) Python library to plot a histogram of which months the scientists have birthdays in using [my scientist birthday JSON file]({{ site.baseurl }}/assets/scientist_birthdays.json).
 
 ## Solution

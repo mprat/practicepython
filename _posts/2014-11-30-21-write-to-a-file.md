@@ -6,8 +6,6 @@ categories: [exercise]
 published: True
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Take the code from the [How To Decode A Website]({{ site.baseurl }}{% post_url 2014-06-06-17-decode-a-web-page %}) exercise (if you didn't do it or just want to play with some different code, use the code from the [solution]({{ site.baseurl }}{% post_url 2014-07-10-17-decode-a-web-page-solutions %})), and instead of printing the results to a screen, write the results to a txt file. In your code, just make up a name for the file you are saving to.
 
 Extras:
@@ -63,5 +61,3 @@ This all seems simple enough, but there are a few caveats to the file-writing en
 3. You can write _any_ kind of object to any kind of file in Python, as long as you specify the correct format. The simplest thing to do is to write strings to a `.txt` file. But remember - you have to convert numbers or objects into strings before you write them to a file. In a later exercise, we'll talk about writing to other formats.
 
 The best way to remember the caveats is to explore them yourself, so have at it!
-
-{% include submit.md %}

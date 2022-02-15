@@ -6,8 +6,6 @@ categories: [exercise]
 published: True
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Given a `.txt` file that has a list of a bunch of names, count how many of each name there are in the file, and print out the results to the screen. I have a `.txt` file for you, if you want to [use it]({{ site.url }}/assets/nameslist.txt)!
 
 Extra:
@@ -90,5 +88,3 @@ I can use the `in` keyword (just like in lists), do `dictionary comprehensions` 
 And this prints out pairs of keys and values that look like: `(Adama, 100)`, etc.
 
 Because dictionaries are not ordered, looping through them does not guarantee the key / value pairs coming out in a particular order. So be careful. 
-
-{% include submit.md %}

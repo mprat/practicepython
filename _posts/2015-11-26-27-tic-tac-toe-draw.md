@@ -9,10 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include exercise_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 In a [previous exercise]({{ site.baseurl }}{% post_url 2015-11-16-26-check-tic-tac-toe %}) we explored the idea of using a list of lists as a "data structure" to store information about a tic tac toe game. In a tic tac toe game, the "game server" needs to know where the `X`s and `O`s are in the board, to know whether player 1 or player 2 (or whoever is `X` and `O` won).
 
 There has also been an exercise about [drawing the actual tic tac toe gameboard]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %}) using text characters.
@@ -62,5 +58,3 @@ Instead, there are two string manipulation functions that will help you:
 2. [`.strip()`](https://docs.python.org/2/library/string.html#string.strip) - Takes a string and removes the whitespace on the left and right sides of it. So you have a string `name = "     Michele "`, and you do `name = name.strip()`, and now `name` will just be `"Michele"` - nice and clean.
 
 I challenge you to figure out how to use them in the exercise!
-
-{% include submit.md %}

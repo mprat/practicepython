@@ -8,10 +8,6 @@ part_text: birthday data
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
-
 In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-06-34-birthday-json %}) we saved information about famous scientists' names and birthdays to disk. In this exercise, load that JSON file from disk, extract the months of all the birthdays, and count how many scientists have a birthday in each month.
 
 Your program should output something like:
@@ -55,5 +51,3 @@ There are 3 ham sandwiches
 {% endhighlight %}
 
 Hope this is useful!
-
-{% include submit.md %}

@@ -6,8 +6,6 @@ categories: [exercise]
 published: True
 ---
 
-{% include exercise_header.md number=page.number %}
-
 In [a previous exercise]({{ site.baseurl }}{% post_url 2014-04-02-09-guessing-game-one %}), we've written a program that "knows" a number and asks a user to guess it.
 
 This time, we're going to do exactly the opposite. You, the user, will have in your head a number between 0 and 100. The program will guess a number, and you, the user, will say whether it is too high, too low, or your number. 
@@ -23,5 +21,3 @@ This exercise doesn't need any functions, but it does need extensive use of vari
 You can refer to [this exercise on user input]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %}), [this one on rock paper scissors]({{ site.baseurl }}{% post_url 2014-03-26-08-rock-paper-scissors %}), and many others.
 
 If you want to implement the optimal solution without thinking about it first, you can read this [Wikipedia article on binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm).
-
-{% include submit.md %}

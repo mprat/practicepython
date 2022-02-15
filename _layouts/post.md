@@ -21,7 +21,21 @@ bokeh: false
 	</div>
 {% endif %}
 
+{% if page.categories contains 'exercise' %}
+	{% include exercise_header.md number=page.number %}
+{% else if page.categories contains 'solution' %}
+	{% include solution_header.md number=page.number %}
+{% endif %}
+
+{% if page.part and page.part_text and page.of %}
+	{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
+{% endif %}
+
 {{ content }}
+
+{% if page.categories contains 'exercise' %}
+	{% include submit.md %}
+{% endif %}
 
 {% include share_icons.html %}
 

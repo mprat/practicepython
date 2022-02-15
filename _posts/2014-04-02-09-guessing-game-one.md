@@ -5,8 +5,6 @@ chili: 3
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (_Hint: remember to use the user input lessons from the very [first exercise]({% post_url 2014-01-29-01-character-input %})_)
 
 Extras: 
@@ -48,5 +46,3 @@ There are many ways you can generate random numbers - integers, decimals, and mu
 ### User input
 
 We covered all you need to know in the [first exercise]({% post_url 2014-01-29-01-character-input %}) of this blog! 
-
-{% include submit.md %}

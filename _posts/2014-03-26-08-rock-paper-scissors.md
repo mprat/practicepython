@@ -5,8 +5,6 @@ chili: 3
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Make a two-player Rock-Paper-Scissors game. (_Hint: Ask for player plays (using `input`), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game_)
 
 Remember the rules: 
@@ -94,5 +92,3 @@ For example:
 {% endhighlight %}
 
 In this case, the `break` statement is used to break off the "infinite while loop" that we have constructed with the `while True` statement.
-
-{% include submit.md %}

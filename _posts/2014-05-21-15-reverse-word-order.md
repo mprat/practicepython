@@ -7,8 +7,6 @@ tags: [strings]
 light_text: where `join` statements are introduced
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string: 
 
 {% highlight python %}
@@ -79,5 +77,3 @@ Then `result` will contain the string:
 {% endhighlight %}
 
 Take a look at the official Python documentation for more information.
- 
-{% include submit.md %}

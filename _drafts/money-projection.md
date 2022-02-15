@@ -23,5 +23,3 @@ The tricky part about this exercise
 EXPLAIN ABOUT INTEREST RATES AND THE FORMULA AND STUFF
 
 Happy Coding!
-
-{% include submit.md %}

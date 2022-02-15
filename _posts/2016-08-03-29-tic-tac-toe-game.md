@@ -9,10 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include exercise_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 In 3 previous exercises, we built up a few components needed to build a Tic Tac Toe game in Python:
 
 1. [Draw the Tic Tac Toe game board]({{ site.baseurl }}{% post_url 2014-12-27-24-draw-a-game-board %})
@@ -45,5 +41,3 @@ To effectively complete this exercise, you will need to make extensive use of fu
 * Execute some basic code on [learnpython.org](http://www.learnpython.org/en/Functions)
 
 If you are new to Python, this might be one of the longest programs you have written so far, so have fun!
-
-{% include submit.md %}

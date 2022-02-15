@@ -7,10 +7,6 @@ tags: [input, strings, types, int]
 light_text: printing basic strings
 ---
 
-Calibrating the exercises to the audience is going to be a challenging task, so I ask you to bear with me if the exercises are too easy or too hard. Every week there will be a poll you can click on to discuss whether the exercise is too easy or too hard and hopefully in a few weeks, I'll get the level right. Let's get to it! I will start with the exercise and include a discussion later, in case you want the extra challenge.
-
-{% include exercise_header.md number=page.number %}
-
 Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old. 
 
 Extras: 
@@ -86,5 +82,3 @@ print(4 * "test")
 {% endhighlight %}
 
  but division and subtraction do not work like this. In terms of multiplication, the idea of multiplyling two strings together is not well-defined. What does it mean to multiply two strings in the first place? However, it makes sense in a way to specify multiplying a string by a number - just repeat that string that number of times. Try this in your own program with all the arithmetic operations with numbers and strings - the best way to get a feel for what works and what doesn't is to try it!
-
-{% include submit.md %}

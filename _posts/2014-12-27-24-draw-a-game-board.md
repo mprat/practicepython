@@ -9,10 +9,6 @@ categories: [exercise]
 published: True
 ---
 
-{% include exercise_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 Time for some fake graphics! Let's say we want to draw game boards that look like this: 
 
 {% highlight python %}
@@ -47,6 +43,3 @@ The main topic of this exercise is functions. They are tricky, and deserve lots 
 4. [ZetCode](http://zetcode.com/lang/python/functions/)
 
 There are hundreds more out there - read and practice away!
-
-
-{% include submit.md %}

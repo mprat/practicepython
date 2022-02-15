@@ -9,10 +9,6 @@ categories: [solution]
 published: true
 ---
 
-{% include solution_header.md number=page.number %}
-
-{% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
-
 In this exercise, the task is to write a function that picks a random word from a list of words from the [SOWPODS dictionary](http://norvig.com/ngrams/sowpods.txt). Download this file and save it in the same directory as your Python code. This file is [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)'s compilation of the dictionary of words used in professional Scrabble tournaments. Each line in the file contains a single word.
 
 _Hint: use the Python `random` library for picking a random word._

@@ -5,8 +5,6 @@ chili: 2
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 This week's exercise is going to be revisiting an old exercise (see [Exercise 5]({% post_url 2014-03-05-05-list-overlap %})), except require the solution in a different way. 
 
 Take two lists, say for example these two: 
@@ -71,5 +69,3 @@ Try to use the [Python random documentation](https://docs.python.org/3.0/library
 {% endhighlight %}
 
 This line of code will leave `a` containing a list of 5 random numbers from 0 to 99. 
-
-{% include submit.md %}
