@@ -8,8 +8,6 @@ part_text: birthday data
 categories: [solution]
 ---
 
-{% include solution_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 In the [previous exercise]({{ site.baseurl }}{% post_url 2017-01-24-33-birthday-dictionaries %}) we created a dictionary of famous scientists' birthdays. In this exercise, modify your program from [Part 1]({{ site.baseurl }}{% post_url 2017-01-24-33-birthday-dictionaries %}) to load the birthday dictionary from a JSON file on disk, rather than having the dictionary defined in the program.

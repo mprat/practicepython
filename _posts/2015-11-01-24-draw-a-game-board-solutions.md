@@ -8,8 +8,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include solution_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 Time for some fake graphics! Let's say we want to draw game boards that look like this: 

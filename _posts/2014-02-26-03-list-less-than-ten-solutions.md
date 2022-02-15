@@ -4,8 +4,6 @@ number: 3
 categories: [solution]
 ---
 
-{% include solution_header.md number=page.number %}
-
 Take a list, say for example this one: 
 
 {% highlight python %}

@@ -4,8 +4,6 @@ number: 10
 categories: [solution]
 ---
 
-{% include solution_header.md number=page.number %}
-
 This week's exercise is going to be revisiting an old exercise (see [Exercise 5]({% post_url 2014-03-05-05-list-overlap %})), except require the solution in a different way. 
 
 Take two lists, say for example these two: 

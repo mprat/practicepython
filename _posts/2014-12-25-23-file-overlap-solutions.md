@@ -5,9 +5,6 @@ categories: [solution]
 published: True
 ---
 
-{% include solution_header.md number=page.number %}
-
-
 Given two `.txt` files that have lists of numbers in them, find the numbers that are overlapping. [One `.txt` file]({{ site.url }}/assets/primenumbers.txt) has a list of all prime numbers under 1000, and [the other `.txt` file]({{ site.url }}/assets/happynumbers.txt) has a list of happy numbers up to 1000.
 
 (If you forgot, prime numbers are numbers that can't be divided by any other number. And yes, happy numbers are a real thing in mathematics - you can [look it up on Wikipedia](http://en.wikipedia.org/wiki/Happy_number). The explanation is easier with an example, which I will describe below.)
