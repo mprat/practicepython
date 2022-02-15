@@ -43,5 +43,3 @@ To effectively complete this exercise, you will need to make extensive use of fu
 * Execute some basic code on [learnpython.org](http://www.learnpython.org/en/Functions)
 
 If you are new to Python, this might be one of the longest programs you have written so far, so have fun!
-
-{% include submit.md %}

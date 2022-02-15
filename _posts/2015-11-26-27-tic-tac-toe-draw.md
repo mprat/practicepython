@@ -60,5 +60,3 @@ Instead, there are two string manipulation functions that will help you:
 2. [`.strip()`](https://docs.python.org/2/library/string.html#string.strip) - Takes a string and removes the whitespace on the left and right sides of it. So you have a string `name = "     Michele "`, and you do `name = name.strip()`, and now `name` will just be `"Michele"` - nice and clean.
 
 I challenge you to figure out how to use them in the exercise!
-
-{% include submit.md %}

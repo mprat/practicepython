@@ -19,6 +19,3 @@ Topics:
 1. Reading a file, in [Exercise 21]({{ site.baseurl }}{% post_url 2014-12-06-22-read-from-file %})
 2. Number types and converting to integers from strings, in [Exercise 1]({{ site.baseurl }}{% post_url 2014-01-29-01-character-input %})
 3. Lists, in [Exercise 3]({{ site.baseurl }}{% post_url 2014-02-15-03-list-less-than-ten %}) and [Exercise 5]({{ site.baseurl }}{% post_url 2014-03-05-05-list-overlap %})
-
-
-{% include submit.md %}

@@ -102,5 +102,3 @@ The first time I call the function, it will print `"Tell me your age: "`, but th
 What a function does is wrap a piece of code that we want to reuse, labels it, and allows us to use it again relatively easily. You can add variables to the functions to make your code even MORE reusable, and you can add default arguments to these variables.
 
 Functions are a bit strange to deal with at first, but once you master them, they will be your savior in programming. Besides, the whole point of learning programming is abstraction, problem solving, breaking down problems, and that's exactly what functions are all about.
-
-{% include submit.md %}

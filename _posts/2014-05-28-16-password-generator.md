@@ -14,5 +14,3 @@ Extra:
 ## Discussion
 
 There are no new topics this week, but you will need to use [Python's random module](https://docs.python.org/3.3/library/random.html), described in [this post]({% post_url 2014-04-02-09-guessing-game-one %}). 
- 
-{% include submit.md %}

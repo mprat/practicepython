@@ -61,5 +61,3 @@ This all seems simple enough, but there are a few caveats to the file-writing en
 3. You can write _any_ kind of object to any kind of file in Python, as long as you specify the correct format. The simplest thing to do is to write strings to a `.txt` file. But remember - you have to convert numbers or objects into strings before you write them to a file. In a later exercise, we'll talk about writing to other formats.
 
 The best way to remember the caveats is to explore them yourself, so have at it!
-
-{% include submit.md %}

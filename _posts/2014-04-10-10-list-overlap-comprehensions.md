@@ -69,5 +69,3 @@ Try to use the [Python random documentation](https://docs.python.org/3.0/library
 {% endhighlight %}
 
 This line of code will leave `a` containing a list of 5 random numbers from 0 to 99. 
-
-{% include submit.md %}

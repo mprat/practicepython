@@ -113,5 +113,3 @@ Let's take the list `a = [1, 3, 5, 30, 42, 43, 500]`. It is an "ordered list", o
 What the example shows is that in an ordered list, knowing how the element you are looking for compares to another element in the list splits the list in two - one half where the element can be, and one where it definitely cannot be. In the case where our list contains millions of elements, knowing that we can cut the "search space" in half is a great increase in efficiency. 
 
 When you are writing the solution, first try to write it without binary search. Then when you want to try implementing binary search, write a separate function. In the solution I will give an example for how to write a binary search in Python.
-
-{% include submit.md %}

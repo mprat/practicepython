@@ -92,5 +92,3 @@ For example:
 {% endhighlight %}
 
 In this case, the `break` statement is used to break off the "infinite while loop" that we have constructed with the `while True` statement.
-
-{% include submit.md %}

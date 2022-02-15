@@ -77,5 +77,3 @@ Then `result` will contain the string:
 {% endhighlight %}
 
 Take a look at the official Python documentation for more information.
- 
-{% include submit.md %}

@@ -53,5 +53,3 @@ There are 3 ham sandwiches
 {% endhighlight %}
 
 Hope this is useful!
-
-{% include submit.md %}

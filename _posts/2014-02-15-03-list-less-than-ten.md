@@ -91,5 +91,3 @@ else:
 {% endhighlight %}
 
 What happens if `grade` is 50? All the conditions are false, so `"F"` gets printed on the screen. But what if `grade` is 95? Then all the conditions are true and everything gets printed, right? Nope! What happens is the program goes line by line. The first condition (grade >= 90) is satisfied, so the program enters into the code inside the `if` statement, executing `print("A")`. Once code inside a conditional has been executed, the rest of the conditions are skipped and none of the other conditionals are checked. 
-
-{% include submit.md %}

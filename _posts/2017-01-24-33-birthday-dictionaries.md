@@ -173,5 +173,3 @@ my number is 1 and his number is 10
 What we are doing is substituting the symbol `{}` in the print statement in the string we want to display in the exact place we want the number to go, and use the `.format()` to pass variables to the `{}` that appear in order. What happens is the variables `a` and `b` get converted into strings automatically and injected into our `print` statement cleanly. You can do this with floats, lists, dictionaries, or anything else you want to display.
 
 There are a number of different formatting options if you want to get specific about how many decimal points to display, etc., but that is out of the scope of this exercise. If you want to read more about string formatting in Python, you can read about it [on this helpful website that goes into a great amount of detail](https://pyformat.info/).
-
-{% include submit.md %}

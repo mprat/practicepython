@@ -91,5 +91,3 @@ You can take sublists:
 Now `s` has the string "examp" in it. 
 
 Moral of the story: a string is a list.
-
-{% include submit.md %}

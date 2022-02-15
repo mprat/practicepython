@@ -45,6 +45,3 @@ The main topic of this exercise is functions. They are tricky, and deserve lots 
 4. [ZetCode](http://zetcode.com/lang/python/functions/)
 
 There are hundreds more out there - read and practice away!
-
-
-{% include submit.md %}

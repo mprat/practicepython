@@ -62,5 +62,3 @@ And the result of this will be:
 {% highlight pycon %}
   ['Michele', 'Robin', 'Sara']
 {% endhighlight %}
-
-{% include submit.md %}

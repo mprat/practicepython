@@ -101,5 +101,3 @@ Now that you know about JSON, you can use it to do a number of things:
 * Save data to disk that can be shared by people and programs.
 * Constantly update data that needs to be shared by re-saving and re-load to disk.
 * Save data from a program that a human can read and manually check and fix errors.
-
-{% include submit.md %}

@@ -88,5 +88,3 @@ I can use the `in` keyword (just like in lists), do `dictionary comprehensions` 
 And this prints out pairs of keys and values that look like: `(Adama, 100)`, etc.
 
 Because dictionaries are not ordered, looping through them does not guarantee the key / value pairs coming out in a particular order. So be careful. 
-
-{% include submit.md %}

@@ -27,6 +27,10 @@ bokeh: false
 
 {{ content }}
 
+{% if page.categories contains 'exercise' %}
+	{% include submit.md %}
+{% endif %}
+
 {% include share_icons.html %}
 
 {% if page.title and page.number %}

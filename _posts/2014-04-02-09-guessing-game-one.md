@@ -46,5 +46,3 @@ There are many ways you can generate random numbers - integers, decimals, and mu
 ### User input
 
 We covered all you need to know in the [first exercise]({% post_url 2014-01-29-01-character-input %}) of this blog! 
-
-{% include submit.md %}

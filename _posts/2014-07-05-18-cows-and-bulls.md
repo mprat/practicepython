@@ -76,5 +76,3 @@ Anything else in the file - variables created, functions that are called, operat
 However, in the case where you are importing a Python file into another, you want to load all of the functions without creating variables or executing any functions. You just want to load them to use them later. How do you reconcile this problem? With the `if __name__=="__main__"` statement. Create your variables and all your functions inside this statement, and when you import your file into another, it will not mess up your program by creating variables or calling functions.
 
 What the `if __name__=="__main__"` statement from above does is ensure that variables that are created, functions that are called, operations that are done, etc ONLY when you directly run the file, not when you import it into another. 
-
-{% include submit.md %}

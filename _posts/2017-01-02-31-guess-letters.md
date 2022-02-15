@@ -27,5 +27,3 @@ E _ _ _ _ _ _ _ E
 {% endhighlight %}
 
 And so on, until the player gets the word.
-
-{% include submit.md %}

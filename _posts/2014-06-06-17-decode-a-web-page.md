@@ -68,5 +68,3 @@ Your code would look something like this:
 {% endhighlight %}
 
 And you can do many more things in `BeautifulSoup`, but I will leave you to explore those by yourself or through other later exercises.
- 
-{% include submit.md %}
