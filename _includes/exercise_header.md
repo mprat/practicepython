@@ -5,4 +5,4 @@
 	{% assign solution_url = solution.url %}
 {% endif %}
 
-## Exercise {{ include.number }} (and [Solution]({{ site.baseurl }}{{ solution_url }}))
+<h2>Exercise {{ include.number }} (and <a href="{{ site.baseurl }}{{ solution_url }}">Solution</a>)</h2>

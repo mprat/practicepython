@@ -9,8 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include exercise_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 In a [previous exercise]({{ site.baseurl }}{% post_url 2015-11-16-26-check-tic-tac-toe %}) we explored the idea of using a list of lists as a "data structure" to store information about a tic tac toe game. In a tic tac toe game, the "game server" needs to know where the `X`s and `O`s are in the board, to know whether player 1 or player 2 (or whoever is `X` and `O` won).

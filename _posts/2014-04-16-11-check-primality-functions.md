@@ -5,8 +5,6 @@ chili: 3
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Ask the user for a number and determine whether the number is prime or not. (For those who have forgotten, a prime number is a number that has no divisors.). You can (and should!) use your answer to [Exercise 4]({{ site.baseurl }}{% post_url 2014-02-26-04-divisors %}) to help you. Take this opportunity to practice using functions, described below.
 
 ## Discussion

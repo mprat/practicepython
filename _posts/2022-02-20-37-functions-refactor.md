@@ -5,8 +5,6 @@ number: 37
 chili: 2
 ---
 
-{% include exercise_header.md number=page.number %}
-
 One area of confusion for new coders is the concept of functions (which have been addressed on this blog in [exercise 11]({% post_url 2014-04-16-11-check-primality-functions %}) for example). So in this exercise, we will be stretching our functions muscle by _refactoring_ an existing code snippet into using functions.
 
 Here is the code snippet to refactor (taken from a correct but very repeated solution to [exercise 24]({% post_url 2014-12-27-24-draw-a-game-board %}) on this website):

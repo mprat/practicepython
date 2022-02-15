@@ -5,8 +5,6 @@ chili: 2
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Take two lists, say for example these two: 
 
 {% highlight python %}

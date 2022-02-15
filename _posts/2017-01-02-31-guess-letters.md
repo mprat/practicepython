@@ -8,8 +8,6 @@ part_text: Hangman
 categories: [exercise]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 Let's continue building Hangman. In the game of Hangman, a clue word is given by the program that the player has to guess, letter by letter. The player guesses one letter at a time until the entire word has been guessed. (In the actual game, the player can only guess 6 letters incorrectly before losing).

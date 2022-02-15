@@ -7,8 +7,6 @@ tags: [strings, lists, index]
 light_text: turning strings into lists
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Ask the user for a string and print out whether this string is a palindrome or not. (A **palindrome** is a string that reads the same forwards and backwards.)
 
 ## Discussion

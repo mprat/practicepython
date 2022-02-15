@@ -9,8 +9,6 @@ of: 4
 part_text: Tic Tac Toe
 ---
 
-{% include exercise_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %}
 
 As you may have guessed, we are trying to build up to a full tic-tac-toe board. However, this is significantly more than half an hour of coding, so we're doing it in pieces.

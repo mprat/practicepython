@@ -9,8 +9,6 @@ categories: [exercise]
 bokeh: true
 ---
 
-{% include exercise_header.md number=page.number %}
-
 {% include parts_sentence.md part=page.part part_text=page.part_text part_of=page.of %} 
 
 In the [previous exercise]({{ site.baseurl }}{% post_url 2017-02-28-35-birthday-months %}) we counted how many birthdays there are in each month in our dictionary of birthdays.

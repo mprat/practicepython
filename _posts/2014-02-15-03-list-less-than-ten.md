@@ -6,8 +6,6 @@ categories: [exercise]
 tags: [list, numbers, elements, if, conditional]
 ---
 
-{% include exercise_header.md number=page.number %}
-
 Take a list, say for example this one: 
 
 {% highlight python %}
