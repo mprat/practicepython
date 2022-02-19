@@ -340,8 +340,4 @@ figure figcaption {
 	#udemy-fullsize {
 		display: block;
 	}
-
-	.boxframe > iframe {
-		width: 50%;
-	}
 }
