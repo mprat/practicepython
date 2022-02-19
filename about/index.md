@@ -16,18 +16,7 @@ In each exercise post, I will post a small tidbit of Python 3 (an explanation, a
 
 ## Solutions
 
-This site has regular exercise postings, and if you are quick to submit your solutions, they will be featured on the next week's solution post!
-
-### Your Solution
-
-At the bottom of every post, there will be an embedded Google Form where you will submit your solutions. The way to submit solutions will be through an anonymous Gist. This is like [pastebin](http://pastebin.com/), except I can automate some scripts to make processing solutions easier for me.
-
-All you need to do is go to [http://gist.github.com,](http://gist.github.com) paste your code into the text box (not the Disqus comment box), and Create a Public Gist. You can even do this without a Github account! The link that is created with your code is the submission link that you will put into the form at the bottom of every exercise post. That's it! (Note: if you want to make a Github account and keep copies of your code for yourself as gists, feel free to do that as well).
-
-### My Solution
-
-I will post a few submitted solutions and comment on them, so you can see examples of other people's solutions. In my comments I will refer to general coding style and methodology as well as Python coding conventions. In the event that my solution differs significantly from posted solutions, I will post my solution as well. You can check your submitted solutions against the posted solutions to see how you did.
-
+Prior to 2021, I had included user-submitted solutions to exercises (the first 30 or so have them), but I stopped collecting them because it was a lot to go through! Instead, I write up my own solutions in the solution pages. You can check your solution against the posted solution on the solution page and discuss in the comments. At this time we cannot critique your solutions - if this is something of interest to you please <a href="mailto:practicepythonsite@gmail.com">email us</a> to get in touch.
 
 # Follow along
 
