@@ -2,7 +2,6 @@
 layout: post
 categories: [solution]
 number: 38
-chili: 1
 title: f Strings Solution
 ---
 

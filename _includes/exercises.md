@@ -16,7 +16,7 @@
 <h2 class="midheader"> All Solutions</h2>
 <ul>
   {% assign count = site.categories.exercise.size | minus: 1 %}
-  {% assign solist = (site.categories.solution | sort: 'title') %}
+  {% assign solist = (site.categories.solution | sort: 'number') %}
   {% for index in (0..count) %}
     {% assign post = solist[index] %}
     {% if post %}
