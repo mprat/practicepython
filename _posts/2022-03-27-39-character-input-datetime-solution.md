@@ -1,7 +1,7 @@
 ---
 layout: post
-number: 39
 categories: [solution]
+number: 39
 ---
 
 ## Exercise
@@ -10,7 +10,7 @@ Implement the same exercise as [Exercise 1]({% post_url 2014-01-29-01-character-
 
 ## Solution
 
-To figure out the year in which someone will turn 100, we need to take the current year, subtract their current age, and add 100. We use the `datetime` library to get the current year, the `input()` function (see [exercise 1]({% post_url 2014-01-29-01-character-input %})) to ask the user their name and age, and f-strings (see [exercise 38]()) to print out the result.
+To figure out the year in which someone will turn 100, we need to take the current year, subtract their current age, and add 100. We use the `datetime` library to get the current year, the `input()` function (see [exercise 1]({% post_url 2014-01-29-01-character-input %})) to ask the user their name and age, and f-strings (see [exercise 38]({% post_url 2022-03-06-38-f-strings %})) to print out the result.
 
 {% highlight python %}
 import datetime
