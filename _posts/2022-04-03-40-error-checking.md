@@ -1,3 +1,10 @@
+---
+layout: post
+categories: [exercise]
+number: 40
+chili: 3
+---
+
 ## Exercise
 
 Given this solution to Exercise 9, modify it to one level of user feedback: if the user does not enter a number between 1 and 9, tell them. Don't count this guess against the user when counting the number of guesses they used.
