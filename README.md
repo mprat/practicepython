@@ -1,7 +1,7 @@
 practicepython
 ==============
 
-markdown notes for the practice python blog: https://practicepython.com
+markdown notes for the practice python blog: https://practicepython.org
 
 
 Local installation
