@@ -19,7 +19,7 @@ Extras:
 Concepts for this week:
 
 * Getting user input 
-* Manipulating strings (a few ways)
+* Manipulating strings (a few ways). _[Exercise 38]({% post_url 2022-03-06-38-f-strings %}) shows another way of manipulating and displaying strings_
 
 ### User input in Python
 
@@ -81,4 +81,4 @@ The same works for multiplication:
 print(4 * "test")
 {% endhighlight %}
 
- but division and subtraction do not work like this. In terms of multiplication, the idea of multiplyling two strings together is not well-defined. What does it mean to multiply two strings in the first place? However, it makes sense in a way to specify multiplying a string by a number - just repeat that string that number of times. Try this in your own program with all the arithmetic operations with numbers and strings - the best way to get a feel for what works and what doesn't is to try it!
+but division and subtraction do not work like this. In terms of multiplication, the idea of multiplyling two strings together is not well-defined. What does it mean to multiply two strings in the first place? However, it makes sense in a way to specify multiplying a string by a number - just repeat that string that number of times. Try this in your own program with all the arithmetic operations with numbers and strings - the best way to get a feel for what works and what doesn't is to try it!
