@@ -325,11 +325,11 @@ figure figcaption {
 		width: 87px;
 	}
 
-	#treehouse-mobile {
+	#treehouse-mobile, #yubico-mobile {
 		display: none;
 	}
 
-	#treehouse-fullsize {
+	#treehouse-fullsize, #yubico-fullsize {
 		display: block;
 	}
 
