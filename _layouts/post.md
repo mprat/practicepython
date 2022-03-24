@@ -44,7 +44,7 @@ bokeh: false
 {% endif %}
 
 <br>
-{% include treehouse.html %}
+{% include yubico.html %}
 
 {% if jekyll.environment == 'production' %}
 	{% include comments.html %}
