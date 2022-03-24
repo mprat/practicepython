@@ -211,11 +211,11 @@ figure figcaption {
 	max-width: 300px;
 }
 
-#treehouse-mobile {
+#treehouse-mobile, #yubico-mobile {
 	display: block;
 }
 
-#treehouse-fullsize {
+#treehouse-fullsize, #yubico-fullsize {
 	display: none;
 }
 
