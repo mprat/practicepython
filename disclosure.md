@@ -10,10 +10,10 @@ Alternatively, to opt out of some third-party vendors' use of cookies for person
 
 The other vendors serving specifics ads on this site include those listed below. These advertisers are chosen specifically to recommend products that Practice Python links will be useful to its readers, and we will not try to sell you something that is useless to you. These networks do not use cookies and do not offer personalized advertising.
 
-* [Rakuten affiliate network](http://marketing.rakuten.com/affiliate-marketing), to provide Udemy and Coursera course links.
+* [Rakuten affiliate network](http://marketing.rakuten.com/affiliate-marketing), to provide Udemy course links.
 * Ads served by [Disqus](https://disqus.com/), which provides the comments section.
 * [Amazon affiliates](https://affiliate-program.amazon.com/) for the book recommendations.
-* [Impact.com](https://impact.com/) for AppSumo.
+* [Impact.com](https://impact.com/) for AppSumo and Coursera.
 * [Ascend Partners](https://www.ascendpartner.com/) for Yubico.
 
 Practice Python is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to [practicepython.org](https://practicepython.org).
