@@ -2,7 +2,7 @@
 layout: post
 categories: [solution]
 number: 39
-published: false
+published: true
 ---
 
 ## Exercise
