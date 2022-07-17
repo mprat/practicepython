@@ -2,7 +2,6 @@
 layout: post
 categories: [exercise]
 number: 40
-published: false
 chili: 3
 ---
 
