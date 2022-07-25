@@ -9,7 +9,7 @@ chili: 3
 
 Given this solution to [Exercise 9]({% post_url 2014-04-02-09-guessing-game-one%}), modify it to have one level of user feedback: if the user does not enter a number between 1 and 9, tell them. Don't count this guess against the user when counting the number of guesses they used.
 
-```
+{% highlight python %}
 import random
 
 number = random.randint(1, 9)
@@ -20,7 +20,7 @@ while True:
 	if guess == number:
 		break
 print(f"You needed {number_of_guesses} guesses to guess the number {number}")
-```
+{% endhighlight %}
 
 
 ## Discussion
@@ -76,7 +76,7 @@ try:
 	guess = int(input("Guess a number between 1 and 9: "))
 	print(f"You entered {guess}")
 except ValueError:
-	print("ValueError as thrown")
+	print("ValueError is thrown")
 {% endhighlight %}
 
 And we see the following:
@@ -88,12 +88,12 @@ You entered 8
 
 {% highlight python %}
 >>> Guess a number between 1 and 9: testing
-ValueError as thrown
+ValueError is thrown
 {% endhighlight %}
 
 Notice how the program didn't crash spectacularly in the second case - it simply kept going! In the first case (when everything was OK with the input) the code in the "catch" block did not execute, and we didn't need it to.
 
-Adding a `try`/`catch` block to the code in the exercise will require some playing around with loops, but it can be done! Check out the [solution](% post_url 2022-04-10-40-error-checking-solution %) to see how.
+Adding a `try`/`catch` block to the code in the exercise will require some playing around with loops, but it can be done! Check out the [solution]({% post_url 2022-07-24-40-error-checking-solution %}) to see how.
 
 ### Logical error handling
 
@@ -107,4 +107,4 @@ if guess < 1 or guess > 9:
 	print("Guess again!")
 {% endhighlight %}
 
-In this snippet, we use an `if` statement to check whether the user input guess satisfies our standards. Of course, to finish this exercise, we need to account for not counting the number of guesses in this case, and make sure we ask the user to enter a new number. Check out the [solution](% post_url 2022-04-10-40-error-checking-solution %) to see how.
+In this snippet, we use an `if` statement to check whether the user input guess satisfies our standards. Of course, to finish this exercise, we need to account for not counting the number of guesses in this case, and make sure we ask the user to enter a new number. Check out the [solution]({% post_url 2022-07-24-40-error-checking-solution %}) to see how.
